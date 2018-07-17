@@ -39,7 +39,7 @@ locally @ http://127.0.0.1:8000. Open a shell and insert the following instructi
     python manage.py populate
     python manage.py runserver
 
-Now go to: `http://127.0.0.1:8000` with your browser. To log in use the (superuser) credentials previously created while executing `python manage.py createsuperuser`.
+Now go to: `http://127.0.0.1:8000/admin` with your browser. To log in use the (superuser) credentials previously created while executing `python manage.py createsuperuser`.
 
 ### Apache web server
 In order to make your gdpr registry app available to other machines, you may use the Apache web server.
@@ -53,7 +53,9 @@ In order to protect your data in transit you need to setup a HTTPS certificate. 
 * Install the Apache web server as described in previous section
 * Your machine needs a public IP address reachable at TCP port 80 (HTTP)
 * Create a DNS entry for your domain **gdpr-registry.yourdomain.com** that resolves to the above-mentioned public IP address
-    
+
+Open a shell and insert the following commands:
+
     sudo add-apt-repository ppa:certbot/certbot
     sudo apt install python-certbot-apache
     sudo certbot --apache -d gdpr-registry.yourdomain.com
