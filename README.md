@@ -22,6 +22,7 @@ locally @ http://127.0.0.1:8000. Open a shell and insert the following instructi
 Now go to: `http://127.0.0.1:8000` with your browser. To log in use the (superuser) credentials previously created while executing `python manage.py createsuperuser`.
 
 ### Apache web server
+In order to make your gdpr registry app available to other machines, you may use the Apache web server.
 
     sudo apt install apache2 libapache2-mod-wsgi-py3
 
