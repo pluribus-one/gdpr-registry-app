@@ -1,6 +1,6 @@
 # Installation
 
-## Ubuntu
+## Ubuntu (tested on version 18.04 LTS)
 
 ### Base Installation
 This may be used for testing purposes, as it runs the interface
