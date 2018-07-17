@@ -91,3 +91,5 @@ Open a shell and insert the following commands:
     sudo apt install python-certbot-apache
     sudo certbot --apache -d gdpr-registry.yourdomain.com
 
+> Hardening
+To harden your server configuration you may consider to edit the file `/etc/apache2/conf-enabled/security.conf` adding the content of the file `sample.apache.security.conf`. 
