@@ -4,19 +4,22 @@
 
 ### Base Installation
 This may be used for testing purposes, as it runs the interface
-@ http://127.0.0.1:8000
+locally @ http://127.0.0.1:8000
 
-    sudo apt install python3-pip
+    sudo apt update
+    sudo apt install git python3-pip
+    git clone https://github.com/pluribus-one/gdpr-registry-app
     virtualenv -p python3 gdpr-app
     source gdpr-app/bin/activate
     pip install django django-axes django-jet PyPDF2 ReportLab svglib
+    cd gdpr-registry-app
     python manage.py makemigrations axes audit jet dashboard
     python manage.py migrate
     python manage.py createsuperuser
     python manage.py populate
     python manage.py runserver
 
-Now go to: `http://127.0.0.1:8000` with your browser.
+Now go to: `http://127.0.0.1:8000` with your browser. To log in use the (superuser) credentials previously created while executing `python manage.py createsuperuser`.
 
 ### Apache web server
 
