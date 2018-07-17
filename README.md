@@ -4,7 +4,7 @@
 
 ### Base Installation
 This may be used for testing purposes, as it runs the interface
-locally @ http://127.0.0.1:8000
+locally @ http://127.0.0.1:8000. Open a shell and insert the following instructions:
 
     sudo apt update
     sudo apt install git python3-pip
