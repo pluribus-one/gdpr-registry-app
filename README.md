@@ -54,6 +54,7 @@ locally @ http://127.0.0.1:8000. Open a shell and insert the following instructi
     python manage.py migrate
     python manage.py createsuperuser
     python manage.py populate
+    python manage.py collectstatic
     python manage.py runserver
 
 Now go to: `http://127.0.0.1:8000/admin` with your browser. To log in use the (superuser) credentials previously created while executing `python manage.py createsuperuser`.
