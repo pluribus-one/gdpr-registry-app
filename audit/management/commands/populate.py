@@ -6,9 +6,6 @@ import json
 class Command(BaseCommand):
     help = 'Load Predefined lists'
 
-    def add_arguments(self, parser):
-        parser.add_argument('fpath', type=str)
-
     def handle(self, *args, **options):
         fpath = input('Enter a suitable JSON list file (list.en.json or list.it.json): ')
         with open(fpath) as f:
