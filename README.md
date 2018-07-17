@@ -41,7 +41,7 @@ https://www.ubuntu.com/download/server/thank-you?version=18.04&architecture=amd6
 
 ### Base Installation
 The base installation can be used for testing purposes, as it runs the interface
-locally @ http://127.0.0.1:8000. Open a shell and insert the following instructions:
+locally @ http://127.0.0.1:8000. Open a shell and insert the following instructions (let's assume we created a **gdpr** user):
 
     sudo apt update
     sudo apt install git python3-pip virtualenv
@@ -62,6 +62,9 @@ Now go to: `http://127.0.0.1:8000/admin` with your browser. To log in use the (s
 In order to make your gdpr registry app available to other machines, you may use the Apache web server.
 
     sudo apt install apache2 libapache2-mod-wsgi-py3
+    sudo chown -R www-data:gdpr gdpr-registry-app
+    sudo a2enmod ssl
+    sudo a2enmod headers
 
 #### SSL Certificate
 In order to protect your data in transit you need to setup a HTTPS certificate. You may choose to either 
@@ -74,7 +77,7 @@ You may use a self-signed certificate if your app is running on a private networ
 To create a self-signed certificate and update the apache configuration, open a shell and run the following code
     
     sudo openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout /etc/ssl/private/apache-selfsigned.key -out /etc/ssl/certs/apache-selfsigned.crt
-    sudo cp sample.apache.https.conf /etc/apache/sites-enabled/https.conf
+    sudo a2ensite sample.apache.https.conf
     sudo service apache2 restart
 
 ##### (b) Let's Encrypt
@@ -91,7 +94,9 @@ Open a shell and insert the following commands:
     sudo apt install python-certbot-apache
     sudo certbot --apache -d gdpr-registry.yourdomain.com
 
-> To harden your server configuration you may consider to edit the file `/etc/apache2/conf-enabled/security.conf` adding the content of the file `sample.apache.security.conf`.
+> To harden your server configuration you may consider to run
+
+    sudo a2enconf sample.apache.security.conf
 
 ## Issues
 Please report all issues in the appropriate [section of this repository](https://github.com/pluribus-one/gdpr-registry-app/issues)
