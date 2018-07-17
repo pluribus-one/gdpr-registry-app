@@ -20,10 +20,27 @@ The Pluribus One GDPR Registry app allows you to keep track of all data processi
 ## Installation
 The app can be installed in virtually any modern operating system. It is implemented in [Python](https://www.python.org), using the [Django Framework](https://www.djangoproject.com). In the following, we provide installation instructions for all tested platforms.
 
-### Ubuntu (tested version: 18.04 LTS)
+### Pre-configured virtual machine
+For your convenience, we have built a preconfigured virtual applicance with the GDPR registry app, based on Ubuntu 18.04.
+You may just import the OVA file into your VirtualBox and run the appliance. Then connect to the IP address assigned to the machine (it uses DHCP by default). You may need to put the related network interface into bridge mode OR NAT mode (in this case, you need to setup a NAT rule).
+
+In fact, we simply
+
+* downloaded Ubuntu 18.04
+* created a VirtualBox virtual machine
+* followed the installation steps as described in the following (with self-signed certificate generation).
+
+Please note that such virtual appliance is not ready for production, especially if you plan to host your appliance with a public IP address. You may need to:
+
+* harden the server configuration (e.g., with strong HTTPS chiphers) 
+* install a let's encrypt certificate for your domain
+* properly setup a firewall to enable only HTTP/HTTPS traffic
+
+### Ubuntu (tested version: server x64, 18.04 LTS)
+https://www.ubuntu.com/download/server/thank-you?version=18.04&architecture=amd64
 
 ### Base Installation
-This may be used for testing purposes, as it runs the interface
+The base installation can be used for testing purposes, as it runs the interface
 locally @ http://127.0.0.1:8000. Open a shell and insert the following instructions:
 
     sudo apt update
@@ -46,10 +63,24 @@ In order to make your gdpr registry app available to other machines, you may use
 
     sudo apt install apache2 libapache2-mod-wsgi-py3
 
-### Let's Encrypt SSL Certificate
-In order to protect your data in transit you need to setup a HTTPS certificate. Let's Encrypt is a public Certificate Authority that provides free HTTPS certificates for any publicly available domain name.
+#### SSL Certificate
+In order to protect your data in transit you need to setup a HTTPS certificate. You may choose to either 
+* (a) generate a self-signed certificate OR 
+* (b) install a certificate signed by a trusted certificate authority (**suggested option**).
 
-#### Prerequisites
+##### (a) Self-signed
+You may use a self-signed certificate if your app is running on a private network. In this case, however, your browser will probably raise an alert (and you may need to add an exception), because the certificate has not been signed by a trusted certificate authority. 
+
+To create a self-signed certificate and update the apache configuration, open a shell and run the following code
+    
+    sudo openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout /etc/ssl/private/apache-selfsigned.key -out /etc/ssl/certs/apache-selfsigned.crt
+    sudo cp sample.apache.https.conf /etc/apache/sites-enabled/https.conf
+    sudo service apache2 restart
+
+##### (b) Let's Encrypt
+Let's Encrypt is a public Certificate Authority that provides free HTTPS certificates for any publicly available domain name.
+
+###### Prerequisites
 * Install the Apache web server as described in previous section
 * Your machine needs a public IP address reachable at TCP port 80 (HTTP)
 * Create a DNS entry for your domain **gdpr-registry.yourdomain.com** that resolves to the above-mentioned public IP address
@@ -59,3 +90,4 @@ Open a shell and insert the following commands:
     sudo add-apt-repository ppa:certbot/certbot
     sudo apt install python-certbot-apache
     sudo certbot --apache -d gdpr-registry.yourdomain.com
+
