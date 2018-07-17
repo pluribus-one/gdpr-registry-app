@@ -41,7 +41,7 @@ https://www.ubuntu.com/download/server/thank-you?version=18.04&architecture=amd6
 
 ### Base Installation
 The base installation can be used for testing purposes, as it runs the interface
-locally @ http://127.0.0.1:8000. Open a shell and insert the following instructions (let's assume we created a **gdpr** user):
+locally @ http://127.0.0.1:8000. Open a shell and insert the following instructions (let's assume we created a **gdpr** user and we open a shell in its home: **/home/gdpr**):
 
     sudo apt update
     sudo apt install git python3-pip virtualenv
