@@ -21,7 +21,8 @@ from reportlab.platypus.tableofcontents import TableOfContents
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.styles import ParagraphStyle as PS
 from reportlab.lib.enums import TA_RIGHT, TA_LEFT
-from reportlab.lib.pagesizes import A4, cm
+from reportlab.lib.pagesizes import A4
+from reportlab.lib.units import cm
 from reportlab.lib import colors
 from reportlab.graphics import renderPDF
 from svglib.svglib import svg2rlg
