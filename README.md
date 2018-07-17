@@ -47,7 +47,7 @@ In order to make your gdpr registry app available to other machines, you may use
     sudo apt install apache2 libapache2-mod-wsgi-py3
 
 ### Let's Encrypt SSL Certificate
-Let's Encrypt is a public Certificate Authority that provides free SSL certificates to any publicly available domain name.
+In order to protect your data in transit you need to setup a HTTPS certificate. Let's Encrypt is a public Certificate Authority that provides free HTTPS certificates for any publicly available domain name.
 
 #### Prerequisites
 * Install the Apache web server as described in previous section
