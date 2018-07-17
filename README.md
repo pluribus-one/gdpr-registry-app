@@ -3,8 +3,8 @@
 ## Ubuntu
 
 ### Base Installation
-> This may be used for testing purposes, as it runs the interface
-> @ http://127.0.0.1:8000
+This may be used for testing purposes, as it runs the interface
+@ http://127.0.0.1:8000
 
     sudo apt install python3-pip
     virtualenv -p python3 gdpr-app
@@ -16,7 +16,7 @@
     python manage.py populate
     python manage.py runserver
 
-> NOW GO TO: `http://127.0.0.1:8000` with your browser
+Now go to: `http://127.0.0.1:8000` with your browser.
 
 ### Apache web server
 
