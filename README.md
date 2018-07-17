@@ -60,7 +60,7 @@ locally @ http://127.0.0.1:8000. Open a shell and insert the following instructi
 Now go to: `http://127.0.0.1:8000/admin` with your browser. To log in use the (superuser) credentials previously created while executing `python manage.py createsuperuser`.
 
 ### Apache web server
-In order to make your gdpr registry app available to other machines, you may use the Apache web server.
+In order to make your gdpr registry app available to other machines, you may use the Apache web server. Open a shell inside */home/gdpr* and digit:
 
     sudo apt install apache2 libapache2-mod-wsgi-py3
     sudo chown -R www-data:gdpr gdpr-registry-app
@@ -75,10 +75,11 @@ In order to protect your data in transit you need to setup a HTTPS certificate. 
 ##### (a) Self-signed
 You may use a self-signed certificate if your app is running on a private network. In this case, however, your browser will probably raise an alert (and you may need to add an exception), because the certificate has not been signed by a trusted certificate authority. 
 
-To create a self-signed certificate and update the apache configuration, open a shell and run the following code
+To create a self-signed certificate and update the apache configuration, open a shell and run the following code (inside the */home/gdpr/gdpr-registry-app* folder)
     
     sudo openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout /etc/ssl/private/apache-selfsigned.key -out /etc/ssl/certs/apache-selfsigned.crt
-    sudo a2ensite sample.apache.https.conf
+    sudo cp sample.apache.https.conf /etc/apache2/sites-available/
+    sudo a2ensite sample.apache.https
     sudo service apache2 restart
 
 ##### (b) Let's Encrypt
@@ -97,7 +98,9 @@ Open a shell and insert the following commands:
 
 > To harden your server configuration you may consider to run
 
-    sudo a2enconf sample.apache.security.conf
+    sudo cp sample.apache.security.conf /etc/apache2/conf-available/
+    sudo a2enconf sample.apache.security
+
 
 ## Issues
 Please report all issues in the appropriate [section of this repository](https://github.com/pluribus-one/gdpr-registry-app/issues)
