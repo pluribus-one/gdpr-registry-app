@@ -1,0 +1,228 @@
+{% extends "base.html" %}
+{% load i18n static %}
+
+{% block content %}
+<h1>{% trans "GDPR Registry App" %}</h1>
+<p>{% blocktrans %}To manage the whole GDPR process, you need a central point
+where information about GDPR procedures are stored and can be updated
+on a regular basis by dedicated personnel, including your Data Protection Officer.
+This central place is of fundamental importance to keep track of your current compliance status,
+identify issues and mitigate them. And this is exactly the role of the so-called
+<strong>Registry of Data Processing Activities</strong>, described in the GDPR Article 30.
+It can also demonstrate that GDPR is a continuous process that has become an integral part of your business.
+This is a key step towards an enhanced security posture.
+{% endblocktrans %}
+</p>
+<p>{% blocktrans %}The Pluribus One GDPR Registry app allows you to keep track of all data processing
+    activities according to a hierarchical structure and the various GDPR stages highlighted in this document.{% endblocktrans %}</p>
+
+<h2>{% trans "Key Features" %}</h2>
+<ul>
+    <li><strong>{% trans "Open Source" %}</strong>: {% trans "You may freely use and modify it according to our licence." %} </li>
+    <li><strong>{% trans "Sound framework and suggestion mechanisms" %}</strong>: {% trans "We implemented the Registry App exploiting to our expertise in the field of cybersecurity, and a thorough study of GDPR (which nowadays, it is essentially a cybersecurity problem) to build a comprehensive framework. As you fill in the registry, the app can suggest you how to proceed. We have inserted some useful suggestions that come from our GDPR framework and expertise." %}</li>
+    <li><strong>{% trans "Report Generation" %}</strong>: {% trans "You can generate, anytime, an updated, high-quality PDF report with all your data registry. This is a very useful feature especially if you organization is under investigation by GDPR supervisory authorities." %}</li>
+    <li><strong>{% trans "Multi-language" %}</strong>: {% trans "Full translation support thanks to the Django framework. Currently, the interface is available in English and Italian language." %}</li>
+    <li><strong>{% trans "GDPR technology and services" %}</strong>: {% trans "If you need, Pluribus One offers advanced technology and services around GDPR (see https://gdpr.pluribus-one.it), to help you to achieve GDPR compliance." %}</li>
+</ul>
+
+<h2>{% trans "Hierarchical Structure" %}</h2>
+<p>{% blocktrans %}The main hierarchical structure of the registry is showed as follows.{% endblocktrans %}</p>
+<ul>
+    <li><strong>{% trans "Organization" %}</strong> <mark>{% trans 'e.g., Acme SRL' %}</mark></li>
+    <ul>
+        <li><strong>{% trans "Business Process" %}</strong> <mark>{% trans 'e.g., Human Resources' %}</mark></li>
+        <ul>
+            <li><strong>{% trans "Processing Activity" %}</strong> <mark>{% trans 'e.g., Contractualization' %}</mark></li>
+            <ul>
+                <li>
+                    <strong>{% trans "Data Audit" %}</strong> <mark>{% trans 'e.g., Identity documents of employees' %}</mark>
+                    <ul>
+                        <li><strong>{% trans "Data Management Policy" %}</strong> <mark>{% trans 'How data is managed to prevent data breaches?' %}</mark></li>
+                        <li><strong>{% trans "Data Breach Detection" %}</strong> <mark>{% trans 'How can we detect data breaches?' %}</mark></li>
+                        <li><strong>{% trans "Incident Response Plan" %}</strong> <mark>{% trans 'How can we respond to data breaches?' %}</mark></li>
+                        <li><strong>{% trans "Data Protection Impact Assessment" %}</strong> <mark>{% trans 'It includes a detailed document about the previous three mitigation measures for the prevention, detection and response against data breaches.' %}</mark></li>
+                    </ul>
+                </li>
+            </ul>
+        </ul>
+    </ul>
+</ul>
+
+<p>{% trans 'You may add as many entries as you require in the registry, e.g., unlimited number of organizations, business processes, activities, data audits, and so on.' %}</p>
+
+
+<h3>{% trans "Hierarchical Structure - Example" %}</h3>
+{% blocktrans %}An example of hierarchical structure of the GDPR app registry is showed below.{% endblocktrans %}
+
+<div class="card" xmlns="http://www.w3.org/1999/html">
+    <h4 class="card-header">{% trans "Organization" %}</h4>
+    <div class="card-body">
+        {% blocktrans %}
+        <ul>
+            <li><strong>Name</strong>: Acme SRL</li>
+            <li><strong>Address</strong>: Via delle Strade, 9, 09123, Cagliari</li>
+            <li><strong>State</strong>: Italy</li>
+            <li><strong>Statute</strong>: Private Company</li>
+            <li><strong>Data Protection Officer</strong>: Mario Rossi</li>
+        </ul>
+        {% endblocktrans %}
+        <div class="card">
+            <h4 class="card-header">{% trans "Business Process" %}</h4>
+            <div class="card-body">
+                {% blocktrans %}
+                    <ul>
+                        <li><strong>Name</strong>: Human resources</li>
+                        <li><strong>Description</strong>: Human resource management, overseeing various aspects of employment,
+                            such as compliance with labour law and employment standards, administration of employee benefits,
+                            and some aspects of recruitment and dismissal</li>
+                    </ul>
+                {% endblocktrans %}
+                <div class="card">
+                    <h4 class="card-header">{% trans "Processing Activity" %}</h4>
+                    <div class="card-body">
+                        {% blocktrans %}
+                            <ul>
+                                <li><strong>Name</strong>: Contractualization</li>
+                                <li><strong>Description</strong>: Activity required to contractualize employees</li>
+                            </ul>
+                        {% endblocktrans %}
+                        <div class="card">
+                            <h4 class="card-header">{% trans "Data Audit" %}</h4>
+                            <div class="card-body">
+                                {% blocktrans %}
+                                <ul>
+                                    <li><strong>Description</strong>: identity documents of employees</li>
+                                    <li><strong>Category</strong>: personal identifiable information</li>
+                                    <li><strong>Scope of treatment</strong>: personnel management</li>
+                                    <li><strong>Legal base</strong>: necessary for the execution of a contract (GDPR art. 6(1)b)</li>
+                                    <li><strong>Inherent risk</strong>: medium</li>
+                                </ul>
+                                {% endblocktrans %}
+                                <div class="card">
+                                    <h4 class="card-header">{% trans "Data Management Policy" %}</h4>
+                                    <div class="card-body">
+                                        {% blocktrans %}
+                                        <ul>
+                                            <li><strong>Description</strong>: data is stored in a private database, in encrypted form, and
+                                        can be accessed only by the following persons: Robb Jones (administrative employee)</li>
+                                            <li><strong>Data transfers</strong>: the data is not transferred to third parties</li>
+                                            <li><strong>Data Subject Rights</strong>: data subjects are informed and explicitly agreed
+                                                our privacy policy (link to document X).
+                                                The document X also explains how they can view, correct, cancel, and limit the scopes of our data management.</li>
+                                            <li><strong>Residual risk (of data breaches)</strong>: low</li>
+                                        </ul>
+                                        {% endblocktrans %}
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <h4 class="card-header">{% trans "Data Breach Detection" %}</h4>
+                                    <div class="card-body">
+                                        {% blocktrans %}
+                                        <ul>
+                                            <li><strong>Description</strong></li>
+                                            <ul>
+                                                <li>each access to the private database is monitored,
+                                        logged in a append-only logging database</li>
+                                            <li> anomaly-based intrusion detection capable to alert on suspicious access attempts
+                                                <ul>
+                                                    <li>from unexpected Ip addresses</li>
+                                                    <li>at unexpetected times (e.g., night, weekends)</li>
+                                                    <li>too many failed access attempts</li>
+                                                    <li>unexpected traffic from database app to internet</li>
+                                                </ul>
+                                            </li>
+                                            <li>each alert is inspected by our security team, available 24/7, via authenticated,
+                                        encrypted channel</li>
+                                            </ul>
+                                            <li><strong>Residual risk (of missing data breaches)</strong>: LOW</li>
+                                        </ul>
+                                        {% endblocktrans %}
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <h4 class="card-header">{% trans "Incident Response Plan" %}</h4>
+                                    <div class="card-body">
+                                        {% blocktrans %}
+                                        <ul>
+                                            <li><strong>Description</strong></li>
+                                            <ul>
+                                                <li>automatic read-only backups of the private database containing personal data</li>
+                                                <li>web app firewall capable to block traffic to/from administrative app and internet</li>
+                                                <li>data breach notification templates and database of data subjects</li>
+                                                <li>immediate notification of security incidents by the security team to Data Protection Officer via authenticated,
+                                                encrypted channel</li>
+                                                <li>the administrative app runs in a virtual machine so it can be freezed for forensic analysis</li>
+                                            </ul>
+                                            <li><strong>Residual risk (of unmanaged data breaches)</strong>: low</li>
+                                        </ul>
+                                        {% endblocktrans %}
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <h4 class="card-header">{% trans "Data Protection Impact Assessment" %}</h4>
+                                    <div class="card-body">
+                                        <strong>{% blocktrans %}Details about the DPIA (if any), with link to PDF document.{% endblocktrans %}</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% comment %}
+<h1>{% trans "GDPR Registry App - How To" %}</h1>
+<p>{% blocktrans %}To manage the whole GDPR process, you need a central point
+                    where information about each of the four mentioned phases is stored and can be updated
+                    on a regular basis by dedicated personnel, including your Data Protection Officer.
+                    This central place is of fundamental importance to keep track of your current compliance status,
+                    identify issues and mitigate them. And this is exactly the role of the so-called
+                    <strong>Registry of Data Processing Activities</strong>, described in the GDPR Article 30.
+                    It can also demonstrate that GDPR is a continuous process that GDPR has become an integral part of your business.
+                    This is a key step towards an enhanced security posture.
+                    {% endblocktrans %}</p>
+
+<p>{% blocktrans %}The GDPR Registry app allows you to keep track of all data processing activities according to a hierarchical structure
+and the various GDPR stages highlighted in this document. {% endblocktrans %}</p>
+
+
+<h5>{% trans 'Step 5. Associate a Data Management Policy to each Data Audit' %}</h5>
+<p>{% blocktrans %}The fifth step is to associate a data management polocy to each data audit.
+This policy should describe
+<ul>
+    <li>how data breaches are prevented, i.e., how personal data is properly protected</li>
+    <li>if data transfers are currently in place (e.g., your organization transfers data to third party processors)</li>
+    <li>how data subjects are informed and can satisfy their rights (view, correction, cancellation of data, limit the scope of processing)</li>
+    <li>residual risk associated to data breach prevention</li>
+</ul>{% endblocktrans %}</p>
+
+<h5>{% trans 'Step 6. Associate a Data Breach Detection to each Data Audit' %}</h5>
+<p>{% blocktrans %}The sixth step is to associate a data breach detection to each data audit.
+We should describe
+<ul>
+    <li>how data breaches can be detected and investigated</li>
+    <li>residual risk associated to missing data breaches</li>
+</ul>{% endblocktrans %}</p>
+
+<h5>{% trans 'Step 7. Associate a Incident (Data Breach) Response Plan to each Data Audit' %}</h5>
+<p>{% blocktrans %}The seventh step is to associate an incident response plan to each data audit.
+We should describe
+<ul>
+    <li>how data breaches can be handled once detected</li>
+    <li>notification procedures to the involved parties, including supervisory authorities</li>
+    <li>residual risk associated to unhandled data breaches</li>
+</ul>{% endblocktrans %}</p>
+
+<h5>{% trans 'Step 8. Associate a Data Protection Impact Assessment (DPIA) Document to the Data Audit' %}</h5>
+<p>{% blocktrans %}The eight step is to associate a DPIA Document to the data audit. This is only required if
+the data we manage entails a high risk for the freedoms and rights of EU citizens. Anyway, it basically will
+describe/motivate in detail the mitigation activities of phases 5,6,7. Thus, if we already done the phases 5,6,7,
+this phase should be straightforward.{% endblocktrans %}</p>
+
+
+{% endcomment %}
+{% endblock %}

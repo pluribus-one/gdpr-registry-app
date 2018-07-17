@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% load i18n static %}
+
+{% block content %}
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-4">
+                {% with 'img/'|add:LANG|add:'/registry_app.svg' as image_static %}
+                <img class="card-img-top" src="{% static image_static %}" alt="{% trans 'GDPR Registry App by Pluribus One' %}">
+                {% endwith %}
+            </div>
+            <div class="col-md-8">
+                <h1 class="card-title">{% trans 'GDPR Registry App' %}</h1>
+                <p class="lead">{% trans 'Welcome to the GDPR Registry App, developed by Pluribus One' %}
+                    <a href="{% url 'license' %}">{% trans 'under open-source license' %} (*)</a>.
+                    <p class="lead">{% trans 'The GDPR Registry App can be used to annotate and keep track of all your data processing activities, according to a sound framework' %},
+                {% trans 'and produce high-quality, updated reports in PDF format. This is a key step towards an enhanced security posture, and to satisfy GDPR requirements.' %}
+                <div class="row">
+                    <div class="col-sm">
+                        <p class="text-left"><a class="btn btn-success" href="{% url 'admin:index' %}" role="button"><i class="fa fa-sign-in" aria-hidden="true"></i>
+{% blocktrans %}Login{% endblocktrans %}</a></p>
+                    </div>
+                    <div class="col-sm">
+                        <p class="text-left"><a class="btn btn-warning" href="https://github.com/pluribus-one/gdpr-registry-app" role="button"><i class="fa fa-code" aria-hidden="true"></i>
+{% blocktrans %}Repository{% endblocktrans %}</a></p>
+                    </div>
+                    <div class="col-sm">
+                        <p class="text-right"><a class="btn btn-primary" href="{% url 'data_audit' %}" role="button"><i class="fa fa-file-text" aria-hidden="true"></i>
+{% blocktrans %}How To{% endblocktrans %}</a></p>
+                    </div>
+                    <div class="col-sm">
+                        <p class="text-left"><a class="btn btn-info" href="https://gdpr.pluribus-one.it" role="button"><i class="fa fa-globe" aria-hidden="true"></i>
+{% blocktrans %}GDPR Website{% endblocktrans %}</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-footer">
+        <p><strong>{% trans '(*) Please read carefully the license terms' %}</strong>.
+            {% blocktrans %}You can copy, install and use this software only in accordance with the license.
+            This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+            without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+            {% endblocktrans %}</p>
+    </div>
+</div>
+{% endblock %}

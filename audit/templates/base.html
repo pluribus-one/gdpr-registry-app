@@ -1,0 +1,99 @@
+{% load i18n static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="{% trans 'GDPR Registry App' %}">
+        <meta name="author" content="Pluribus One">
+        <link rel="icon" href="{% static 'img/favicon.ico' %}">
+        <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+        <link href="{% static 'css/sticky-footer.css' %}" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+        <title>{% trans 'GDPR Registry App' %}</title>
+    </head>
+
+    <body>
+    {% with view=request.resolver_match.view_name %}
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+        <a class="navbar-brand" href="{% url 'home' %}">{% trans 'GDPR Registry App' %}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item dropdown {% if view == 'overview' or view == 'dashboard' %}active{% endif %}">
+              <a class="nav-link dropdown-toggle" href="{% url 'data_audit' %}"
+                 id="navbar-dropdown-ovewview" data-toggle="dropdown" aria-haspopup="true"
+                 aria-expanded="false">{% trans 'Overview' %}</a>
+              <div class="dropdown-menu" aria-labelledby="navbar-dropdown-stages">
+                <a class="dropdown-item {% if view == 'key_features' %}active{% endif %}" href="{% url 'key_features' %}">{% trans 'Key Features' %}</a>
+                <a class="dropdown-item {% if view == 'dashboard' %}active{% endif %}" href="{% url 'dashboard' %}">{% trans 'Dashboard' %}</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown {% if view == 'data_audit' or view == 'data_policy' or view == 'breach_detection' or view == 'breach_response' %}active{% endif %}">
+              <a class="nav-link dropdown-toggle" href="{% url 'data_audit' %}"
+                 id="navbar-dropdown-stages" data-toggle="dropdown" aria-haspopup="true"
+                 aria-expanded="false">{% trans 'How To' %}</a>
+              <div class="dropdown-menu" aria-labelledby="navbar-dropdown-stages">
+                <a class="dropdown-item {% if view == 'data_audit' %}active{% endif %}" href="{% url 'data_audit' %}">{% trans '1. Data Audit' %}</a>
+                <a class="dropdown-item {% if view == 'data_policy' %}active{% endif %}" href="{% url 'data_policy' %}">{% trans '2. Data Management Policy' %}</a>
+                <a class="dropdown-item {% if view == 'breach_detection' %}active{% endif %}" href="{% url 'breach_detection' %}">{% trans '3. Data Breach Detection' %}</a>
+                <a class="dropdown-item {% if view == 'breach_response' %}active{% endif %}" href="{% url 'breach_response' %}">{% trans '4. Incident Response Plan' %}</a>
+                  <a class="dropdown-item {% if view == 'create_report' %}active{% endif %}" href="{% url 'create_report' %}">{% trans 'Create Report' %}</a>
+              </div>
+                </li>
+
+            </li>
+              <li class="nav-item {% if view == 'license' %}active{% endif %}">
+              <a class="nav-link" href="{% url 'license' %}">{% trans "License" %} <span class="sr-only"></span></a>
+            </li>
+          </ul>
+            <form action="{% url 'set_language' %}" method="POST">{% csrf_token %}
+                <input name="next" type="hidden" value="{{ redirect_to }}">
+                    <select name="language" class="form-control custom-select custom-select-sm" onchange='if(this.value != 0) { this.form.submit(); }'>
+                        {% get_current_language as LANGUAGE_CODE %}
+                        {% get_available_languages as LANGUAGES %}
+                        {% get_language_info_list for LANGUAGES as languages %}
+                        {% for language in languages %}
+                            <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                                {{ language.name_translated }}
+                            </option>
+                        {% endfor %}
+                    </select>
+            </form>
+        </div>
+      </nav>
+
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+        {% if view == 'data_audit' or view == 'data_policy' or view == 'breach_detection' or view == 'breach_response' %}
+        <nav aria-label="{% trans 'GDPR Stages' %}">
+          <ul class="pagination justify-content-center">
+              <li class="page-item"><a class="page-link" href="{% url prev_view %}">{% trans "Prev" %}</a></li>
+              <li class="page-item{% if view == 'data_audit' %} active{% endif %}"><a class="page-link" href="{% url 'data_audit' %}">1</a></li>
+              <li class="page-item{% if view == 'data_policy' %} active{% endif %}"><a class="page-link" href="{% url 'data_policy' %}">2</a></li>
+              <li class="page-item{% if view == 'breach_detection' %} active{% endif %}"><a class="page-link" href="{% url 'breach_detection' %}">3</a></li>
+              <li class="page-item{% if view == 'breach_response' %} active{% endif %}"><a class="page-link" href="{% url 'breach_response' %}">4</a></li>
+              <li class="page-item"><a class="page-link" href="{% url next_view %}">{% trans "Next" %}</a></li>
+          </ul>
+        </nav>
+        {% endif %}
+        {% block tutorial %}
+        {% endblock %}
+    </div>
+
+    {% endwith %}
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">{% blocktrans %}Copyright &copy; {% endblocktrans %}{% now "Y" %} - <a href="https://gdpr.pluribus-one.it" target="_blank">{% blocktrans %}Pluribus One {% endblocktrans %}</a> | <a href="{% url 'license' %}" target="_blank">{% blocktrans %}License{% endblocktrans %}</a> | {% trans 'Version' %} 1.0</span>
+      </div>
+    </footer>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/tether.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% load i18n static %}
+
+{% block content %}
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-4">
+                {% with 'img/'|add:LANG|add:'/gdpr_step2.svg' as image_static %}
+                <img class="card-img-top" src="{% static image_static %}" alt="{% trans 'GDPR Process - Data Management Policy' %}">
+                {% endwith %}
+            </div>
+            <div class="col-md-8">
+                <h1 class="card-title">{% blocktrans %}Data Management Policy{% endblocktrans %}</h1>
+                <p class="lead">{% blocktrans %}Once the data audit has been performed and
+                    documented, it is time to assess <code>how</code> such data is managed by
+                    your organization to make sure that this process fully complies with GDPR.{% endblocktrans %}</p>
+                <p class="lead">{% blocktrans %}The result of this analysis should produce a report for each category of data
+                    identified in the data audit phase, highlighting the current management policy, together with all
+                    measures put in place to protect personal data and allow data subjects to fully excercise their rights.{% endblocktrans %}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block tutorial %}
+<h2 class="text-center text-light bg-dark rounded-circle" style="margin-top:5rem;">{% trans 'Data Management Policy - How To' %}</h2>
+
+<div class="card">
+    <div class="card-header">
+        <h3>{% trans 'Add a Data Management Policy to each Data Audit' %}</h3>
+    </div>
+    <div class="card-body">
+        <p>{% blocktrans %}In the edit page of the data audit, click on the add (+) icon for the field "data management policy".
+            Then, you can insert all details about the data policy. In this case, the data is
+            handled by a web application that stores the data in encrypted form, and allows only specific (authorized)
+            users to access the data.
+        {% endblocktrans %}
+        </p>
+        <p>{% blocktrans %}Please note that in general, for each data management policy,
+            you should specify:
+            <ul>
+                <li><strong>Data Protection</strong>: how data breaches are prevented, i.e., how personal data is properly protected</li>
+                <li><strong>Data Transfers</strong>: if data transfers are currently in place (e.g., your organization transfers data to third party processors), specifying the related contracts that should be GDPR-compliant, i.e., they should allow you as a data controller to fully satisfy the rights of the data subjects.</li>
+                <li><strong>Data Subject Rights</strong>: how data subjects are informed and can satisfy their fundamental rights (view, correction, cancellation of data, limit the scope of processing)</li>
+                <li><strong>Residual Risk (of data breaches)</strong>: residual risk associated to data breach prevention; that is, an evaluation of the residual risk of data breaches given the data protection method that has been put in place.
+            This should be the output of a detailed risk analysis that evaluates likelihood and impact of data breaches for the considered data audit
+            and protection measure. </li>
+            </ul>
+        {% endblocktrans %}
+        </p>
+        <div class="alert alert-info" role="alert">
+           {% trans "In this example, we create a data management policy <strong>Web App Auth and Access Control</strong> and associate it to the Data Audit <strong>Identity Documents</strong>" %}
+        </div>
+    </div>
+    {% with 'img/'|add:LANG|add:'/add_data_policy.png' as image_static %}
+    <img class="card-img-bottom rounded-circle border border-secondary" src="{% static image_static %}" alt="{% trans 'Add Data Management Policy' %}">
+    {% endwith %}
+    {% with 'img/'|add:LANG|add:'/data_policy.png' as image_static %}
+    <img class="card-img-bottom rounded border border-secondary" src="{% static image_static %}" alt="{% trans 'Data Management Policy' %}">
+    {% endwith %}
+</div>
+{% endblock %}

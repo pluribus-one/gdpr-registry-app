@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load i18n static %}
+
+{% block content %}
+<h1>{% trans 'Dashboard' %}</h1>
+<div class="card">
+    <div class="card-body">
+        {% trans 'The GDPR Registry App provides a complete dashboard based on the django Jet framework (https://github.com/geex-arts/django-jet), with the following information:' %}
+        <ul>
+            <li><strong>{% trans 'Registry Status' %}</strong>: {% trans 'it describes, both graphically (pie diagram) and textually suggestions, errors, issues related to your GDPR registry. Just follow the suggestions displayed in this widget to fill in the registry.' %}</li>
+            <li><strong>{% trans 'Quick Links' %}</strong>: {% trans 'quick links to application home, change password and logout' %}</li>
+            <li><strong>{% trans 'Recent Actions' %}</strong>: {% trans 'recent actions performed by users in the administrative interface' %}</li>
+            <li><strong>{% trans 'Applications' %}</strong>: {% trans 'we have two main applications, namely' %}</li>
+            <ul>
+                <li>{% trans 'an <strong>access control</strong> application, that keeps track of all accesses in the admin interface' %}</li>
+                <li>{% trans 'an <strong>audit</strong> application, that keeps track of all GDPR activities in the admin interface (different, linked tables)' %}</li>
+            </ul>
+            <li><strong>{% trans 'Administration' %}</strong>: {% trans 'by means of this section we can add new users, groups and assign them different privileges for the access of the (different functionalities in the) admin interface.' %}</li>
+            <li><strong>{% trans 'Support' %}</strong>: {% trans 'this section provides links to the documentation of the Registry App, and Pluribus One products and services that can help you to achieve GDPR compliance.' %}</li>
+        </ul>
+        {% trans 'You can customize your dashboard, moving or removing each element. For technical details, please check out the django jet documentation (https://jet.readthedocs.io/en/latest/)' %}.
+    </div>
+    {% with 'img/'|add:LANG|add:'/first_time.png' as image_static %}
+    <img class="card-img-bottom" src="{% static image_static %}" alt="First Step - Dashboard">
+    {% endwith %}
+</div>
+{% endblock %}

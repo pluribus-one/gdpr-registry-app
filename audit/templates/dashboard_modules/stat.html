@@ -1,0 +1,76 @@
+{% load i18n %}
+
+{% if module.error %}
+    <ul>
+        <li>
+            {{ module.error }}
+        </li>
+    </ul>
+{% elif module.children.is_empty %}
+    <ul>
+        <li>
+            {% trans "Nothing to show" %}
+        </li>
+    </ul>
+{% else %}
+    {{module.organization}}
+    {% with hints=module.children %}
+    <div class="padding center">
+        <canvas id="chart_{{ module.model.pk }}" style="width: 100%;">
+            <div class="chart-fillColor"></div>
+            <div class="chart-strokeColor"></div>
+            <div class="chart-pointColor"></div>
+            <div class="chart-pointHighlightFill"></div>
+            <div class="chart-scaleGridLineColor"></div>
+            <div class="chart-scaleLineColor"></div>
+            <div class="chart-scaleFontColor"></div>
+            <div class="chart-data"></div>
+        </canvas>
+        <script>
+            var config = {
+                type: 'pie',
+                data: {
+                    datasets: [{
+                        data: [
+                            {% for key, verbose_name, hint_list in hints.get_items %}
+                                {{hint_list|length}},
+                            {% endfor %}
+                        ],
+                        backgroundColor: [
+                            window.chartColors.green,
+                            window.chartColors.red,
+                            window.chartColors.yellow,
+                        ],
+                        label: '{% trans "GDPR Registry Status" %}'
+                    }],
+                    labels: [
+                        {% for key, verbose_name, hint_list in hints.get_items %}
+                            '{{verbose_name}}',
+                        {% endfor %}
+                    ]
+                },
+                options: {
+                    responsive: true
+                }
+            };
+            window.onload = function() {
+                var ctx = document.getElementById('chart_{{ module.model.pk }}').getContext('2d');
+                window.myPie = new Chart(ctx, config);
+            };
+
+        </script>
+    </div>
+    <div class="padding left">
+        {% for key, verbose_name, hint_list in hints.get_items %}
+            <h3>{{verbose_name}}</h3>
+            <ul>
+            {% for hint in hint_list %}
+                <li>{{hint}}</li>
+            {% empty %}
+                <li>{% trans "None found" %}</li>
+            {% endfor %}
+            </ul>
+        {% endfor %}
+    </div>
+   {% endwith %}
+{% endif %}

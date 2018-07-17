@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+{% load i18n static %}
+
+{% block content %}
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-4">
+                {% with 'img/'|add:LANG|add:'/gdpr_step1.svg' as image_static %}
+                <img class="card-img-top" src="{% static image_static %}" alt="{% trans 'GDPR Process - Data Audit' %}">
+                {% endwith %}
+            </div>
+            <div class="col-md-8">
+                <h1 class="card-title">{% blocktrans %}Data Audit{% endblocktrans %}</h1>
+                <p class="lead">{% blocktrans %}In order to protect personal data as prefigured by GDPR, you first need
+                    to be fully aware of <code>what</code> personal data is being captured, processed and stored by your
+                    organization, or by third-party organizations on your behalf.{% endblocktrans %}</p>
+                <p class="lead">{% blocktrans %}To this end, you need to accurately identify and classify such data,
+                    by modelling the processes currently in place in your organization.{% endblocktrans %}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block tutorial %}
+<h2 class="text-center text-light bg-dark rounded-circle" style="margin-top:5rem;">{% trans 'Data Audit - How To' %}</h2>
+
+<div class="card">
+    <div class="card-header">
+        <h4>{% trans 'Step 1. Create an Organization' %}</h4>
+    </div>
+    <div class="card-body">
+        <p>{% blocktrans %}You just need to click on the suggestion displayed in the Registry Status Widget. Otherwise,
+            you may go to "Audit->Your organizations->Add Organization".
+            Then, you can insert all details about your organization and save.
+        {% endblocktrans %}
+        </p>
+        <div class="alert alert-info" role="alert">
+           {% trans "In this example, we create an imaginary organization <strong>Acme Inc</strong>" %}
+        </div>
+    </div>
+    {% with 'img/'|add:LANG|add:'/add_organization.png' as image_static %}
+    <img class="card-img-bottom mx-auto rounded border border-secondary" src="{% static image_static %}" style="width: 25rem;" alt="{% trans 'Add organization' %}">
+    {% endwith %}
+    {% with 'img/'|add:LANG|add:'/organization.png' as image_static %}
+    <img class="card-img-bottom rounded-circle border border-secondary" src="{% static image_static %}" alt="{% trans 'Acme Inc' %}">
+    {% endwith %}
+</div>
+
+<hr/>
+
+<div class="card">
+    <div class="card-header">
+        <h4>{% trans 'Step 2. Associate a Business Process to your Organization' %}</h4>
+    </div>
+    <div class="card-body">
+        <p>{% blocktrans %}In general, you should insert each business process of your organization
+            which is expected to manage personal data. In the edit page of your organization,
+            click on the add (+) icon, of the field "business processes". Then fill in all details about the business process.
+        {% endblocktrans %}
+        </p>
+        <div class="alert alert-info" role="alert">
+           {% blocktrans %}
+            <strong>Examples of business processes</strong>: Human Resources, European Projects, Customer Care.
+            In this example, we create a business process named <strong>Human Resources</strong> for <strong>Acme Inc.</strong>
+            {% endblocktrans %}
+        </div>
+    </div>
+    {% with 'img/'|add:LANG|add:'/add_process.png' as image_static %}
+    <img class="card-img-bottom rounded-circle border border-secondary" src="{% static image_static %}" alt="{% trans 'Add Business Process' %}">
+    {% endwith %}
+    {% with 'img/'|add:LANG|add:'/process.png' as image_static %}
+    <img class="card-img-bottom rounded-circle border border-secondary" src="{% static image_static %}" alt="{% trans 'Human Resources Process' %}">
+    {% endwith %}
+</div>
+
+<hr/>
+
+<div class="card">
+    <div class="card-header">
+        <h3>{% trans 'Step 3. Associate a Processing Activity to each Business Process' %}</h3>
+    </div>
+    <div class="card-body">
+        <p>{% blocktrans %}In general, for each business process, you should insert each processing activity which is expected to manage personal data.
+            Data Processing activities always prefigure a specific (lawful) goal and purpose. In the edit page of a business process,
+            click on the add (+) icon of the field "processing activities". Then fill in all details about the processing activity.
+        {% endblocktrans %}
+        </p>
+        <p>{% blocktrans %}In general, for each data processing activity you should specify:
+            <ul>
+                <li><strong>Name</strong>: e.g, Contractualization</li>
+                <li><strong>Scope of treatment</strong>: e.g., personnel management</li>
+                <li><strong>Processing type</strong>: e.g., normal (special treatments may be dedicated to particular categories of data only)</li>
+                <li><strong>Legal base</strong>: e.g., necessary for the execution of a contract (GDPR art. 6(1)b)</li>
+            </ul>
+        {% endblocktrans %}
+        </p>
+        <div class="alert alert-info" role="alert">
+           {% blocktrans %}<strong>Examples of processing activities</strong>: Contractualization (Process: Human Resources),
+        Submission of proposals (Process: Projects), Newsletter (Process: Customer Care). In this example, we inserted a processing activity
+            named <strong>Contractualization</strong> into business process <strong>Human Resources</strong>, .
+            {% endblocktrans %}
+        </div>
+    </div>
+    {% with 'img/'|add:LANG|add:'/add_activity.png' as image_static %}
+    <img class="card-img-bottom rounded-circle border border-secondary" src="{% static image_static %}" alt="{% trans 'Add Processing Activity' %}">
+    {% endwith %}
+    {% with 'img/'|add:LANG|add:'/activity.png' as image_static %}
+    <img class="card-img-bottom rounded border border-secondary" src="{% static image_static %}" alt="{% trans 'Contractualization' %}">
+    {% endwith %}
+</div>
+
+<hr/>
+
+<div class="card">
+    <div class="card-header">
+        <h3>{% trans 'Step 4. Associate a Data Audit to each Processing Activity' %}</h3>
+    </div>
+    <div class="card-body">
+        <p>{% blocktrans %}You should insert the details about the data handled by each processing activity.
+            In the edit page of a processing activity, click on the add (+) icon of the field "data audit".
+            Then fill in all details about the data audit.
+        {% endblocktrans %}
+        </p>
+        <p>{% blocktrans %}In general, for each data audit you should specify:
+            <ul>
+                <li><strong>Name</strong>: e.g, identity documents of employees</li>
+                <li><strong>Category</strong>: e.g., personal identifiable information</li>
+                <li><strong>Inherent risk for the freedom and rights of individuals</strong>: e.g., medium</li>
+            </ul>
+        {% endblocktrans %}
+        </p>
+        <div class="alert alert-info" role="alert">
+           {% blocktrans %}<strong>Examples of data audits</strong>: Identity documents of Employees (Activity: Contractualization),
+        Identity documents of Coordinators (Activity: Submission of proposals), Mailing list (Activity: Newsletter). In this example,
+            we inserted an entry for
+            the processing activity <strong>Contractualization</strong>, named <strong>Identity Documents of Employees</strong>.
+            {% endblocktrans %}
+        </div>
+    </div>
+    {% with 'img/'|add:LANG|add:'/add_data_audit.png' as image_static %}
+    <img class="card-img-bottom rounded-circle border border-secondary" src="{% static image_static %}" alt="{% trans 'Add Data Audit' %}">
+    {% endwith %}
+    {% with 'img/'|add:LANG|add:'/data_audit.png' as image_static %}
+    <img class="card-img-bottom rounded-circle border border-secondary" src="{% static image_static %}" alt="{% trans 'Identity documents' %}">
+    {% endwith %}
+</div>
+{% endblock %}

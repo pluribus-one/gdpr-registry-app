@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load i18n static %}
+
+{% block content %}
+<h2 class="text-center text-light bg-dark rounded-circle">{% trans 'Create Report' %}</h2>
+<div class="card">
+    <div class="card-header">
+        <h3>{% trans 'Create PDF Report for your organization' %}</h3>
+    </div>
+    <div class="card-body">
+        <p>{% blocktrans %}In the list of your organizations (Click on the table "Your organizations"),
+            just click on "Create" (PDF report field). It will be generated a PDF document with all information
+            contained in your registry.
+            {% endblocktrans %}
+        </p>
+    </div>
+    {% with 'img/'|add:LANG|add:'/create_report.png' as image_static %}
+    <img class="card-img-bottom card-img-bottom rounded border border-secondary" src="{% static image_static %}" alt="{% trans 'Create Report' %}">
+    {% endwith %}
+</div>
+{% endblock %}

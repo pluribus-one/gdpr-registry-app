@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% load i18n static %}
+
+{% block content %}
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-4">
+                {% with 'img/'|add:LANG|add:'/gdpr_step4.svg' as image_static %}
+                <img class="card-img-top" src="{% static image_static %}" alt="{% trans 'GDPR Process - Incident Response Plan' %}">
+                {% endwith %}
+            </div>
+            <div class="col-md-8">
+                <h1 class="card-title">{% blocktrans %}Incident Response Plan{% endblocktrans %}</h1>
+                <p class="lead">{% blocktrans %}GDPR compliance means that your organization should be prepared to deal with data breaches,
+                    and provide for rapid counteractions to <code>mitigate</code> their impact.{% endblocktrans %}</p>
+                <p class="lead">{% blocktrans %}Data breaches must be notified to supervisory authorities within <code>72 hours</code>, or even less,
+                    if data breaches affect the freedom of natural individuals (GDPR Article 33). In addition, every affected person must be notified with
+                    the details about the incident.{% endblocktrans %}
+                </p>
+                <p class="lead">{% blocktrans %}To this end, your organization must define an incident response plan, as well as  setup
+                    the right environment to mitigate the impact of data breaches.{% endblocktrans %}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block tutorial %}
+<h2 class="text-center text-light bg-dark rounded-circle" style="margin-top:5rem;">{% trans 'Incident Response Plan - How To' %}</h2>
+<div class="card">
+    <div class="card-header">
+        <h3>{% trans 'Add Incident Response Plan for each Data Audit' %}</h3>
+    </div>
+    <div class="card-body">
+        <p>{% blocktrans %}In the edit page of the data audit, just click on the add (+) icon for the field "incident response plan".
+            Then, you can insert all details about the incident response plan. In this case, incident response is
+            helped by <a href="www.attack-prophecy.it">Attack Prophecy</a>, thanks to its virtual patching mechanism that also covers zero-day (never-before-seen)
+            attacks that may lead to data breaches.
+            {% endblocktrans %}
+        </p>
+        <p>{% blocktrans %}Please note that in general, for each data breach detection technique,
+            you should specify:
+            <ul>
+                <li><strong>How breach response is possible</strong>: how data breaches can be effectively handled.
+                    This phase usually prefigures a well-suited recovery plan, and systems such as Attack Prophecy, capable to provide protection against <em>unexpected</em> behavior of your applications and users.</li>
+                <li><strong>Data Breach Notification</strong>: notification procedures to the involved parties, including supervisory authorities.</li>
+                <li><strong>Residual risk (of inadequate/missing response to data breaches)</strong>: that
+            is, an evaluation of the residual risk of <em>not responding properly</em> to data breaches given the specific incident response plan.
+            This should be the output of a detailed risk analysis that evaluates likelihood and impact of data breaches for the considered data audit
+            (in this case, identity documents) and incident response plan.
+            </ul>
+        {% endblocktrans %}
+        </p>
+        <div class="alert alert-info" role="alert">
+            {% blocktrans %}In this example, we create an incident response plan that employs <strong>Attack Prophecy</strong> to create
+            virtual patches if intrusive events are detected.
+            Additionaly, an (encrypted) backup of Virtual Machines and Data is used for recovery/investigation purposes.
+
+            Finally, a predefined template of what information include in data breach notifications has been prepared (see, e.g., Article 33(3)).
+            We associate the incident response plan to the Data Audit <strong>Identity Documents</strong>.
+            Please note that many other data audits can be associated with the same incident response plan, e.g.,
+            if the plan covers other applications that handle different data,
+            or the same web application that is covered by the plan handles other data.
+            {% endblocktrans %}
+        </div>
+    </div>
+    {% with 'img/'|add:LANG|add:'/add_breach_response.png' as image_static %}
+    <img class="card-img-bottom card-img-bottom rounded-circle border border-secondary" src="{% static image_static %}" alt="{% trans 'Add Data Breach Response' %}">
+    {% endwith %}
+    {% with 'img/'|add:LANG|add:'/breach_response.png' as image_static %}
+    <img class="card-img-bottom card-img-bottom rounded border border-secondary" src="{% static image_static %}" alt="{% trans 'Data Breach Response' %}">
+    {% endwith %}
+</div>
+<hr/>
+<div class="card">
+    <div class="card-header">
+        <h3>{% trans 'Add Data Protection Impact Assessment (DPIA) for each Data Audit' %}</h3>
+    </div>
+    <div class="card-body">
+        <p>{% blocktrans %}In the edit page of the data audit, just click on the add (+) icon for the field "Data Protection Impact Assessment".
+            Then, you can insert all details about the DPIA, uploading a PDF report.
+            {% endblocktrans %}
+        </p>
+        <p>{% blocktrans %}Please note that DPIA
+            <ul>
+                <li><strong>is mandatory prior to the data processing</strong>, if the managed data probably entails a high risk for
+            the freedom and rights of individuals (GDPR article 35).</li>
+                <li><strong>can be documented following our framework</strong>: it is interesting to note that the DPIA in fact needs to provide details about the risk evaluation/mitigation process in
+            all previous phases, so it should be easier to produce it if you already determined Data Management Policy, Data Breach Detection and Incident Response (all such steps are driven by
+            risk-based metrics, according to our framework).</li>
+            </ul>
+        {% endblocktrans %}
+        </p>
+    </div>
+    {% with 'img/'|add:LANG|add:'/add_dpia.png' as image_static %}
+    <img class="card-img-bottom card-img-bottom rounded-circle border border-secondary" src="{% static image_static %}" alt="{% trans 'Add Data Protection Impact Assessment (DPIA)' %}">
+    {% endwith %}
+</div>
+{% endblock %}
