@@ -64,8 +64,7 @@ In order to make your gdpr registry app available to other machines, you may use
 
     sudo apt install apache2 libapache2-mod-wsgi-py3
     sudo chown -R www-data:gdpr gdpr-registry-app
-    sudo a2enmod ssl
-    sudo a2enmod headers
+    sudo a2enmod ssl headers rewrite
 
 #### SSL Certificate
 In order to protect your data in transit you need to setup a HTTPS certificate. You may choose to either 
@@ -78,8 +77,9 @@ You may use a self-signed certificate if your app is running on a private networ
 To create a self-signed certificate and update the apache configuration, open a shell and run the following code (inside the */home/gdpr/gdpr-registry-app* folder)
     
     sudo openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout /etc/ssl/private/apache-selfsigned.key -out /etc/ssl/certs/apache-selfsigned.crt
-    sudo cp sample.apache.https.conf /etc/apache2/sites-available/
-    sudo a2ensite sample.apache.https
+    sudo cp sample.apache.https.conf sample.apache.http.conf /etc/apache2/sites-available/
+    sudo a2ensite sample.apache.https sample.apache.http
+    sudo a2dissite 000-default
     sudo service apache2 restart
 
 ##### (b) Let's Encrypt
