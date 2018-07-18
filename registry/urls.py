@@ -19,10 +19,9 @@ from django.urls import include
 from django.conf.urls import url
 from django.conf import settings
 from django.conf.urls.static import static
-from django.conf.urls.i18n import i18n_patterns
 from audit import views
 
-urlpatterns = i18n_patterns(
+urlpatterns = [ 
     path('report/<int:org_pk>', views.report, name='report'),
     url(r'^jet/', include('jet.urls', 'jet')),  # Django JET URLS
     url(r'^jet/dashboard/', include('jet.dashboard.urls', 'jet-dashboard')),  # Django JET dashboard URLS
@@ -37,4 +36,4 @@ urlpatterns = i18n_patterns(
     path('create_report', views.create_report, name='create_report'),
     path('license', views.license, name='license'),
     path('i18n/', include('django.conf.urls.i18n')),
-)
+]
