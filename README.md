@@ -42,7 +42,8 @@ To this end, you may need to:
 * install a let's encrypt certificate for your domain (see the Let's Encrypt section)
 * properly setup a firewall to enable only HTTP/HTTPS traffic
 * reset the database/secret key. A new secret key will be automatically generated (randomly).
-To this end, from a shell inside */home/gdpr/* you may run:
+
+To reset the database/secret key, from a shell inside */home/gdpr/* you may run:
 
     sudo chown -R gdpr:gdpr gdpr-registry-app
     source python-venv/bin/activate
