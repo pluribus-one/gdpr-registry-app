@@ -28,7 +28,7 @@ You can import the OVA file into [VirtualBox](https://www.virtualbox.org) and ru
 * Username: gdpr
 * Password: gdpr
 
-The gdpr user is *sudoer*. 
+The gdpr user is **sudoer**. 
 
 #### Default Credentials (Login Interface)
 * Username: gdpr
@@ -43,7 +43,7 @@ To this end, you may need to:
 * properly setup a firewall to enable only HTTP/HTTPS traffic
 * reset the database/secret key. A new secret key will be automatically generated (randomly).
 
-To reset the database/secret key, from a shell inside */home/gdpr/* you may run:
+To reset the database/secret key, from a shell inside **/home/gdpr/** you may run:
 
     sudo chown -R gdpr:gdpr gdpr-registry-app
     source python-venv/bin/activate
@@ -57,7 +57,7 @@ To reset the database/secret key, from a shell inside */home/gdpr/* you may run:
     sudo chown -R www-data:gdpr gdpr-registry-app
     sudo service apache2 restart
     
-When running *python manage.py populate* you may choose to populated the database with predefined lists in
+When running **python manage.py populate** you may choose to populate the database with predefined lists in
 
 * italian (list.it.json)
 * english (list.en.json)
