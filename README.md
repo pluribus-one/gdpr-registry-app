@@ -18,7 +18,10 @@ The Pluribus One GDPR Registry app allows you to keep track of all data processi
 * **GDPR technology and services**: If you need, Pluribus One offers advanced [technology](https://gdpr.pluribus-one.it/en/technology) and [services](https://gdpr.pluribus-one.it/en/services) around GDPR, to help your organization to achieve GDPR compliance.
 
 ## Demo
-You can see a live demo of our application @ [https://registry-app.pluribus-one.it/en](https://registry-app.pluribus-one.it/en). Please note that this demo is currently locked: does not allow any modification for security reasons. Anyway you can navigate and build a PDF report for the "demo" organization.
+You can see a live demo of our application @ [https://registry-app.pluribus-one.it/en](https://registry-app.pluribus-one.it/en). Please note that 
+
+* this demo is currently locked: does not allow any modification for security reasons. Anyway you can navigate and build a PDF report for the "demo" organization.
+* the demo embeds predefined lists in english language only.
 
 #### Demo Credentials
 * Username: gdpr
@@ -29,6 +32,11 @@ The app can be installed in virtually any modern operating system. It is impleme
 
 ### Pre-configured virtual machine
 For your convenience, we have built a preconfigured virtual applicance with the GDPR registry app, based on Ubuntu 18.04.
+
+[Click here to download the OVA file](https://www.dropbox.com/s/1a2lh3uxul96cma/GDPR-Registry-VAPP.ova?dl=0)
+
+>> MD5sum (GDPR-Registry-VAPP.ova) = f7d0701e0b99ff6d1d8d6f532fd4b200
+
 You can import the OVA file into [VirtualBox](https://www.virtualbox.org) and run the appliance. Then, connect your browser to the IP address assigned to the machine (it uses DHCP by default). You may need to put the related network interface into bridge mode OR NAT mode (in this case, you need to setup a NAT rule).
 
 #### Default Credentials (Operating System)
@@ -37,7 +45,7 @@ You can import the OVA file into [VirtualBox](https://www.virtualbox.org) and ru
 
 The gdpr user is **sudoer**. 
 
-#### Default Credentials (Login Interface)
+#### Default Credentials (Login Interface - via Browser)
 * Username: gdpr
 * Password: pluribusone
 
