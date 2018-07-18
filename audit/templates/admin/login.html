@@ -40,10 +40,10 @@
 {% endblocktrans %}
 </p>
 {% endif %}
-
+{% get_current_language as LANGUAGE_CODE %}
 <form action="{{ app_path }}" method="post" id="login-form">{% csrf_token %}
   <div class="submit-row">
-    <a target="_blank" href="https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32016R0679"><img src="{% static 'img/eu_flag.svg' %}" width="60px" /></a>
+    <a target="_blank" href="https://eur-lex.europa.eu/legal-content/{{LANGUAGE_CODE}}/TXT/?uri=CELEX%3A32016R0679"><img src="{% static 'img/eu_flag.svg' %}" width="60px" /></a>
   </div>
   <div class="submit-row">
     <h1>{% trans "GDPR Registry App" %}</h1>
@@ -71,7 +71,7 @@
     <table align="center">
         <tr>
             <td>{% trans "Powered by" %}</td>
-            <td><a target="_blank" href="https://gdpr.pluribus-one.it"><img src="{% static 'img/pluribus-one.svg' %}" width="150px" /></a></td>
+            <td><a target="_blank" href="https://gdpr.pluribus-one.it/{{LANGUAGE_CODE}}"><img src="{% static 'img/pluribus-one.svg' %}" width="150px" /></a></td>
         </tr>
         <tr>
             <td colspan="2"><a target="_blank" href="{% url 'home' %}">{% trans 'Documentation' %}</a></td>
