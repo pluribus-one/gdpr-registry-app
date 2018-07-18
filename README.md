@@ -18,10 +18,13 @@ The Pluribus One GDPR Registry app allows you to keep track of all data processi
 * **GDPR technology and services**: If you need, Pluribus One offers advanced [technology](https://gdpr.pluribus-one.it/en/technology) and [services](https://gdpr.pluribus-one.it/en/services) around GDPR, to help your organization to achieve GDPR compliance.
 
 ## Demo
-You can see a live demo of our application @ [https://registry-app.pluribus-one.it/en](https://registry-app.pluribus-one.it/en). Please note that 
+You can see a live demo of our application @ [https://registry-app.pluribus-one.it/en](https://registry-app.pluribus-one.it/en). Please note that the demo app has some limitation with respect the original one:
 
-* this demo is currently locked: does not allow any modification for security reasons. Anyway you can navigate and build a PDF report for the "demo" organization.
-* the demo embeds predefined lists in english language only.
+* is locked: does not allow any modification for security reasons. Anyway you can navigate and build a PDF report for the "Acme Inc." organization.
+* embeds predefined lists in english language only.
+* does not show login accesses in the dashboard for privacy reasons (the access controll app has been removed from the dashboard).
+
+That is, Security & Privacy are important for us.
 
 #### Demo Credentials
 * Username: gdpr
