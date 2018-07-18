@@ -1,5 +1,4 @@
 """registry URL Configuration
-
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.0/topics/http/urls/
 Examples:
@@ -19,9 +18,10 @@ from django.urls import include
 from django.conf.urls import url
 from django.conf import settings
 from django.conf.urls.static import static
+from django.conf.urls.i18n import i18n_patterns
 from audit import views
 
-urlpatterns = [ 
+urlpatterns = i18n_patterns(
     path('report/<int:org_pk>', views.report, name='report'),
     url(r'^jet/', include('jet.urls', 'jet')),  # Django JET URLS
     url(r'^jet/dashboard/', include('jet.dashboard.urls', 'jet-dashboard')),  # Django JET dashboard URLS
@@ -36,4 +36,4 @@ urlpatterns = [
     path('create_report', views.create_report, name='create_report'),
     path('license', views.license, name='license'),
     path('i18n/', include('django.conf.urls.i18n')),
-]
+) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) # only for development
