@@ -18,25 +18,51 @@ The Pluribus One GDPR Registry app allows you to keep track of all data processi
 * **GDPR technology and services**: If you need, Pluribus One offers advanced [technology](https://gdpr.pluribus-one.it/en/technology) and [services](https://gdpr.pluribus-one.it/en/services) around GDPR, to help your organization to achieve GDPR compliance.
 
 ## Installation
-The app can be installed in virtually any modern operating system. It is implemented in [Python](https://www.python.org), using the [Django Framework](https://www.djangoproject.com). In the following, we provide installation instructions for all tested platforms.
+The app can be installed in virtually any modern operating system. It is implemented in [Python](https://www.python.org), using the [Django Framework](https://www.djangoproject.com). In the following, we provide installation instructions for all tested platforms (Ubuntu 18.04 LTS x64).
 
 ### Pre-configured virtual machine
 For your convenience, we have built a preconfigured virtual applicance with the GDPR registry app, based on Ubuntu 18.04.
-You may just import the OVA file into your VirtualBox and run the appliance. Then connect to the IP address assigned to the machine (it uses DHCP by default). You may need to put the related network interface into bridge mode OR NAT mode (in this case, you need to setup a NAT rule).
+You can import the OVA file into [VirtualBox](https://www.virtualbox.org) and run the appliance. Then connect your browser to the IP address assigned to the machine (it uses DHCP by default). You may need to put the related network interface into bridge mode OR NAT mode (in this case, you need to setup a NAT rule).
 
-In fact, we simply
+#### Default Credentials (Operating System)
+* Username: gdpr
+* Password: gdpr
+The gdpr user is *sudoer*. 
 
-* downloaded Ubuntu 18.04
-* created a VirtualBox virtual machine
-* followed the installation steps as described in the following (with self-signed certificate generation).
+#### Default Credentials (Login Interface)
+* Username: gdpr
+* Password: pluribusone
 
-Please note that such virtual appliance is not ready for production, especially if you plan to host your appliance with a public IP address. You may need to:
+#### Production Use
+Please note that the provided virtual appliance is provided "as is" without warranty of any kind. It is not ready for production, especially if you plan to host your appliance with a public IP address. 
+To this end, you may need to:
 
-* harden the server configuration (e.g., with strong HTTPS chiphers) 
-* install a let's encrypt certificate for your domain
+* harden the server configuration (e.g., with strong HTTPS chiphers, see the **Hardening** section at the end) 
+* install a let's encrypt certificate for your domain (see the Let's Encrypt section)
 * properly setup a firewall to enable only HTTP/HTTPS traffic
+* reset the database/secret key. A new secret key will be automatically generated (randomly).
+To this end, from a shell inside */home/gdpr/* you may run:
 
-### Ubuntu (tested version: server x64, 18.04 LTS)
+    sudo chown -R gdpr:gdpr gdpr-registry-app
+    source python-venv/bin/activate
+    cd gdpr-registry-app
+    rm secret.txt
+    rm db.sqlite3
+    python manage.py migrate
+    python manage.py createsuperuser
+    python manage.py populate
+    cd ..
+    sudo chown -R www-data:gdpr gdpr-registry-app
+    sudo service apache2 restart
+    
+When running *python manage.py populate* you may choose to populated the database with predefined lists in
+
+* italian (list.it.json)
+* english (list.en.json)
+
+depending on your target language.
+
+### Manual installation: Ubuntu (tested version: server x64, 18.04 LTS)
 https://www.ubuntu.com/download/server/thank-you?version=18.04&architecture=amd64
 
 ### Base Installation
@@ -57,14 +83,25 @@ locally @ http://127.0.0.1:8000. Open a shell and insert the following instructi
     python manage.py collectstatic
     python manage.py runserver
 
-Now go to: `http://127.0.0.1:8000/admin` with your browser. To log in use the (superuser) credentials previously created while executing `python manage.py createsuperuser`.
+Now you can go to: `http://127.0.0.1:8000/admin` with your browser. To log in use the (superuser) credentials previously created while executing `python manage.py createsuperuser`.
+
+### Updates
+You can update your installation to the latest version using the following commands (open a shell in the installation folder: **/home/gdpr/gdpr-registry-app**):
+
+    git pull
+    python manage.py makemigrations axes audit jet dashboard
+    python manage.py migrate
+    python manage.py populate
+    python manage.py collectstatic
 
 ### Apache web server
 In order to make your gdpr registry app available to other machines, you may use the Apache web server. Open a shell inside */home/gdpr* and digit:
 
     sudo apt install apache2 libapache2-mod-wsgi-py3
     sudo chown -R www-data:gdpr gdpr-registry-app
-    sudo a2enmod ssl headers rewrite
+    sudo a2enmod ssl
+    sudo a2enmod headers
+    sudo a2enmod rewrite
 
 #### SSL Certificate
 In order to protect your data in transit you need to setup a HTTPS certificate. You may choose to either 
@@ -78,7 +115,8 @@ To create a self-signed certificate and update the apache configuration, open a 
     
     sudo openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout /etc/ssl/private/apache-selfsigned.key -out /etc/ssl/certs/apache-selfsigned.crt
     sudo cp sample.apache.https.conf sample.apache.http.conf /etc/apache2/sites-available/
-    sudo a2ensite sample.apache.https sample.apache.http
+    sudo a2ensite sample.apache.https
+    sudo a2ensite sample.apache.http
     sudo a2dissite 000-default
     sudo service apache2 restart
 
@@ -96,7 +134,7 @@ Open a shell and insert the following commands:
     sudo apt install python-certbot-apache
     sudo certbot --apache -d gdpr-registry.yourdomain.com
 
-> To harden your server configuration you may consider to run
+> **Hardening**. To harden your server configuration you may consider to run
 
     sudo cp sample.apache.security.conf /etc/apache2/conf-available/
     sudo a2enconf sample.apache.security
