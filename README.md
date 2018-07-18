@@ -27,6 +27,7 @@ You can import the OVA file into [VirtualBox](https://www.virtualbox.org) and ru
 #### Default Credentials (Operating System)
 * Username: gdpr
 * Password: gdpr
+
 The gdpr user is *sudoer*. 
 
 #### Default Credentials (Login Interface)
