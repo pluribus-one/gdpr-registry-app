@@ -87,15 +87,6 @@ locally @ http://127.0.0.1:8000. Open a shell and insert the following instructi
 
 Now you can go to: `http://127.0.0.1:8000/admin` with your browser. To log in use the (superuser) credentials previously created while executing `python manage.py createsuperuser`.
 
-### Updates
-You can update your installation to the latest version using the following commands (open a shell in the installation folder: **/home/gdpr/gdpr-registry-app**):
-
-    git pull
-    python manage.py makemigrations axes audit jet dashboard
-    python manage.py migrate
-    python manage.py populate
-    python manage.py collectstatic
-
 ### Apache web server
 In order to make your gdpr registry app available to other machines, you may use the Apache web server. Open a shell inside */home/gdpr* and digit:
 
@@ -141,6 +132,14 @@ Open a shell and insert the following commands:
     sudo cp sample.apache.security.conf /etc/apache2/conf-available/
     sudo a2enconf sample.apache.security
 
+### Updates
+You can update your installation anytime to the latest version using the following commands (open a shell in the installation folder: **/home/gdpr/gdpr-registry-app**):
+
+    git pull
+    python manage.py makemigrations axes audit jet dashboard
+    python manage.py migrate
+    python manage.py populate
+    python manage.py collectstatic
 
 ## Issues
 Please report all issues in the appropriate [section of this repository](https://github.com/pluribus-one/gdpr-registry-app/issues)
