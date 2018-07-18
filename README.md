@@ -17,12 +17,19 @@ The Pluribus One GDPR Registry app allows you to keep track of all data processi
 * **Multi-language**: Full translation support thanks to the Django framework. Currently, the interface is available in English and Italian language.
 * **GDPR technology and services**: If you need, Pluribus One offers advanced [technology](https://gdpr.pluribus-one.it/en/technology) and [services](https://gdpr.pluribus-one.it/en/services) around GDPR, to help your organization to achieve GDPR compliance.
 
+## Demo
+You can see a live demo of our application @ [https://registry-app.pluribus-one.it/en](https://registry-app.pluribus-one.it/en). Please note that this demo is currently locked: does not allow any modification for security reasons. Anyway you can navigate and build a PDF report for the "demo" organization.
+
+#### Demo Credentials
+* Username: gdpr
+* Password: pluribusone
+
 ## Installation
-The app can be installed in virtually any modern operating system. It is implemented in [Python](https://www.python.org), using the [Django Framework](https://www.djangoproject.com). In the following, we provide installation instructions for all tested platforms (Ubuntu 18.04 LTS x64).
+The app can be installed in virtually any modern operating system. It is implemented in [Python](https://www.python.org), using the [Django Framework](https://www.djangoproject.com). The easiest way is to import our preconfigured virtual machine based on Ubuntu server 18.04 LTS x64. We also provide manual installation instructions for all tested platforms (currently, Ubuntu 18.04 LTS x64).
 
 ### Pre-configured virtual machine
 For your convenience, we have built a preconfigured virtual applicance with the GDPR registry app, based on Ubuntu 18.04.
-You can import the OVA file into [VirtualBox](https://www.virtualbox.org) and run the appliance. Then connect your browser to the IP address assigned to the machine (it uses DHCP by default). You may need to put the related network interface into bridge mode OR NAT mode (in this case, you need to setup a NAT rule).
+You can import the OVA file into [VirtualBox](https://www.virtualbox.org) and run the appliance. Then, connect your browser to the IP address assigned to the machine (it uses DHCP by default). You may need to put the related network interface into bridge mode OR NAT mode (in this case, you need to setup a NAT rule).
 
 #### Default Credentials (Operating System)
 * Username: gdpr
@@ -38,6 +45,7 @@ The gdpr user is **sudoer**.
 Please note that the provided virtual appliance is provided "as is" without warranty of any kind. It is not ready for production, especially if you plan to host your appliance with a public IP address. 
 To this end, you may need to:
 
+* setup a static IP
 * harden the server configuration (e.g., with strong HTTPS chiphers, see the **Hardening** section at the end) 
 * install a let's encrypt certificate for your domain (see the Let's Encrypt section)
 * properly setup a firewall to enable only HTTP/HTTPS traffic
