@@ -95,7 +95,7 @@ locally @ http://127.0.0.1:8000. Open a shell and insert the following instructi
     git clone https://github.com/pluribus-one/gdpr-registry-app
     virtualenv -p python3 python-venv
     source python-venv/bin/activate
-    pip install django django-jet PyPDF2 ReportLab svglib django-appconf django-ipware
+    pip install Django==2.0 django-jet PyPDF2 ReportLab svglib django-appconf django-ipware
     cd gdpr-registry-app
     python manage.py makemigrations axes audit jet dashboard
     python manage.py migrate
