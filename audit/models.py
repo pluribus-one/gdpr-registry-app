@@ -65,7 +65,10 @@ class HintList:
     def set_admin_change_link(self, admin_change_link):
         for hint_list in self.list.values():
             for hint in hint_list:
-                hint.obj.admin_change_link = admin_change_link(hint.obj, str(hint.obj))
+                try:
+                    hint.obj.admin_change_link = admin_change_link(hint.obj, str(hint.obj))
+                except:
+                    pass
 
     @property
     def is_empty(self):
