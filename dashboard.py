@@ -63,7 +63,7 @@ class IndexDashboard(Dashboard):
             _('Support'),
             children=[
                 {
-                    'title': _('Documentation'),
+                    'title': _('HOW TO WORK'),
                     'url': reverse('data_audit'),
                     'external': True,
                 },

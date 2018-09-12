@@ -1,7 +1,7 @@
 from django.utils.translation import gettext_lazy as _
 from jet.dashboard.modules import DashboardModule
 from audit.models import YourOrganization, HintList, Hint
-from audit.admin import admin_change_link, admin_add_link
+from audit.admin import admin_change_link, admin_add_link, admin_changelist_link
 
 class Stat(DashboardModule):
     title = _('Registry Status')
@@ -18,7 +18,12 @@ class Stat(DashboardModule):
                         text=link))
 
         else:
-            for org in YourOrganization.objects.all():
+            for i, org in enumerate(YourOrganization.objects.all()):
+                if not i:
+                    link = admin_changelist_link(org,
+                                          _("Click here to see all organizations in the registry and generate a PDF report for each one"))
+                    hints.append(Hint(obj="", hint_type='suggestion',
+                                      text=link))
                 hints.extend(org.get_hints())
             hints.set_admin_change_link(admin_change_link)
             suggestions = hints.list['suggestion']
