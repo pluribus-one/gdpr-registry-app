@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-12 12:23+0000\n"
+"POT-Creation-Date: 2018-09-12 12:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: audit/admin.py:22 audit/templates/admin/login.html:49
-#: audit/templates/base.html:7 audit/templates/base.html:13
-#: audit/templates/base.html:19 audit/templates/home.html:14
-#: audit/templates/key_features.html:5
 msgid "GDPR Registry App"
 msgstr "App Registro GDPR"
 
@@ -664,11 +661,6 @@ msgid "Data protection Impact Assessment"
 msgstr "Valutazione dell'impatto sulla protezione dei dati (DPIA)"
 
 #: audit/models.py:455
-#, fuzzy
-#| msgid ""
-#| "If the processing activity probably entails a high risk for the "
-#| "fundamental rights and freedoms of data subjects, a DPIA must be "
-#| "completed (GDPR Article 135)."
 msgid ""
 "If the processing activity probably entails a high risk for the fundamental "
 "rights and freedoms of data subjects, a DPIA must be completed (GDPR Article "
@@ -1122,6 +1114,12 @@ msgstr "Accesso"
 msgid "HOW TO WORK"
 msgstr "COME FUNZIONA"
 
+#: audit/templates/base.html:7 audit/templates/base.html:13
+#: audit/templates/base.html:19 audit/templates/home.html:14
+#: audit/templates/key_features.html:5
+msgid "GDPR Registry Web App"
+msgstr "Web App Registro GDPR"
+
 #: audit/templates/base.html:28
 msgid "Overview"
 msgstr "Panoramica"
@@ -1563,11 +1561,11 @@ msgstr ""
 
 #: audit/templates/dashboard.html:8
 msgid ""
-"The GDPR Registry App provides a complete dashboard based on the django Jet "
-"framework (https://github.com/geex-arts/django-jet), with the following "
+"The GDPR Registry Web App provides a complete dashboard based on the django "
+"Jet framework (https://github.com/geex-arts/django-jet), with the following "
 "information:"
 msgstr ""
-"L'App Registro GDPR fornisce un cruscotto completo basato sul framework "
+"La Web App Registro GDPR fornisce un cruscotto completo basato sul framework "
 "django Jet (https://github.com/geex-arts/django-jet), con le seguenti "
 "informazioni:"
 
@@ -1953,8 +1951,6 @@ msgid "Identity documents"
 msgstr "Documenti di identità"
 
 #: audit/templates/data_policy.html:10
-#, fuzzy
-#| msgid "Data Management Policy"
 msgid "GDPR Process - Data Management Policy"
 msgstr "Processo GDPR - Politica di gestione dei dati"
 
@@ -2079,8 +2075,8 @@ msgid "GDPR Registry App by Pluribus One"
 msgstr "App Registro GDPR"
 
 #: audit/templates/home.html:15
-msgid "Welcome to the GDPR Registry App, developed by Pluribus One"
-msgstr "Benvenuti nell'App Registro GDPR, sviluppata da Pluribus One"
+msgid "Welcome to the GDPR Registry Web App, developed by Pluribus One"
+msgstr "Benvenuti nella Web App Registro GDPR, sviluppata da Pluribus One"
 
 #: audit/templates/home.html:16
 msgid "under open-source license"
@@ -2088,18 +2084,18 @@ msgstr "sotto licenza open-source"
 
 #: audit/templates/home.html:17
 msgid ""
-"The GDPR Registry App can be used to annotate and keep track of all your "
+"The GDPR Registry Web App can be used to annotate and keep track of all your "
 "data processing activities, according to a sound framework"
 msgstr ""
-"L'App Registro GDPR può essere utilizzata per tenere traccia di tutte le "
-"attività di elaborazione dei dati personali"
+"La Web App Registro GDPR può essere utilizzata per tenere traccia di tutte "
+"le attività di elaborazione dei dati personali"
 
 #: audit/templates/home.html:18
 msgid ""
 "and produce high-quality, updated reports in PDF format. This is a key step "
 "towards an enhanced security posture, and to satisfy GDPR requirements."
 msgstr ""
-"e produrre un registro di trattamento dati aggiornato e di alta qualità in "
+"e per produrre un registro di trattamento dati aggiornato e di alta qualità in "
 "formato PDF. Questo è un passo fondamentale verso un approccio orientato "
 "alla sicurezza e per soddisfare i requisiti previsti dal GDPR."
 
@@ -2108,16 +2104,12 @@ msgid "Login"
 msgstr "Accesso"
 
 #: audit/templates/home.html:26
-#, fuzzy
-#| msgid "Source Code Repository"
 msgid "Repository"
-msgstr "Archivio codice sorgente"
+msgstr "Archivio Codice Sorgente"
 
 #: audit/templates/home.html:34
-#, fuzzy
-#| msgid "GDPR Stages"
 msgid "GDPR Website"
-msgstr "Fasi GDPR"
+msgstr "Sito su GDPR"
 
 #: audit/templates/home.html:41
 msgid "(*) Please read carefully the license terms"
@@ -2175,13 +2167,13 @@ msgstr ""
 
 #: audit/templates/key_features.html:16
 msgid ""
-"The Pluribus One GDPR Registry app allows you to keep track of all data "
+"The Pluribus One GDPR Registry Web app allows you to keep track of all data "
 "processing\n"
 "    activities according to a hierarchical structure and the various GDPR "
 "stages highlighted in this document."
 msgstr ""
-"L'App Registro GDPR sviluppata da Pluribus One consente di tenere traccia di "
-"tutti i processi di elaborazione dei dati\n"
+"La Web App Registro GDPR sviluppata da Pluribus One consente di tenere "
+"traccia di tutti i processi di elaborazione dei dati\n"
 "     secondo una struttura gerarchica basata su 4 fasi necessarie per "
 "soddisfare i requisiti GDPR evidenziate in questo documento."
 
@@ -2590,8 +2582,8 @@ msgstr ""
 "dettaglio."
 
 #: audit/templates/license.html:5
-msgid "GDPR Registry App License"
-msgstr "Licenza per l'App Registro GDPR"
+msgid "GDPR Registry Web App License"
+msgstr "Licenza per la Web App Registro GDPR"
 
 #: audit/templates/license.html:7
 msgid ""
@@ -2783,28 +2775,3 @@ msgstr ""
 "GDPR è un processo continuo. Assicurarsi che tutti i processi aziendali e le "
 "attività di elaborazione che gestiscono i dati personali siano aggiornati in "
 "questo registro."
-
-#~ msgid "How to work"
-#~ msgstr "Come funziona"
-
-#, fuzzy
-#~| msgid "Document File"
-#~ msgid "Documentation"
-#~ msgstr "Documento"
-
-#~ msgid "English"
-#~ msgstr "Inglese"
-
-#~ msgid "Italian"
-#~ msgstr "Italiano"
-
-#~ msgid "Code"
-#~ msgstr "Codice"
-
-#~ msgid ""
-#~ "\n"
-#~ "<p>Last update: June 15, 2018.</p>\n"
-#~ "\n"
-#~ msgstr ""
-#~ "\n"
-#~ "<p> Ultimo aggiornamento: 15 giugno 2018. </p>\n"

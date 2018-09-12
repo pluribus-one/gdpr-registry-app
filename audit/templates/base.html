@@ -4,19 +4,19 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="{% trans 'GDPR Registry App' %}">
+        <meta name="description" content="{% trans 'GDPR Registry Web App' %}">
         <meta name="author" content="Pluribus One">
         <link rel="icon" href="{% static 'img/favicon.ico' %}">
         <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
         <link href="{% static 'css/sticky-footer.css' %}" rel="stylesheet">
         <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
-        <title>{% trans 'GDPR Registry App' %}</title>
+        <title>{% trans 'GDPR Registry Web App' %}</title>
     </head>
 
     <body>
     {% with view=request.resolver_match.view_name %}
     <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-        <a class="navbar-brand" href="{% url 'home' %}">{% trans 'GDPR Registry App' %}</a>
+        <a class="navbar-brand" href="{% url 'home' %}">{% trans 'GDPR Registry Web App' %}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
