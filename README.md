@@ -4,7 +4,7 @@ Welcome to the official repository of the GDPR Registry Web App, developed by Pl
 ## Goals
 To manage the whole GDPR process, you need a central point where information about GDPR procedures are stored and can be updated on a regular basis by dedicated personnel, including your Data Protection Officer. 
 
-This central place is of fundamental importance to keep track of your current compliance status, identify issues and mitigate them. And this is exactly the role of the so-called Registry of Data Processing Activities, described in the GDPR Article 30. It can also demonstrate that GDPR is a continuous process that has become an integral part of your business. 
+This central place is of fundamental importance to keep track of your current compliance status, identify issues and mitigate them. And this is exactly the role of the so-called Registry of Data Processing Activities, described in the GDPR Article 30 "Records of processing activities". It can also demonstrate that GDPR is a continuous process that has become an integral part of your business. 
 
 This is a key step towards an enhanced security posture.
 
