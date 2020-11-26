@@ -87,13 +87,12 @@
     {% endwith %}
     <footer class="footer">
       <div class="container">
-        <span class="text-muted">{% blocktrans %}Copyright &copy; {% endblocktrans %}{% now "Y" %} - <a href="https://gdpr.pluribus-one.it" target="_blank">{% blocktrans %}Pluribus One {% endblocktrans %}</a> | <a href="{% url 'license' %}" target="_blank">{% blocktrans %}License{% endblocktrans %}</a> | {% trans 'Version' %} 1.0</span>
+        <span class="text-muted">{% blocktrans %}Copyright &copy; {% endblocktrans %}{% now "Y" %} - <a href="https://gdpr.pluribus-one.it" target="_blank">{% blocktrans %}Pluribus One {% endblocktrans %}</a> | <a href="{% url 'license' %}" target="_blank">{% blocktrans %}License{% endblocktrans %}</a> | {% trans 'Version' %} 1.1</span>
       </div>
     </footer>
     <script src="{% static 'js/jquery.min.js' %}"></script>
     <script src="{% static 'js/tether.min.js' %}"></script>
     <script src="{% static 'js/popper.min.js' %}"></script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
-    <script src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>
     </body>
 </html>

@@ -1,5 +1,5 @@
 # GDPR Registry App Italian Translation
-# Copyright (c) 2018, Igino Corona, Pluribus One SRL
+# Copyright (c) 2020, Igino Corona, Pluribus One SRL
 # This file is distributed under the same license as the GDPR Registry App.
 #
 #, fuzzy
@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-12 12:43+0000\n"
+"POT-Creation-Date: 2020-11-26 09:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "Nome"
 msgid "Surname"
 msgstr "Cognome"
 
-#: audit/admin.py:82 axes/models.py:21
+#: audit/admin.py:82
 msgid "Username"
 msgstr "Nome utente"
 
@@ -96,6 +96,10 @@ msgstr "Crea"
 #: audit/admin.py:267
 msgid "PDF Report"
 msgstr "Report PDF"
+
+#: audit/apps.py:6
+msgid "Access Control"
+msgstr "Controllo degli accessi"
 
 #: audit/models.py:27
 msgid "Suggestions"
@@ -994,8 +998,8 @@ msgid "Powered by"
 msgstr "Offerta da"
 
 #: audit/pdf_report.py:188
-msgid "<b>GDPR Registry of Processing Activities</b>"
-msgstr "<b>Registro GDPR delle Attività di Elaborazione</b>"
+msgid "GDPR Registry of Processing Activities"
+msgstr "Registro GDPR delle Attività di Elaborazione"
 
 #: audit/pdf_report.py:278
 #, python-format
@@ -2095,8 +2099,8 @@ msgid ""
 "and produce high-quality, updated reports in PDF format. This is a key step "
 "towards an enhanced security posture, and to satisfy GDPR requirements."
 msgstr ""
-"e per produrre un registro di trattamento dati aggiornato e di alta qualità in "
-"formato PDF. Questo è un passo fondamentale verso un approccio orientato "
+"e per produrre un registro di trattamento dati aggiornato e di alta qualità "
+"in formato PDF. Questo è un passo fondamentale verso un approccio orientato "
 "alla sicurezza e per soddisfare i requisiti previsti dal GDPR."
 
 #: audit/templates/home.html:22
@@ -2588,10 +2592,10 @@ msgstr "Licenza per la Web App Registro GDPR"
 #: audit/templates/license.html:7
 msgid ""
 "\n"
-"<p>Last update: June 15, 2018.</p>\n"
+"Last update: November 26, 2020.\n"
 msgstr ""
 "\n"
-"<p> Ultimo aggiornamento: 15 giugno 2018. </p>\n"
+"Ultimo aggiornamento: 26 Novembre 2020.\n"
 
 #: audit/templates/license.html:14
 msgid ""
@@ -2663,72 +2667,6 @@ msgstr ""
 msgid "Invalid Organization ID"
 msgstr "ID organizzazione non valido"
 
-#: axes/apps.py:9
-msgid "Access Control"
-msgstr "Controllo degli accessi"
-
-#: axes/models.py:9
-msgid "User Agent"
-msgstr "User Agent"
-
-#: axes/models.py:15
-msgid "IP Address"
-msgstr "Indirizzo IP"
-
-#: axes/models.py:30
-msgid "Trusted"
-msgstr "Fidato"
-
-#: axes/models.py:36
-msgid "HTTP Accept"
-msgstr "HTTP Accept"
-
-#: axes/models.py:41
-msgid "Path"
-msgstr "URI"
-
-#: axes/models.py:46
-msgid "Attempt Time"
-msgstr "Accesso"
-
-#: axes/models.py:58
-msgid "GET Data"
-msgstr "Dati metodo GET"
-
-#: axes/models.py:62
-msgid "POST Data"
-msgstr "Dati metodo POST"
-
-#: axes/models.py:66
-msgid "Failed Logins"
-msgstr "Accessi falliti"
-
-#: axes/models.py:74
-#, python-format
-msgid "Attempted Access: %s"
-msgstr "Tentativi di accesso: %s"
-
-#: axes/models.py:77 axes/models.py:78
-msgid "Access Attempts"
-msgstr "Tentativi di accesso"
-
-#: axes/models.py:83
-msgid "Logout time"
-msgstr "Disconnessione"
-
-#: axes/models.py:89
-#, python-format
-msgid "Access Log for %s @ %s"
-msgstr "Log di accesso per %s @ %s"
-
-#: axes/models.py:92
-msgid "Access Log"
-msgstr "Controllo degli accessi"
-
-#: axes/models.py:93
-msgid "Access Logs"
-msgstr "Log di accesso"
-
 #: dashboard.py:22
 msgid "Quick links"
 msgstr "Link veloci"
@@ -2775,3 +2713,4 @@ msgstr ""
 "GDPR è un processo continuo. Assicurarsi che tutti i processi aziendali e le "
 "attività di elaborazione che gestiscono i dati personali siano aggiornati in "
 "questo registro."
+

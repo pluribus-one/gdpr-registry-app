@@ -1,4 +1,4 @@
-# Copyright (c) 2018 Igino Corona, Pluribus One SRL;
+# Copyright (c) 2020 Igino Corona, Pluribus One SRL;
 #
 #     This program is free software: you can redistribute it and/or modify
 #     it under the terms of the GNU Affero General Public License as
@@ -185,7 +185,7 @@ class PDFReport:
     """Report document in PDF"""
 
     def __init__(self, org, margin=3*cm, sep=0.2*cm):
-        self.title = _("<b>GDPR Registry of Processing Activities</b>")
+        self.title = _("GDPR Registry of Processing Activities")
         self.org = org
         self.margin = margin
         self.pdf = None

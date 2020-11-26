@@ -8,7 +8,7 @@ class Stat(DashboardModule):
     template = 'dashboard_modules/stat.html'
 
     class Media:
-        js = ('js/chart.bundle.js', 'js/utils.js')
+        js = ('js/chart.bundle.min.js', 'js/utils.js')
 
     def init_with_context(self, context):
         hints = HintList()
