@@ -52,6 +52,9 @@ The gdpr user is **sudoer**.
 * Username: gdpr
 * Password: pluribusone
 
+#### HTTPS Interface
+You should be able to connect to the HTTPS interface @ the IP address assigned to the network interface (e.g., https://10.0.2.15).
+
 #### Production Use
 Please note that the provided virtual appliance is provided "as is" without warranty of any kind. It is not ready for production, especially if you plan to host your appliance with a public IP address. 
 To this end, you may need to:
@@ -114,6 +117,7 @@ In order to make your gdpr registry app available to other machines, you may use
     sudo a2enmod ssl
     sudo a2enmod headers
     sudo a2enmod rewrite
+    sudo systemctl restart apache2
 
 #### SSL Certificate
 In order to protect your data in transit you need to setup a HTTPS certificate. You may choose to either 

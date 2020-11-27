@@ -20,6 +20,8 @@ from reportlab.platypus import Paragraph, PageTemplate, Table as Tab, BaseDocTem
 from reportlab.platypus.tableofcontents import TableOfContents
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.styles import ParagraphStyle as PS
+from reportlab.graphics.shapes import Rect
+from reportlab.lib.colors import white
 from reportlab.lib.enums import TA_RIGHT, TA_LEFT
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import cm
@@ -165,20 +167,16 @@ class MyDocTemplate(BaseDocTemplate):
         canvas.saveState()
         canvas.setLineWidth(3)
         canvas.setFont('Helvetica', 8)
-        drawing = self.get_pluribus_drawing()
-        scale(drawing, scaling_factor=0.1)
+        logo_width=4*cm
+        logo_height=logo_width/3
         canvas.line(self.margin, self.margin-self.sep, self.w-self.margin, self.margin-self.sep)
         canvas.line(self.margin, self.h-self.margin+self.sep, self.w-self.margin, self.h-self.margin+self.sep)
         canvas.drawString(self.margin, self.h-self.margin+3*self.sep, self.generated_on())
         canvas.drawString(self.margin, self.margin-3 * self.sep, self.PAGE_FOOTER_LEFT % self.org.name)
         canvas.drawRightString(self.w-self.margin, self.margin-3*self.sep, self.PAGE_FOOTER_RIGHT % doc.page)
-        canvas.drawString(self.w-self.margin-drawing.width-1.6*cm, self.h-self.margin+3*self.sep, self.POWERED_BY)
-        renderPDF.draw(drawing, canvas, self.w-drawing.width-self.margin, self.h-self.margin+2*self.sep)
+        canvas.drawString(self.w-self.margin-logo_width-1.6*cm, self.h-self.margin+3*self.sep, self.POWERED_BY)
+        canvas.drawImage(os.path.join(BASE_DIR, 'audit/static/img/pluribus-one.png'), x=self.w-logo_width-self.margin, y=self.h-self.margin, height=logo_height, width=logo_width)
         canvas.restoreState()
-
-
-    def get_pluribus_drawing(self):
-        return svg2rlg(os.path.join(BASE_DIR, 'audit/static/img/pluribus-one.svg'))
 
 
 class PDFReport:
