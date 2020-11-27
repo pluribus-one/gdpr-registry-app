@@ -34,11 +34,11 @@ That is, Security & Privacy are important for us.
 The app can be installed in virtually any modern operating system. It is implemented in [Python](https://www.python.org), using the [Django Framework](https://www.djangoproject.com). The easiest way is to import our preconfigured virtual machine based on Ubuntu server 18.04 LTS x64. We also provide manual installation instructions for all tested platforms (currently, Ubuntu 18.04 LTS x64).
 
 ### Pre-configured virtual machine
-For your convenience, we have built a preconfigured virtual applicance with the GDPR registry app, based on Ubuntu 18.04.
+For your convenience, we have built a preconfigured virtual applicance with the GDPR registry app, based on Ubuntu 20.04.
 
-[Click here to download the OVA file](https://www.dropbox.com/s/1a2lh3uxul96cma/GDPR-Registry-VAPP.ova?dl=0)
+[Click here to download the OVA file](https://www.dropbox.com/s/eltm1bokwnugvu5/GDPR-Registry-VM.ova?dl=0)
 
->> MD5sum (GDPR-Registry-VAPP.ova) = f7d0701e0b99ff6d1d8d6f532fd4b200
+>> MD5 (GDPR-Registry-VM.ova) = 24de7c6c222feffb88d0e2dfc94747c6
 
 You can import the OVA file into [VirtualBox](https://www.virtualbox.org) and run the appliance. Then, connect your browser to the IP address assigned to the machine (it uses DHCP by default). You may need to put the related network interface into bridge mode OR NAT mode (in this case, you need to setup a NAT rule).
 
