@@ -31,7 +31,7 @@ That is, Security & Privacy are important for us.
 * Password: pluribusone
 
 ## Installation
-The app can be installed in virtually any modern operating system. It is implemented in [Python](https://www.python.org), using the [Django Framework](https://www.djangoproject.com). The easiest way is to import our preconfigured virtual machine based on Ubuntu server 18.04 LTS x64. We also provide manual installation instructions for all tested platforms (currently, Ubuntu 18.04 LTS x64).
+The app can be installed in virtually any modern operating system. It is implemented in [Python](https://www.python.org), using the [Django Framework](https://www.djangoproject.com). The easiest way is to import our preconfigured virtual machine based on Ubuntu 20.04 LTS x64. We also provide manual installation instructions for all tested platforms (currently, Ubuntu 20.04 LTS x64).
 
 ### Pre-configured virtual machine
 For your convenience, we have built a preconfigured virtual applicance with the GDPR registry app, based on Ubuntu 20.04.
