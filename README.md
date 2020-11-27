@@ -83,8 +83,8 @@ When running **python manage.py populate** you may choose to populate the databa
 
 depending on your target language.
 
-### Manual installation: Ubuntu (tested version: server x64, 18.04 LTS)
-https://www.ubuntu.com/download/server/thank-you?version=18.04&architecture=amd64
+### Manual installation: Ubuntu (tested version: server x64, 20.04 LTS)
+https://ubuntu.com/download/desktop/thank-you?version=20.04.1&architecture=amd64
 
 ### Base Installation
 The base installation can be used for testing purposes, as it runs the interface
