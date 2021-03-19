@@ -6,7 +6,7 @@ django-appconf==1.0.4
 django-axes==5.9.0
 django-ipware==3.0.2
 lxml==4.6.1
-Pillow==8.0.1
+Pillow==8.1.1
 PyPDF2==1.26.0
 pytz==2020.4
 reportlab==3.5.55
