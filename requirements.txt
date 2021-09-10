@@ -11,7 +11,7 @@ PyPDF2==1.26.0
 pytz==2020.4
 reportlab==3.5.55
 six==1.15.0
-sqlparse==0.4.1
+sqlparse==0.4.2
 svglib==1.0.1
 tinycss2==1.1.0
 webencodings==0.5.1
