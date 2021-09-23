@@ -41,6 +41,7 @@ For your convenience, we have built a preconfigured virtual applicance with the 
 >> MD5 (GDPR-Registry-VM.ova) = 24de7c6c222feffb88d0e2dfc94747c6
 
 You can import the OVA file into [VirtualBox](https://www.virtualbox.org) and run the appliance. Then, connect your browser to the IP address assigned to the machine (it uses DHCP by default). You may need to put the related network interface into bridge mode OR NAT mode (in this case, you need to setup a NAT rule).
+Please note that the virtual appliance may contain an outdated version of the app, to update it please follow the instructions described in Section [Updates](#updates).
 
 #### Default Credentials (Operating System)
 * Username: gdpr
