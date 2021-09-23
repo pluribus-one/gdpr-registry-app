@@ -33,7 +33,8 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    'audit',
+    'audit.apps.AuditConfig',
+    'audit.apps.AxesConfig',
     'jet.dashboard',
     'jet',
     'django.contrib.admin',
@@ -42,7 +43,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'audit.apps.AxesConfig',
 ]
 
 MIDDLEWARE = [
@@ -132,7 +132,6 @@ LOCALE_PATHS = (
 
 
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
@@ -199,3 +198,5 @@ JET_INDEX_DASHBOARD = 'dashboard.IndexDashboard'
 
 LANGUAGE_COOKIE_NAME = 'lang'
 LANGUAGE_COOKIE_PATH = '/'
+
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
