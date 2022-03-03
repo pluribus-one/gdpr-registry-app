@@ -1,6 +1,6 @@
 
 
-# run
+# docker usage
 
 ```
 git clone https://github.com/mqu/gdpr-registry-app.git gdpr-registry
