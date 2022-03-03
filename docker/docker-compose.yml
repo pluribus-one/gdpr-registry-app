@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+
+  app:
+    image:    custom-build/gdpr-registry-app
+    build:
+      context: ..
+    volumes:
+        # - ./build/gdpr-registry-app/gdpr.sh:/app/gdpr.sh
+        # - ./build/gdpr-registry-app/entrypoint.sh:/app/entrypoint.sh
+        - ./data/db.sqlite3:/app/db.sqlite3
+        - ./data/backup:/backup
+        - ./data/stamps:/app/.stamps/
+    ports:
+      - 8000:8000
+    # entrypoint: sleep 3600
