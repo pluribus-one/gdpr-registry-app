@@ -38,7 +38,7 @@ do_reset() {
 	rm db.sqlite3
 	rm .stamps/*
 	python manage.py migrate
-	python manage.py createsuperuser --username quinton --noinput --email quinton@cena.fr
+	# python manage.py createsuperuser --username foobar --noinput --email foobar@example.com
 	echo "list.en.json" | python manage.py populate
 	
 }
