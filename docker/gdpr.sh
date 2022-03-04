@@ -21,7 +21,7 @@ do_install(){
 	# need stdin for this command
 	# python manage.py createsuperuser
 	# non interractive mode admin user creation
-	python manage.py createsuperuser --username quinton --noinput --email quinton@cena.fr
+	# python manage.py createsuperuser --username foobar --noinput --email foobar@example.com
 
 	touch .stamps/installed
 }
