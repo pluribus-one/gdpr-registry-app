@@ -13,6 +13,9 @@ do_install(){
 
 	mkdir -p .stamps/
 
+	# update localisations
+	# django-admin compilemessages > /dev/null
+
 	python manage.py makemigrations axes audit jet dashboard
 	python manage.py migrate
 
