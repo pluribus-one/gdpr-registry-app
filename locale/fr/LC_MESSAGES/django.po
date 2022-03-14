@@ -1,6 +1,7 @@
 # GDPR Registry App Italian Translation
 # Copyright (c) 2020, Igino Corona, Pluribus One SRL
 # This file is distributed under the same license as the GDPR Registry App.
+# translation to French by Marc Quinton.
 #
 #, fuzzy
 msgid ""
@@ -368,19 +369,19 @@ msgstr ""
 
 #: audit/models.py:263
 msgid "Third-party Organization"
-msgstr "Organizzazione di terze parti"
+msgstr "Organisation tièrse"
 
 #: audit/models.py:264
 msgid "Third-party Organizations"
-msgstr "Organizzazioni di terze parti"
+msgstr "Organisations tièrses"
 
 #: audit/models.py:267
 msgid "Registered User"
-msgstr "Utente registrato"
+msgstr "Utilisateur enregistré"
 
 #: audit/models.py:280
 msgid "Part of Staff"
-msgstr "Parte del personale"
+msgstr "Part of Staff"
 
 #: audit/models.py:281
 msgid "Is DPO part of the controller organization staff?"
@@ -420,7 +421,7 @@ msgstr "Dati sui diritti dei soggetti"
 
 #: audit/models.py:308
 msgid "Processor"
-msgstr "Responsabile del trattamento"
+msgstr "Responsable du traitement"
 
 #: audit/models.py:309
 msgid "Third-party organization with which the Contract has been signed."
@@ -440,15 +441,15 @@ msgstr "Sconosciuto"
 
 #: audit/models.py:323
 msgid "Low"
-msgstr "Basso"
+msgstr "Bas"
 
 #: audit/models.py:324
 msgid "Mid"
-msgstr "medio"
+msgstr "Moyen"
 
 #: audit/models.py:325
 msgid "High"
-msgstr "alto"
+msgstr "Haut"
 
 #: audit/models.py:333
 msgid "Unknown risk to personal data for"
@@ -535,7 +536,7 @@ msgstr ""
 #: audit/models.py:360 audit/models.py:397 audit/models.py:418
 #: audit/models.py:440 audit/models.py:518
 msgid "Comments"
-msgstr "Commenti"
+msgstr "Commentaires"
 
 #: audit/models.py:361 audit/models.py:398 audit/models.py:419
 msgid "Please put any comments to the data management policy."
@@ -2080,44 +2081,44 @@ msgstr "Appli RGPD par Pluribus One"
 
 #: audit/templates/home.html:15
 msgid "Welcome to the GDPR Registry Web App, developed by Pluribus One"
-msgstr "Beinvenue dans l'application Web Registre RGPD, développée par Pluribus One"
+msgstr "Bienvenue dans l'application Web Registre RGPD, développée par Pluribus One"
 
 #: audit/templates/home.html:16
 msgid "under open-source license"
-msgstr "sous lincence open-source"
+msgstr "sous licence open-source"
 
 #: audit/templates/home.html:17
 msgid ""
 "The GDPR Registry Web App can be used to annotate and keep track of all your "
 "data processing activities, according to a sound framework"
 msgstr ""
-"La Web App Registro GDPR può essere utilizzata per tenere traccia di tutte "
-"le attività di elaborazione dei dati personali"
+"L'application Registre RGPD peut être utilisée pour  annoter et suivre toutes "
+"vos activités de traitement de données, selon un cadre solide"
 
 #: audit/templates/home.html:18
 msgid ""
 "and produce high-quality, updated reports in PDF format. This is a key step "
 "towards an enhanced security posture, and to satisfy GDPR requirements."
 msgstr ""
-"e per produrre un registro di trattamento dati aggiornato e di alta qualità "
-"in formato PDF. Questo è un passo fondamentale verso un approccio orientato "
-"alla sicurezza e per soddisfare i requisiti previsti dal GDPR."
+"et produire des rapports actualisés de haute qualité au format PDF. "
+"Il s'agit d'une étape clé vers une posture de sécurité renforcée et pour satisfaire aux exigences du RGPD."
+
 
 #: audit/templates/home.html:22
 msgid "Login"
-msgstr "Accesso"
+msgstr "Connexion"
 
 #: audit/templates/home.html:26
 msgid "Repository"
-msgstr "Archivio Codice Sorgente"
+msgstr "Dépot"
 
 #: audit/templates/home.html:34
 msgid "GDPR Website"
-msgstr "Sito su GDPR"
+msgstr "Site GDPR - Pluribus-one"
 
 #: audit/templates/home.html:41
 msgid "(*) Please read carefully the license terms"
-msgstr "(*) Leggere attentamente i termini della licenza"
+msgstr "(*) Veuillez lire attentivement les termes de la licence."
 
 #: audit/templates/home.html:42
 msgid ""
@@ -2129,12 +2130,9 @@ msgid ""
 "FOR A PARTICULAR PURPOSE.\n"
 "            "
 msgstr ""
-"È possibile copiare, installare e utilizzare questo software solo in "
-"conformità con tale licenza.\n"
-"             Questo programma è distribuito nella speranza che sia utile, ma "
-"SENZA ALCUNA GARANZIA;\n"
-"             senza nemmeno la garanzia implicita di COMMERCIABILITÀ o "
-"IDONEITÀ PER UN PARTICOLARE SCOPO."
+"Vous pouvez copier, installer et utiliser ce logiciel uniquement conformément à la licence. "
+"Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE GARANTIE ; "
+"sans même la garantie implicite de QUALITÉ MARCHANDE ou d'ADÉQUATION À UN USAGE PARTICULIER."
 
 #: audit/templates/key_features.html:6
 msgid ""
@@ -2158,10 +2156,10 @@ msgstr ""
 "y compris tout délégué à la protection des données. "
 "Cette base de données est d'une importance fondamentale pour suivre votre état de conformité actuel, "
 "identifier les problèmes et les atténuer de manière adéquate. "
-"C'est exactement le rôle <strong>registre des activités de traitement des données</trong> (RGPD),\n"
-"décrit à l'article 30 du RGPD. La mise à jour constante de ce registre doit devenir partie "
+"C'est exactement le rôle du <strong>registre des activités de traitement des données</strong> (RGPD),\n"
+"décrit dans l'article 30 du RGPD. La mise à jour régulière de ce registre doit devenir partie "
 "intégrante de vos processus métier, afin de répondre aux exigences du RGPD et d'améliorer "
-"significativement la « posture de sécurité » de l'entreprise, à travers une approche orientée sécurité."
+"significativement la « posture de sécurité » de l'entreprise, à travers une approche orientée sécurité.\n"
 
 #: audit/templates/key_features.html:16
 msgid ""
@@ -2170,10 +2168,9 @@ msgid ""
 "    activities according to a hierarchical structure and the various GDPR "
 "stages highlighted in this document."
 msgstr ""
-"La Web App Registro GDPR sviluppata da Pluribus One consente di tenere "
-"traccia di tutti i processi di elaborazione dei dati\n"
-"     secondo una struttura gerarchica basata su 4 fasi necessarie per "
-"soddisfare i requisiti GDPR evidenziate in questo documento."
+"L'application Web du registre RGPD vous permet de suivre toutes les activités de traitement "
+"des données selon une structure hiérarchique "
+"et les différentes étapes RGPD mises en évidence dans ce document."
 
 #: audit/templates/key_features.html:21
 msgid "Open Source"
@@ -2181,11 +2178,11 @@ msgstr "Open Source"
 
 #: audit/templates/key_features.html:21
 msgid "You may freely use and modify it according to our licence."
-msgstr "Puoi liberamente usarla e modificarla secondo la nostra licenza."
+msgstr "Vous pouvez librement l'utiliser et le modifier selon notre licence."
 
 #: audit/templates/key_features.html:22
 msgid "Sound framework and suggestion mechanisms"
-msgstr "Schema unificato e meccanismi di suggerimento"
+msgstr "Cadre solide et mécanismes de suggestions"
 
 #: audit/templates/key_features.html:22
 msgid ""
@@ -2196,16 +2193,16 @@ msgid ""
 "inserted some useful suggestions that come from our GDPR framework and "
 "expertise."
 msgstr ""
-"Abbiamo implementato l'App del Registro sfruttando le nostre competenze nel "
-"campo della sicurezza informatica e uno studio approfondito del GDPR (che "
-"rappresenta essenzialmente un problema di sicurezza informatica) per "
-"costruire un approccio unificato che possa gestire il processo. Quando si "
-"compila il registro, l'app può suggerire come procedere. Abbiamo inserito "
-"alcuni suggerimenti utili che aiutano a seguire la nostra metodologia."
+"Nous avons mis en place l'application Registry en exploitant notre expertise "
+"dans le domaine de la cybersécurité, et une étude approfondie du RGPD (qui aujourd'hui, "
+"c'est essentiellement un problème de cybersécurité) pour construire un cadre complet. "
+"Au fur et à mesure que vous remplissez le registre, l'application peut vous suggérer la marche à suivre. "
+"Nous avons inséré quelques suggestions utiles issues de notre cadre et de notre"
+" expertise RGPD."
 
 #: audit/templates/key_features.html:23
 msgid "Report Generation"
-msgstr "Generazione Documento PDF"
+msgstr "Génération de rapports PDF"
 
 #: audit/templates/key_features.html:23
 msgid ""
@@ -2213,26 +2210,25 @@ msgid ""
 "data registry. This is a very useful feature especially if you organization "
 "is under investigation by GDPR supervisory authorities."
 msgstr ""
-"È possibile generare, in qualsiasi momento, un documento PDF aggiornato e di "
-"alta qualità con tutto il registro dei dati. Questa è una funzionalità molto "
-"utile per avere un quadro completo e in caso di ispezione da parte di "
-"autorità di vigilanza."
+"Génération de rapports : Vous pouvez générer, à tout moment, un rapport PDF mis à jour et de haute qualité "
+"avec tout votre registre de données. Il s'agit d'une fonctionnalité très utile, "
+"en particulier si votre organisation fait l'objet d'une enquête par les autorités de contrôle du RGPD."
 
 #: audit/templates/key_features.html:24
 msgid "Multi-language"
-msgstr "Multi-linguaggio"
+msgstr "Multi-langage"
 
 #: audit/templates/key_features.html:24
 msgid ""
 "Full translation support thanks to the Django framework. Currently, the "
 "interface is available in English and Italian language."
 msgstr ""
-"Pieno supporto alla traduzione grazie al framework Django. Allo stato "
-"attuale l'interfaccia è disponibile in Inglese e Italiano."
+"Prise en charge complète de la traduction grâce au framework Django. Actuellement, "
+"l'interface est disponible en Anglais, en Italien et en Français."
 
 #: audit/templates/key_features.html:25
 msgid "GDPR technology and services"
-msgstr "Tecnologia e servizi GDPR"
+msgstr "Technologie et services RGPD"
 
 #: audit/templates/key_features.html:25
 msgid ""
@@ -2240,57 +2236,56 @@ msgid ""
 "GDPR (see https://gdpr.pluribus-one.it), to help you to achieve GDPR "
 "compliance."
 msgstr ""
-"Se necessario, Pluribus One offre tecnologia e servizi avanzati su GDPR "
-"(vedi https://gdpr.pluribus-one.it), per aiutarvi a raggiungere la "
-"conformità GDPR."
+"Si vous en avez besoin, Pluribus One propose une technologie et des services avancés autour du RGPD "
+"(voir https://gdpr.pluribus-one.it), pour vous aider à atteindre la conformité GDPR."
 
 #: audit/templates/key_features.html:28
 msgid "Hierarchical Structure"
-msgstr "Struttura gerarchica"
+msgstr "Structure hiérarchique"
 
 #: audit/templates/key_features.html:29
 msgid "The main hierarchical structure of the registry is showed as follows."
-msgstr "La struttura gerarchica principale del registro è mostrata di seguito."
+msgstr "La structure hiérarchique principale du registre est illustrée ci-dessous."
 
 #: audit/templates/key_features.html:31
 msgid "e.g., Acme SRL"
-msgstr "ad es., Acme SRL"
+msgstr "ex, Acme SRL"
 
 #: audit/templates/key_features.html:33
 msgid "e.g., Human Resources"
-msgstr "ad esempio, Risorse umane"
+msgstr "par exemple : Ressources humaines"
 
 #: audit/templates/key_features.html:35
 msgid "e.g., Contractualization"
-msgstr "ad esempio, Contratti"
+msgstr "par exemple : les contrats"
 
 #: audit/templates/key_features.html:38
 msgid "e.g., Identity documents of employees"
-msgstr "ad esempio, Documenti di identità dei dipendenti"
+msgstr "ex: les ID des employés"
 
 #: audit/templates/key_features.html:40
 msgid "How data is managed to prevent data breaches?"
-msgstr "Come vengono gestiti i dati per prevenire violazioni dei dati?"
+msgstr "Comment les données sont-elles traitées pour prévenir les violations de données ?"
 
 #: audit/templates/key_features.html:41
 msgid "How can we detect data breaches?"
-msgstr "Come possiamo rilevare le violazioni dei dati?"
+msgstr "Comment détecter les violations de données ?"
 
 #: audit/templates/key_features.html:42
 msgid "How can we respond to data breaches?"
-msgstr "Come possiamo rispondere alle violazioni dei dati?"
+msgstr "Comment pouvons-nous répondre aux violations de données ?"
 
 #: audit/templates/key_features.html:43 audit/templates/key_features.html:162
 msgid "Data Protection Impact Assessment"
-msgstr "Valutazione di impatto sulla protezione dei dati (DPIA)"
+msgstr "Évaluation de l'impact sur la protection des données (DPIA)"
 
 #: audit/templates/key_features.html:43
 msgid ""
 "It includes a detailed document about the previous three mitigation measures "
 "for the prevention, detection and response against data breaches."
 msgstr ""
-"Include un documento di dettaglio sulle misure di attenuazione del rischio "
-"connesse alla prevenzione, rilevazione e risposta a violazioni dei dati."
+"Comprend un document détaillé sur les mesures d'atténuation des risques liés "
+"à la prévention, à la détection et à la réponse aux violations de données."
 
 #: audit/templates/key_features.html:51
 msgid ""
@@ -2298,21 +2293,20 @@ msgid ""
 "number of organizations, business processes, activities, data audits, and so "
 "on."
 msgstr ""
-"È possibile aggiungere tutte le voci necessarie nel registro, ad es. Numero "
-"illimitato di organizzazioni, processi aziendali, attività, verifiche dei "
-"dati etc."
+"Vous pouvez ajouter toutes les entrées nécessaires dans le registre, par exemple. "
+"Nombre illimité d'organisations, de processus métier, d'activités, de vérifications "
+"de données, etc."
 
 #: audit/templates/key_features.html:54
 msgid "Hierarchical Structure - Example"
-msgstr "Struttura gerarchica - Esempio"
+msgstr "Structure hiérarchique - Exemple"
 
 #: audit/templates/key_features.html:55
 msgid ""
 "An example of hierarchical structure of the GDPR app registry is showed "
 "below."
 msgstr ""
-"Di seguito viene mostrato un esempio di struttura gerarchica relativa al "
-"registro GDPR."
+"Un exemple de structure hiérarchique liée au registre GDPR est présenté ci-dessous."
 
 #: audit/templates/key_features.html:60
 msgid ""

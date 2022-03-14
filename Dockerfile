@@ -16,7 +16,7 @@ COPY docker/gdpr.sh /app
 
 RUN  . python-venv/bin/activate ; pip install -r requirements.txt
 
-RUN . python-venv/bin/activate ; django-admin compilemessages
+RUN . python-venv/bin/activate ; django-admin compilemessages | grep -v "is already compiled and up to date"
 
 ENTRYPOINT /app/entrypoint.sh
 EXPOSE 8000
