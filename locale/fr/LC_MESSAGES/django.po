@@ -24,15 +24,15 @@ msgstr "Appli de gestion RGPD"
 
 #: audit/admin.py:72 audit/models.py:94
 msgid "Name"
-msgstr "Nom"
+msgstr "Prénom"
 
 #: audit/admin.py:77
 msgid "Surname"
-msgstr "Prénom"
+msgstr "Nom"
 
 #: audit/admin.py:82
 msgid "Username"
-msgstr "Username"
+msgstr "Nom d'utilisateur"
 
 #: audit/admin.py:109 audit/models.py:594 audit/models.py:682
 #: audit/templates/key_features.html:31 audit/templates/key_features.html:58
@@ -54,7 +54,7 @@ msgstr "Géré"
 
 #: audit/admin.py:181
 msgid "Breach Detection"
-msgstr "Violation détectée"
+msgstr "Détection de violation"
 
 #: audit/admin.py:186
 msgid "Breach Response"
@@ -71,7 +71,7 @@ msgstr "DPIA"
 #: audit/admin.py:208 audit/models.py:550 audit/models.py:620
 #: audit/templates/key_features.html:33 audit/templates/key_features.html:70
 msgid "Business Process"
-msgstr "Business Process"
+msgstr "Processus métier"
 
 #: audit/admin.py:213 audit/models.py:496
 msgid "Data Audits"
@@ -84,11 +84,11 @@ msgstr "Organisation"
 #: audit/admin.py:233 audit/admin.py:263 audit/models.py:621
 #: audit/models.py:631 audit/models.py:650
 msgid "Business Processes"
-msgstr "Business Processes"
+msgstr "Processus métier"
 
 #: audit/admin.py:259 audit/pdf_report.py:283
 msgid "Data Protection Officer"
-msgstr "Officier de gestion des données (DPO)"
+msgstr "Délégué à la protection des données (DPO)"
 
 #: audit/admin.py:266
 msgid "Create"
@@ -96,7 +96,7 @@ msgstr "Créer"
 
 #: audit/admin.py:267
 msgid "PDF Report"
-msgstr "Export PDF"
+msgstr "Rapport PDF"
 
 #: audit/apps.py:6
 msgid "Access Control"
@@ -108,11 +108,11 @@ msgstr "Suggestion"
 
 #: audit/models.py:28
 msgid "Issues"
-msgstr "Issues"
+msgstr "Problèmes"
 
 #: audit/models.py:29
 msgid "Warnings"
-msgstr "Avertissement"
+msgstr "Avertissements"
 
 #: audit/models.py:82
 msgid "Last Update"
@@ -144,7 +144,7 @@ msgstr "Téléphone"
 
 #: audit/models.py:119
 msgid "Statute"
-msgstr "Statute"
+msgstr "Statut"
 
 #: audit/models.py:120
 msgid "Third Country"
@@ -155,24 +155,24 @@ msgid ""
 "Mark this field if the organization resides in a country outside of the "
 "European Union (EU) and the European Economic Area (EEA)."
 msgstr ""
-"Marquez ce champs si l'organisation résident dans un pays à l'extérieur de  "
-"l'union Europérenne (EU) et l'espace économique européen"
+"Cochez ce champs si l'organisation réside dans un pays à l'extérieur de  "
+"l'union Europérenne (EU) et l'espace économique européen (EEE)"
 
 #: audit/models.py:121
 msgid "International"
-msgstr "Internazionale"
+msgstr "International"
 
 #: audit/models.py:121
 msgid ""
 "Mark this field if the organization and its subordinate bodies are governed "
 "by public international law"
 msgstr ""
-"Segna questo campo se l'organizzazione e i suoi organi subordinati sono "
-"governati dal diritto internazionale pubblico"
+"Cochez ce champ si l'organisation et ses organes subordonnés sont "
+"régi par le droit international public"
 
 #: audit/models.py:130
 msgid "Document File"
-msgstr "Documento"
+msgstr "Document"
 
 #: audit/models.py:131
 msgid "MD5Sum"
@@ -180,99 +180,99 @@ msgstr "MD5Sum"
 
 #: audit/models.py:137
 msgid "Only PDF files are accepted"
-msgstr "Sono accettati solo file PDF"
+msgstr "Seuls les fichiers PDF sont acceptés"
 
 #: audit/models.py:148
 msgid "Classification"
-msgstr "Classificazione"
+msgstr "Classement"
 
 #: audit/models.py:149
 msgid "Insert a general classification for this entry (if any)"
-msgstr "Inserisci una classificazione generale per questa voce (se presente)"
+msgstr "Saisissez une classification générale pour cet article (le cas échéant)"
 
 #: audit/models.py:151
 msgid "GDPR Article"
-msgstr "Articolo GDPR"
+msgstr "Article RGPD"
 
 #: audit/models.py:152
 msgid "Reference to GDPR Article (if any)"
-msgstr "Riferimento all'articolo GDPR (se presente)"
+msgstr "Référence à l'article RGPD (le cas échéant)"
 
 #: audit/models.py:154
 msgid "Reference URL"
-msgstr "URL di riferimento"
+msgstr "URL de référence"
 
 #: audit/models.py:155
 msgid "Reference URL (if any)"
-msgstr "URL di riferimento (se presente)"
+msgstr "URL de référence (le cas échéant)"
 
 #: audit/models.py:171 audit/models.py:511
 msgid "Legal Base for Processing"
-msgstr "Base legale per l'elaborazione"
+msgstr "Base juridique pour le traitement"
 
 #: audit/models.py:172
 msgid "Legal Bases for Processing"
-msgstr "Basi legali per l'elaborazione"
+msgstr "Bases juridiques pour le traitement"
 
 #: audit/models.py:177
 msgid "Purpose of Processing"
-msgstr "Scopo del trattamento"
+msgstr "Objectif du traitement"
 
 #: audit/models.py:178
 msgid "Purposes of Processing"
-msgstr "Finalità del trattamento"
+msgstr "Objectif des traitements"
 
 #: audit/models.py:183
 msgid "Type of Processing"
-msgstr "Tipo di elaborazione"
+msgstr "Type de traitement"
 
 #: audit/models.py:184
 msgid "Types of Processing"
-msgstr "Tipi di elaborazione"
+msgstr "Types de traitements"
 
 #: audit/models.py:188
 msgid "Special Category"
-msgstr "Categoria speciale"
+msgstr "Catégorie spéciale"
 
 #: audit/models.py:189
 msgid ""
 "Mark this field if the Data Category is special. The processing of this data "
 "category shall normally be prohibited."
 msgstr ""
-"Contrassegna questo campo se la categoria di dati è speciale. Il trattamento "
-"di questa categoria di dati è normalmente vietato."
+"Cochez ce champ si la catégorie de données est particulière. Le traitement "
+"de cette catégorie de données est normalement interdite."
 
 #: audit/models.py:193
 msgid "Functional Data Category"
-msgstr "Categoria funzionale dei dati"
+msgstr "Catégorie fonctionnelle de données"
 
 #: audit/models.py:194
 msgid "Functional Data Categories"
-msgstr "Categorie funzionali dei dati"
+msgstr "Catégories fonctionnelles de données"
 
 #: audit/models.py:199 audit/models.py:205
 msgid "Processing Activity Classification Document"
-msgstr "Documento di classificazione delle attività di elaborazione"
+msgstr "Document de classification des activités de traitement"
 
 #: audit/models.py:200
 msgid "Processing Activity Classification Documents"
-msgstr "Documenti di classificazione delle attività di elaborazione"
+msgstr "Documents pour la classification des activités de traitement"
 
 #: audit/models.py:208
 msgid "Processing Activity Classification Level"
-msgstr "Classificazione delle attività di elaborazione"
+msgstr "Classification des activités de traitement"
 
 #: audit/models.py:209
 msgid "Processing Activity Classification Levels"
-msgstr "Classificazioni delle attività di elaborazione"
+msgstr "Classifications des activités de traitement"
 
 #: audit/models.py:214
 msgid "Recipient Category"
-msgstr "Categoria del destinatario"
+msgstr "Catégorie de destinataire"
 
 #: audit/models.py:215
 msgid "Recipient Categories"
-msgstr "Categorie di destinatari"
+msgstr "Catégories de destinataire"
 
 #: audit/models.py:220 audit/models.py:242
 msgid "Nature of Transfer to third-country/international organization"
@@ -282,11 +282,11 @@ msgstr ""
 #: audit/models.py:221
 msgid "Natures of Transfer to third-country/international organization"
 msgstr ""
-"Natura del trasferimento a un'organizzazione internazionale / di paesi terzi"
+"Nature du transfert vers une organisation internationale/de pays tiers"
 
 #: audit/models.py:225
 msgid "Vulnerable Category"
-msgstr "Categoria vulnerabile"
+msgstr "Catégorie Vulnérable"
 
 #: audit/models.py:226
 msgid ""
@@ -296,23 +296,23 @@ msgid ""
 "the controller, such as children, employees, patients, etc.Unmark this flag "
 "if none of the categories as mentioned above are involved."
 msgstr ""
-"Indica se gli interessati sono considerati una categoria vulnerabile. Segna "
-"questo flag se i soggetti interessati sono in una situazione in cui vi è una "
-"mancanza di parità nella relazione tra l'interessato e il responsabile del "
-"trattamento, come bambini, impiegati, pazienti, ecc. Segnala questo flag se "
-"nessuna delle categorie come menzionato sopra sono coinvolti."
+"Veuillez indiquer si les personnes concernées sont considérées comme une catégorie vulnérable. Veuillez cocher "
+"ce drapeau si les parties prenantes sont dans une situation où il y a un "
+"absence d'égalité dans la relation entre la personne concernée et la personne en charge de la "
+"traitement, comme les enfants, les employés, les patients, etc. Signaler ce drapeau si "
+"aucune des catégories mentionnées ci-dessus n'est impliquée."
 
 #: audit/models.py:232 audit/models.py:437
 msgid "Data Subject Category"
-msgstr "Categoria soggetto del trattamento dati"
+msgstr "Catégorie de sujet de traitement de données"
 
 #: audit/models.py:233
 msgid "Data Subject Categories"
-msgstr "Categorie di soggetti del trattamento dati"
+msgstr "Catégories de sujets de traitement de données"
 
 #: audit/models.py:238
 msgid "Category"
-msgstr "Categoria"
+msgstr "Catégorie"
 
 #: audit/models.py:239
 msgid ""
@@ -320,22 +320,22 @@ msgid ""
 "of the GDPR, controllers will need to provide a full list of recipients or "
 "categories of recipients including processors."
 msgstr ""
-"Nel contesto dell'elaborazione del consenso, per conformarsi agli articoli "
-"13 e 14 del GDPR, i titolari del trattamento dovranno fornire un elenco "
-"completo dei destinatari o delle categorie di destinatari, compresi i "
-"responsabili del trattamento."
+"Dans le cadre du traitement du consentement, pour respecter les articles "
+"13 et 14 du RGPD, les responsables du traitement doivent fournir une liste "
+"compléter avec les destinataires ou les catégories de destinataires, y compris "
+"processeurs de données."
 
 #: audit/models.py:243
 msgid ""
 "Please specify why the data is transferred to this third-country/"
 "international organization"
 msgstr ""
-"Si prega di specificare perché i dati vengono trasferiti a questa "
-"organizzazione di paesi terzi / internazionali"
+"Veuillez préciser pourquoi les données sont transférées vers ce pays tiers/"
+"organisation internationale"
 
 #: audit/models.py:244
 msgid "Appropriate Data Safeguards"
-msgstr "Protezione dei dati appropriata"
+msgstr "Protections appropriées des données"
 
 #: audit/models.py:245
 msgid ""
@@ -343,18 +343,17 @@ msgid ""
 "transfer based on GDPR Article 49(2), list the documents that clarify the "
 "appropriate safeguards and where these documents are stored."
 msgstr ""
-"In caso di trasferimento di dati verso un paese terzo / organizzazione "
-"internazionale e trasferimento basato sull'articolo 49, paragrafo 2, del "
-"GDPR, elencare i documenti che chiariscono le salvaguardie appropriate e "
-"dove tali documenti sono archiviati."
+"En cas de transfert de données vers un pays tiers/organisation internationale & "
+"transfert basé sur l'article 49(2) du RGPD, énumérez les documents qui clarifient le "
+"des garanties appropriées et où ces documents sont stockés."
 
 #: audit/models.py:254
 msgid ""
 "No appropriate safeguards have been specified for third-country/"
 "international data transfers"
 msgstr ""
-"Non sono state specificate garanzie appropriate per i trasferimenti di dati "
-"di paesi terzi / internazionali"
+"Aucune garantie appropriée n'a été spécifiée pour les pays tiers/"
+"transferts internationaux de données"
 
 #: audit/models.py:260
 msgid ""
@@ -362,62 +361,61 @@ msgid ""
 "want to set the nature of transfer to third country/international "
 "organization, please first flag one of these fields."
 msgstr ""
-"Questa organizzazione non è contrassegnata come paese terzo o "
-"internazionale. Se si desidera impostare la natura del trasferimento in un "
-"paese terzo / organizzazione internazionale, contrassegnare prima uno di "
-"questi campi."
+"Cette organisation n'est pas marquée comme pays tiers ou internationale. Si vous "
+"Si vous souhaitez définir la nature du transfert vers un pays tiers/organisation internationale"
+"veuillez d'abord marquer l'un de ces champs."
 
 #: audit/models.py:263
 msgid "Third-party Organization"
-msgstr "Organisation tièrse"
+msgstr "Organisation tierce"
 
 #: audit/models.py:264
 msgid "Third-party Organizations"
-msgstr "Organisations tièrses"
+msgstr "Organisations tierses"
 
 #: audit/models.py:267
 msgid "Registered User"
 msgstr "Utilisateur enregistré"
 
 #: audit/models.py:280
-msgid "Part of Staff"
+msgid "partie du personnel"
 msgstr "Part of Staff"
 
 #: audit/models.py:281
 msgid "Is DPO part of the controller organization staff?"
-msgstr "DPO fa parte dello staff dell'organizzazione titolare del trattamento?"
+msgstr "Le DPO fait-il partie du personnel de l'organisation responsable du traitement ?"
 
 #: audit/models.py:286
 msgid ""
 "DPO is part of the staff of the controller organization. You should be able "
 "to demonstrate that the DPO is an independent person."
 msgstr ""
-"DPO fa parte dello staff dell'organizzazione titolare del trattamento. "
-"Dovresti essere in grado di dimostrare che il DPO è una persona indipendente."
+"Le DPO fait partie du personnel de l'organisation responsable du traitement."
+"Vous devez être en mesure de prouver que le DPO est une personne indépendante."
 
 #: audit/models.py:290 audit/models.py:626
 msgid "Data Protection Officer (DPO)"
-msgstr "Responsabile della protezione dei dati (DPO)"
+msgstr "Délégué à la protection des données (DPO))"
 
 #: audit/models.py:291
 msgid "Data Protection Officers (DPOs)"
-msgstr "Responsabili della protezione dei dati (DPO)"
+msgstr "Délégués à la protection des données (DPO)"
 
 #: audit/models.py:296
 msgid "Data protection Impact Assessment (DPIA)"
-msgstr "Valutazione dell'impatto sulla protezione dei dati (DPIA)"
+msgstr "valuation de l'impact sur la protection des données (DPIA)"
 
 #: audit/models.py:297
 msgid "Data protection Impact Assessments (DPIAs)"
-msgstr "Valutazione dell'impatto sulla protezione dei dati (DPIA)"
+msgstr "Évaluation de l'impact sur la protection des données (DPIA)"
 
 #: audit/models.py:302
 msgid "Data Subject Rights Document"
-msgstr "Documento relativo ai diritti degli interessati"
+msgstr "Document relatif aux droits des intéressés"
 
 #: audit/models.py:303
 msgid "Data Subject Rights Documents"
-msgstr "Dati sui diritti dei soggetti"
+msgstr "Documents sur les droits des personnes concernéesi"
 
 #: audit/models.py:308
 msgid "Processor"
@@ -425,23 +423,23 @@ msgstr "Responsable du traitement"
 
 #: audit/models.py:309
 msgid "Third-party organization with which the Contract has been signed."
-msgstr "Organizzazione di terze parti con cui è stato firmato il contratto."
+msgstr "Organisation tierce avec laquelle l'accord a été signé."
 
 #: audit/models.py:317
 msgid "Processor Contract"
-msgstr "Contratto con il responsabile trattamento dati (data processor)"
+msgstr "Accord avec le responsable du traitement des données"
 
 #: audit/models.py:318
 msgid "Processor Contracts"
-msgstr "Contratti con i responsabili trattamento dati (data processor)"
+msgstr "Accords avec les responsables du traitement des données"
 
 #: audit/models.py:322
 msgid "Unknown"
-msgstr "Sconosciuto"
+msgstr "Inconnu"
 
 #: audit/models.py:323
 msgid "Low"
-msgstr "Bas"
+msgstr "Faible"
 
 #: audit/models.py:324
 msgid "Mid"
@@ -453,19 +451,19 @@ msgstr "Haut"
 
 #: audit/models.py:333
 msgid "Unknown risk to personal data for"
-msgstr "Rischio sconosciuto per i dati personali per"
+msgstr "Risque inconnu pour les données personnelles pour"
 
 #: audit/models.py:335
 msgid "No data audit for"
-msgstr "Nessun controllo dei dati per"
+msgstr "Aucune vérification des données pour"
 
 #: audit/models.py:337
 msgid "No description of risk mitigation measures for"
-msgstr "Nessuna descrizione delle misure di mitigazione del rischio per"
+msgstr "Aucune description des mesures d'atténuation des risques pour"
 
 #: audit/models.py:342
 msgid "Data Processor Contracts"
-msgstr "Contratti con i responsabili del trattamento dati (data processor)"
+msgstr "Contrats avec les sous-traitants de données"
 
 #: audit/models.py:344
 msgid ""
@@ -473,42 +471,42 @@ msgid ""
 "Processors), please upload the contract that regulates this data transfer, "
 "and relevant information about each third-party organization."
 msgstr ""
-"Se i dati vengono EFFETTIVAMENTE trasferiti ad ALTRE organizzazioni (ad "
-"esempio, responsabili del trattamento dati), si prega di caricare il "
-"contratto che regola questo trasferimento di dati e le informazioni "
-"pertinenti su ciascuna organizzazione di terze parti."
+"Si les données sont EFFECTIVEMENT transférées à d'AUTRES organisations (par exemple "
+"traitement de données), veuillez télécharger le "
+"contrat régissant ce transfert de données et d'informations "
+"pertinent pour chaque organisation tierce."
 
 #: audit/models.py:347
 msgid "Retention period for the processed data, in Days"
-msgstr "Periodo di conservazione per i dati elaborati, in giorni"
+msgstr "Période de conservation des données traitées, en jours"
 
 #: audit/models.py:348 audit/models.py:393 audit/models.py:412
 msgid "Risk Mitigation Measures"
-msgstr "Misure di attenuazione del rischio"
+msgstr "Mesures d'atténuation des risques"
 
 #: audit/models.py:349
 msgid ""
 "Information about the risk mitigation measures related to the data "
 "processing, against Data Breaches."
 msgstr ""
-"Informazioni sulle misure di attenuazione del rischio connesse al "
-"trattamento dei dati, contro violazioni dei dati."
+"Informations sur les mesures d'atténuation des risques liées au"
+"traitement des données, contre les violations de données."
 
 #: audit/models.py:350 audit/models.py:395 audit/models.py:416
 msgid "Residual Risk"
-msgstr "Rischio residuo"
+msgstr "Risque résiduel"
 
 #: audit/models.py:351
 msgid ""
 "Indicate the residual risk to the fundamental rights and freedoms of data "
 "subjects, given the mitigation measures that have been put in place."
 msgstr ""
-"Indicare il rischio residuo per i diritti e le libertà fondamentali delle "
-"persone interessate, viste le misure di mitigazione messe in atto."
+"Indiquer le risque résiduel pour les libertés et droits fondamentaux des "
+"personnes concernées, compte tenu des mesures d'atténuation mises en place."
 
 #: audit/models.py:354
 msgid "Data Subject Rights"
-msgstr "Diritti degli interessati"
+msgstr "Droits des parties intéressées"
 
 #: audit/models.py:355
 msgid ""
@@ -517,14 +515,14 @@ msgid ""
 "measures have been taken to enforce/support the exercising of the rights of "
 "data subjects."
 msgstr ""
-"Fare riferimento ai documenti che determinano le procedure intese a tutelare "
-"i diritti degli interessati. Il documento dovrebbe anche indicare quali "
-"misure speciali sono state adottate per far rispettare / sostenere "
-"l'esercizio dei diritti degli interessati."
+"Se référer aux documents qui déterminent les procédures destinées à protéger "
+"les droits des personnes concernées. Le document doit également indiquer lequel "
+"des mesures spéciales ont été prises pour faire appliquer / soutenir "
+"l'exercice des droits des intéressés."
 
 #: audit/models.py:358
 msgid "Data Subject Notification"
-msgstr "Notifica agli interessati"
+msgstr "Avertir les parties intéressées"
 
 #: audit/models.py:359
 msgid ""
@@ -1570,13 +1568,13 @@ msgid ""
 "Jet framework (https://github.com/geex-arts/django-jet), with the following "
 "information:"
 msgstr ""
-"La Web App Registro GDPR fornisce un cruscotto completo basato sul framework "
-"django Jet (https://github.com/geex-arts/django-jet), con le seguenti "
-"informazioni:"
+"L'application Web GDPR Registry fournit un tableau de bord complet basé sur le cadre "
+"django Jet (https://github.com/geex-arts/django-jet), avec les informations suivantes"
+
 
 #: audit/templates/dashboard.html:10 dashboard_modules.py:7
 msgid "Registry Status"
-msgstr "Etat du registre"
+msgstr "Status du registre"
 
 #: audit/templates/dashboard.html:10
 msgid ""
@@ -1584,10 +1582,10 @@ msgid ""
 "errors, issues related to your GDPR registry. Just follow the suggestions "
 "displayed in this widget to fill in the registry."
 msgstr ""
-"descrive, sia graficamente (diagramma a torta) che testualmente, "
-"suggerimenti, errori, problemi relativi al tuo registro GDPR. E' possibile "
-"seguire i suggerimenti visualizzati in questo componente per compilare il "
-"registro."
+"il décrit, à la fois graphiquement (diagramme circulaire) et textuellement, "
+"suggestions, erreurs, problèmes liés à votre registre RGPD. Il vous suffit de "
+"suivre les suggestions affichées dans ce composant pour compiler le"
+"registre."
 
 #: audit/templates/dashboard.html:11
 msgid "Quick Links"
@@ -1595,9 +1593,7 @@ msgstr "Liens rapides (raccourcis)"
 
 #: audit/templates/dashboard.html:11
 msgid "quick links to application home, change password and logout"
-msgstr ""
-"Collegamenti rapidi verso la pagina principale, modifica password e "
-"disconnessione"
+msgstr "liens rapides vers l'accueil de l'application, changer le mot de passe et se déconnecter"
 
 #: audit/templates/dashboard.html:12 dashboard.py:55
 msgid "Recent Actions"
@@ -1605,7 +1601,7 @@ msgstr "Actions récentes"
 
 #: audit/templates/dashboard.html:12
 msgid "recent actions performed by users in the administrative interface"
-msgstr "azioni recenti eseguite dagli utenti nell'interfaccia amministrativa"
+msgstr "actions récentes effectuées par les utilisateurs dans l'interface d'administration"
 
 #: audit/templates/dashboard.html:13 dashboard.py:39
 msgid "Applications"
@@ -1613,23 +1609,23 @@ msgstr "Applications"
 
 #: audit/templates/dashboard.html:13
 msgid "we have two main applications, namely"
-msgstr "vi sono due applicazioni principali, ovvero"
+msgstr "il y a deux applications principales, a savoir"
 
 #: audit/templates/dashboard.html:15
 msgid ""
 "an <strong>access control</strong> application, that keeps track of all "
 "accesses in the admin interface"
 msgstr ""
-"una applicazione per il <strong>controllo di accesso</strong>, che tiene "
-"traccia di tutti gli accessi nell'interfaccia di amministrazione"
+"une application de <strong>contrôle d'accès</strong>, qui garde une trace de tous "
+"accès dans l'interface d'administration"
 
 #: audit/templates/dashboard.html:16
 msgid ""
 "an <strong>audit</strong> application, that keeps track of all GDPR "
 "activities in the admin interface (different, linked tables)"
 msgstr ""
-"un'applicazione <strong>audit</strong>, che tiene traccia di tutte le "
-"operazioni eseguite nell'interfaccia di amministrazione"
+"une application <strong> d'audit </strong>, qui garde une trace de tout"
+"opérations effectuées dans l'interface d'administration"
 
 #: audit/templates/dashboard.html:18 dashboard.py:47
 msgid "Administration"
@@ -1641,9 +1637,9 @@ msgid ""
 "different privileges for the access of the (different functionalities in "
 "the) admin interface."
 msgstr ""
-"tramite questa sezione possiamo aggiungere nuovi utenti, gruppi e assegnare "
-"loro diversi privilegi per l'accesso alle diverse funzionalità "
-"nell'interfaccia di amministrazione."
+"à travers cette section, nous pouvons ajouter de nouveaux utilisateurs, groupes et assigner"
+"leurs différents privilèges pour accéder aux différentes fonctionnalités"
+"dans l'interface d'administration."
 
 #: audit/templates/dashboard.html:19 dashboard.py:63
 msgid "Support"
@@ -1655,9 +1651,8 @@ msgid ""
 "Pluribus One products and services that can help you to achieve GDPR "
 "compliance."
 msgstr ""
-"questa sezione fornisce collegamenti alla documentazione dell'app Registro e "
-"ai prodotti e servizi Pluribus One che possono aiutarvi a raggiungere la "
-"conformità GDPR."
+"cette section fournit des liens vers la documentation de l'application de registre, et "
+"Les produits et services Pluribus One qui peuvent vous aider à atteindre la conformité RGPD "
 
 #: audit/templates/dashboard.html:21
 msgid ""
@@ -1665,9 +1660,8 @@ msgid ""
 "technical details, please check out the django jet documentation (https://"
 "jet.readthedocs.io/en/latest/)"
 msgstr ""
-"Potete personalizzare il cruscotto, spostando o rimuovendo ciascun elemento. "
-"Per i dettagli tecnici, consultare la documentazione di django jet (https://"
-"jet.readthedocs.io/en/latest/)"
+"Vous pouvez personnaliser le tableau de bord en déplaçant ou supprimant chaque élément. "
+"Pour les détails techniques, voir la documentation de django jet (https: //jet.readthedocs.io/en/latest/)"
 
 #: audit/templates/dashboard_modules/stat.html:12
 msgid "Nothing to show"
@@ -1693,11 +1687,10 @@ msgid ""
 "                    organization, or by third-party organizations on your "
 "behalf."
 msgstr ""
-"Proteggere i dati personali in accordo con il GDPR significa innanzitutto\n"
-"                     conoscere esattamente <code>quali dati personali</code> "
-"vengono acquisiti, elaborati e archiviati dalla vostra\n"
-"                     organizzazione, o da organizzazioni di terze parti per "
-"vostro conto."
+"Protéger les données personnelles conformément au RGPD, c'est avant tout\n"
+"savoir exactement <code> quelles données personnelles </code> "
+"sont acquis, traités et stockés par votre \ n"
+"organisation, ou par des organisations tierces pour votre compte."
 
 #: audit/templates/data_audit.html:18
 msgid ""
@@ -1705,10 +1698,10 @@ msgid ""
 "                    by modelling the processes currently in place in your "
 "organization."
 msgstr ""
-"A tal fine, è necessario identificare e classificare accuratamente tali "
-"dati,\n"
-"                     enumerando e classificando i processi di elaborazione "
-"attualmente in atto nella vostra organizzazione."
+"A cette fin, il est nécessaire d'identifier et de classer avec précision ces "
+"données,\n"
+"énumérer et classer les processus de traitement "
+"actuellement en place dans votre organisation."
 
 #: audit/templates/data_audit.html:28
 msgid "Data Audit - How To"
@@ -1739,20 +1732,18 @@ msgid ""
 "save.\n"
 "        "
 msgstr ""
-"Se avete appena installato l'App, è sufficiente cliccare sul suggerimento "
-"visualizzato nel componente Stato del Registro. Altrimenti,\n"
-"             si può sempre andare su \"Audit->Le tue organizzazioni-"
-">Aggiungi organizzazione\".\n"
-"             A quel punto è possibile inserire tutti i dettagli sulla vostra "
-"organizzazione e salvare."
+"Si vous venez d'installer l'application, cliquez simplement sur la suggestion "
+"affiché dans le composant d'état du registre. Sinon, \n"
+"vous pouvez toujours accéder à \"Audit-> Vos organisations-> Ajouter une organisation \n"
+"À ce stade, vous pouvez entrer tous les détails sur le vôtre"
+"puis sauvegarder."
 
 #: audit/templates/data_audit.html:42
 msgid ""
 "In this example, we create an imaginary organization <strong>Acme Inc</"
 "strong>"
 msgstr ""
-"In questo esempio, creiamo un'organizzazione ipotetica <strong>Acme SRL</"
-"strong>"
+"Dans cet exemple, créons une organisation hypothétique <strong>Acme SRL</strong>"
 
 #: audit/templates/data_audit.html:46
 msgid "Add organization"
@@ -1776,11 +1767,7 @@ msgid ""
 "Then fill in all details about the business process.\n"
 "        "
 msgstr ""
-"In generale, è necessario inserire ciascun processo aziendale              "
-"che ci si aspetta possa gestire dati personali. Nella pagina di modifica "
-"della vostra organizzazione,\n"
-"             fate clic sull'icona Aggiungi (+), del campo \"Processi "
-"Aziendali\". Quindi inserire tutti i dettagli sul processo aziendale."
+
 
 #: audit/templates/data_audit.html:66
 msgid ""

@@ -7,7 +7,7 @@ class Command(BaseCommand):
     help = 'Load Predefined lists'
 
     def handle(self, *args, **options):
-        fpath = input('Enter a suitable JSON list file (list.en.json or list.it.json): ')
+        fpath = input('Enter a suitable JSON list file (list.en.json, list.it.json or list.fr.json): ')
         with open(fpath) as f:
             d = json.load(f)
         key_class = [

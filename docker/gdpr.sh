@@ -3,7 +3,7 @@
 cd /app ; . python-venv/bin/activate
 
 do_populate(){
-	echo "list.en.json" | python manage.py populate
+	echo "list.fr.json" | python manage.py populate
 	touch ./.stamps/populated
 }
 

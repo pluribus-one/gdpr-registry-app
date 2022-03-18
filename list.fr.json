@@ -1,0 +1,1385 @@
+{
+  "Liste indicative des types d'objectifs": {
+    "Fonctions générales": [
+      {
+        "nom": "RH",
+        "description": "Recrutement et sélection de salariés et d'intermédiaires (courtiers, mandataires indépendants, etc.). Administration de la paie, rémunérations, commissions et salaires. Application de la législation sociale.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Gestion du personnel",
+        "description": "Évaluation et gestion des employés et des intermédiaires. Planification de la formation et de la carrière.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Gestion des tâches",
+        "description": "Planification et gestion des tâches, des charges de travail et des performances.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Surveillance du lieu de travail",
+        "description": "Surveillance des activités professionnelles sur le lieu de travail via des systèmes de vidéosurveillance ou informatiques, telles que la surveillance des e-mails, de l'utilisation d'Internet, des téléphones, etc.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Gestion des clients",
+        "description": "Gestion des clients, gestion des commandes, des litruesons, facturation des prestations matérielles et immatérielles. Suivi de la solvabilité. Marketing et publicité personnalisés. Enregistrement des clients d'une entreprise et profilage en fonction des achats.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Lutte contre la fraude et les manquements clients",
+        "description": "Des activités sont prévues pour prévenir et détecter de tels actes.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Gestion des réclamations",
+        "description": "Gestion des réclamations, y compris le remboursement des sommes dues.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Gestion des fournisseurs",
+        "description": "Administration des fournisseurs. Gestion des commandes reçues et paiement des fournisseurs. Prospection des fournisseurs potentiels et leur évaluation.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Collection de dons",
+        "description": "Gestion des donateurs pour un club. Prospection de nouveaux donateurs.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Relations publiques",
+        "description": "Cela inclut la création de bonne volonté pour l'organisation.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Intelligence économique",
+        "description": "Analyser les concurrents et les partenaires potentiels.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Enregistrement et administration des actionnaires ou associés",
+        "description": "Tenir un registre des actionnaires ou associés. L'administration de leurs avantages financiers et autres.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Gestion des membres",
+        "description": "L'administration des membres, bénévoles et sympathisants d'un club.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "nom": "Sécurité",
+        "description": "Traitement de données destiné à assurer la sécurité des personnes ou des biens. Remarque : En principe, les caméras de sécurité sont soumises à la loi du 21 mars 2007 relative au placement et à l'utilisation des caméras de sécurité (la \"loi caméras\") et peuvent ne pas être signalé au moyen de ce formulaire. Veuillez utiliser le formulaire thématique personnalisé. Plus d'informations à ce sujet sur www.privacycommission.be (Caméras de surveillance et notre vie privée / Bewakingscamera's en onze privacy).",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Gestion des litiges",
+        "description": "La gestion par des personnes physiques, des organismes privés ou des autorités publiques de leurs propres litiges.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Protection de la société, de l'industrie ou de l'organisation",
+        "description": "Traitement de données concernant des personnes qui représentent un certain risque, comme les hooligans.",
+        "article": null,
+        "url": ""
+      }
+    ],
+    "Objectifs gouvernementaux":[
+      {
+        "nom": "Taxes",
+        "description": "La perception des impôts et les activités qui s'y rapportent : enregistrement des contribuables ainsi que calcul, collecte et suivi des impôts.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Subventions",
+        "description": "L'octroi de subventions et les activités associées : recherche de bénéficiaires éligibles ainsi que calcul, versement et suivi des subventions.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Permis",
+        "description": "Octroi de permis et activités connexes : recherche de bénéficiaires éligibles et suivi des exigences.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Traitement effectué par le gouvernement local",
+        "description": "Activités de traitement effectuées par le gouvernement local, telles que les traitements liés aux registres de la population, aux identifiants personnels, aux registres d'état civil, etc.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Élections",
+        "description": "Tenir les listes électorales et organiser les élections.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Administration de l'immigration",
+        "description": "Tenir un registre des immigrants et suivre les permis de séjour.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "cadastre",
+        "description": "Création et mise à jour d'un registre des propriétés, prélèvement de taxes foncières et fourniture d'attestations fiscales.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Dossiers gouvernementaux",
+        "description": "Gestion de la correspondance entre le service gouvernemental et les personnes qui ont volontairement communiqué avec le service. Gestion des données des personnes avec lesquelles le service gouvernemental n'est pas en relation lucrative.",
+        "article": null,
+        "url": ""
+      }
+    ],
+    "Justice et application de la loi": [
+      {
+        "name": "Sécurité publique",
+        "description": "Collecter et suivre des informations sur les personnes considérées comme un risque pour la sécurité publique.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Application pénale",
+        "description": "Détecter et suivre les personnes soupçonnées de crimes.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Application de la réglementation",
+        "description": "Prévenir les infractions et contrôler le respect des lois et réglementations.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Administration judiciaire",
+        "description": "Maintien des rôles et des registres.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Casiers judiciaires",
+        "description": "Enregistrement des condamnations pénales.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Défendre les clients",
+        "description": "Gestion des affaires pénales et des intérêts par les avocats ou autres conseillers juridiques dans l'intérêt de leurs clients.",
+        "article": null,
+        "url": ""
+      }
+    ],
+    "Éducation": [
+      {
+        "name": "Administration des étudiants",
+        "description": "Création d'une base de données des étudiants, organisation du cursus et des examens, enregistrement des résultats et des décisions. Calcul, facturation et encaissement des sommes dues. Relations avec les alumni.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Conseil étudiant",
+        "description": "Fournir des conseils d'orientation aux étudiants concernant leur développement intellectuel, leurs problèmes psychologiques et le choix d'un cheminement de carrière.",
+        "article": null,
+        "url": ""
+      }
+    ],
+    "Culture et Bien-être": [
+      {
+        "name": "Gestion de la bibliothèque",
+        "description": "Inscrire les membres d'une bibliothèque dans une base de données, suivre leurs prêts.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Conseil public",
+        "description": "Fournir des conseils matériels et/ou psychologiques aux personnes dans le besoin.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Conseil d'emploi",
+        "description": "Conseil aux chômeurs et leur formation à un nouvel emploi.",
+        "article": null,
+        "url": ""
+      }
+    ],
+    "Avantages gouvernementaux": [
+      {
+        "name": "Administration des destinataires éligibles",
+        "description": "Recevoir les cotisations, déterminer et attribuer les prestations gouvernementales, y compris l'aide sociale.",
+        "article": null,
+        "url": ""
+      }
+    ],
+    "Soins de santé": [
+      {
+        "name": "Soins aux patients",
+        "description": "Le diagnostic et le traitement paramédical du patient, y compris l'évaluation des soins prodigués et à prodiguer dans le but d'améliorer la qualité des soins offerts aux patients.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Codage médical",
+        "description": "Suivi des soins et traitements hospitaliers aux fins de facturation.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Dossiers patients",
+        "description": "Enregistrement des informations médicales et d'hospitalisation à des fins de gestion.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Enregistrement des groupes à risque",
+        "description": "Identifier et suivre les personnes présentant des risques médicaux élevés.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Enregistrement du donneur d'organes",
+        "description": "Création de bases de données de personnes désireuses de devenir donneurs d'organes ainsi que la promotion et l'utilisation d'une telle base de données.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Gestion des stocks de médicaments",
+        "description": "Traitements de données liés à la prescription et à la délivrance de médicaments.",
+        "article": null,
+        "url": ""
+      }
+    ],
+    "Recherche scientifique primaire ou secondaire dont le but est cohérent avec le but initial de la collecte": [
+      {
+        "name": "Recherche épidémiologique",
+        "description": "Recherche sur la propagation du risque médical, de la morbidité et de la mortalité.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Recherche biomédicale",
+        "description": "Recherche sur les causes de la pathologie médicale et l'effet des traitements médicaux. Essais cliniques.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Évaluation des soins aux patients",
+        "description": "Collecte et traitement de toutes les données relatives aux diagnostics médicaux et paramédicaux ainsi qu'aux pratiques thérapeutiques dispensées aux patients dans le but d'améliorer la qualité des pratiques de soins.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Recherche scientifique",
+        "description": "Tout acte destiné à déterminer des liens paradigmatiques, comportementaux et causals supérieurs aux individus auxquels ils sont liés. Destiné à décrire des phénomènes globaux.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Étude de marché",
+        "description": "Études liées au comportement d'achat, aux préférences et aux intentions d'achat des personnes dans le but de déterminer des stratégies de marché.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Recherche historique",
+        "description": "Traitement de données à caractère personnel provenant d'archives privées ou publiques aux fins d'analyser un événement historique ou de permettre une telle analyse.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Généalogie",
+        "description": "Traitement de données à caractère personnel aux fins d'établissement d'un arbre généalogique ou généalogique, d'un registre ou d'une liste de famille, etc.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Recherche statistique",
+        "description": "Tout acte destiné à collecter et traiter des données personnelles nécessaires à des questionnaires statistiques ou à la délivrance d'un résultat statistique (par exemple annonce générale, aide à la planification et à la décision et au service de la science).",
+        "article": null,
+        "url": ""
+      }
+    ],
+    "Services bancaires et financiers, Assurance": [
+      {
+        "name": "Gestion du compte",
+        "description": "La gestion des comptes individuels de débit et d'épargne, qu'ils aient ou non un solde créditeur, appartenant aux clients de l'institution financière. Ces activités comprennent les opérations de paiement liées au compte.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Gestion de patrimoine",
+        "description": "Il s'agit de l'ensemble des actions réalisées par une banque, de manière discrétionnaire ou non, pour conseiller les clients dans la gestion de leur patrimoine.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Finance d'entreprise",
+        "description": "Fournir des services liés à la distribution de capital, à la vente d'actions, aux rachats et aux fusions.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Prêt",
+        "description": "Il s'agit de l'ensemble des actions liées à l'estimation des risques encourus par une banque lors de l'octroi d'un crédit, quelle que soit la nature du crédit.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Gestion des crédits",
+        "description": "Il s'agit des actions liées au suivi et au remboursement des soldes créditeurs, y compris les créances et les actions liées à ces créances, qu'un tiers soit impliqué ou non.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Aperçu client global",
+        "description": "L'intégration de tout ou partie des données traitées dans le cadre d'une des finalités propres à l'industrie bancaire. Ceci dans le but de se prononcer sur la rentabilité globale des clients et si oui ou non des produits ou services bancaires adaptés à leurs besoins doivent leur être proposés et d'aider l'établissement bancaire, d'une manière générale, à prendre les décisions qui s'imposent à l'égard de ses clients.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Services de courtage",
+        "description": "La médiation entre les clients et les institutions financières spécialisées dans les produits d'assurance, de crédit, de bourse, etc.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Gestion des assurances personnelles",
+        "description": "Assurer les personnes contre les aléas portant atteinte à l'intégrité physique ou à la situation familiale des personnes. Analyse des risques, gestion des polices, des primes et des indemnisations. Réassurance et gestion des litiges.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Gestion des assurances de groupe",
+        "description": "La variante de groupe de l'assurance personnelle.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Gestion des assurances contre l'incendie, les accidents et les dangers divers",
+        "description": "Assurer les clients contre les dommages aux biens et biens ou contre leur responsabilité pour les dommages causés aux tiers. Analyse des risques, gestion des polices, primes et indemnisations. Réassurance et gestion des litiges.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Assurance contre les accidents du travail",
+        "description": "Assurer les employeurs contre les dommages subis par les salariés lors d'accidents du travail. Analyse des risques, gestion des polices, des primes et des indemnisations. Réassurance et gestion des litiges. Recherche préventive.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Gestion des risques élevés",
+        "description": "Traitement de données dans différentes branches d'assurance concernant des personnes présentant un risque élevé dans le but d'éviter des risques inacceptables et des fraudes.",
+        "article": null,
+        "url": ""
+      }
+    ],
+    "Échange": [
+      {
+        "name": "Marketing direct",
+        "description": "Démarchage, activités et services proposés à des segments de la population par des sociétés commerciales, des associations caritatives ou d'autres clubs ou fondations, y compris à caractère politique. Les moyens de communication pour ces actions peuvent être le courrier, le téléphone ou d'autres moyens directs ( par exemple e-mail).\nPeu importe que le destinataire soit déjà client ou non.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Commerce d'intelligence commerciale",
+        "description": "Vente après traitement des données, publiées par des sources officielles (telles que le Moniteur Belge/Belgisch Staatsblad), en combinaison avec des données acquises auprès d'autres institutions.",
+        "article": null,
+        "url": ""
+      }
+    ]
+  },
+  "Base de traitement": {
+    "Generic": [
+      {
+        "name": "Consentement de la personne concernée",
+        "description": "La personne concernée a donné son consentement au traitement de ses données personnelles pour une ou plusieurs finalités spécifiques (RGPD Article 6(1)(a)).\nNotez que le consentement doit répondre aux exigences telles que déterminées par Article 7 du RGPD.",
+        "article": 6,
+        "url": ""
+      },
+      {
+        "name": "Nécessaire à l'exécution d'un contrat",
+        "description": "Le traitement est nécessaire à l'exécution d'un contrat auquel la personne concernée est partie ou pour prendre des mesures à la demande de la personne concernée avant la conclusion d'un contrat (article 6, paragraphe 1, point b du RGPD )).",
+        "article": 6,
+        "url": ""
+      },
+      {
+        "name": "Obligation légale",
+        "description": "Le traitement est nécessaire au respect d'une obligation légale à laquelle le responsable du traitement est soumis (article 6, paragraphe 1, point c) du RGPD).",
+        "article": 6,
+        "url": ""
+      },
+      {
+        "name": "Protection des intérêts vitaux de la personne concernée",
+        "description": "Le traitement est nécessaire à la protection des intérêts vitaux de la personne concernée ou d'une autre personne physique (article 6, paragraphe 1, point d) du RGPD).",
+        "article": 6,
+        "url": ""
+      },
+      {
+        "nom": "Tâche effectuée dans l'intérêt public ou dans l'exercice de l'autorité publique",
+        "description": "Le traitement est nécessaire à l'exécution d'une mission d'intérêt public ou relevant de l'exercice de l'autorité publique dont est investi le responsable du traitement (article 6, paragraphe 1, point e) du RGPD).",
+        "article": 6,
+        "url": ""
+      },
+      {
+        "nom": "Intérêts légitimes poursuivis par le responsable du traitement ou par un tiers",
+        "description": "Le traitement est nécessaire aux fins des intérêts légitimes poursuivis par le responsable du traitement ou par un tiers, sauf lorsque ces intérêts prévalent sur les intérêts ou les libertés et droits fondamentaux de la personne concernée qui exigent la protection des données à caractère personnel , en particulier lorsque la personne concernée est un enfant (article 6, paragraphe 1, point f) du RGPD).",
+        "article": 6,
+        "url": ""
+      }
+    ]
+  },
+  "Liste indicative des catégories de données fonctionnelles": {
+    "Données d'identification": [
+      {
+        "nom": "PII",
+        "description": "Nom, titre, adresse (travail et domicile), anciennes adresses, numéro de téléphone (travail et domicile), identifiants attribués par le responsable du traitement.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Informations d'identification attribuées par les institutions gouvernementales, autres que le numéro de sécurité sociale",
+        "description": "Numéro de carte d'identité, numéro de passeport, numéro de permis de conduire, numéro de plaque d'immatriculation, etc.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Données d'identification électronique",
+        "description": "Adresses IP, cookies, moments de connexion, etc.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Données de localisation électroniques",
+        "description": "Données de la tour cellulaire, données GPS, etc.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Données d'identification biométrique",
+        "description": "Données ADN, empreintes digitales et vocales, scans de l'iris, reconnaissance faciale, reconnaissance de la forme des doigts ou de la main, signatures dynamiques, etc.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Données financières particulières": [
+      {
+        "name": "Données d'identification financière",
+        "description": "Numéros d'identification, numéros de compte bancaire, numéros de carte de crédit ou de débit, codes secrets.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Moyens financiers",
+        "description": "Revenus, biens, investissements, revenus totaux, revenus professionnels, épargne, dates de début et de fin des investissements, revenus des investissements, dettes dues sur les actifs.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Dettes et dépenses",
+        "description": "Dépenses totales, loyer, prêts, hypothèques et autres formes de crédit.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Solvabilité",
+        "description": "Evaluation des revenus, de la situation financière, de la solvabilité.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Prêts, hypothèques, marges de crédit",
+        "description": "Nature du prêt, montant emprunté, solde restant, date de début, durée du prêt, taux d'intérêt, aperçu des paiements, détails concernant les garanties.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Aide financière",
+        "description": "Avantages, aides, cadeaux, subventions.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Détails de la police d'assurance",
+        "description": "Nature de la police d'assurance, détails concernant les risques couverts, montants assurés, période d'assurance, date de résiliation, paiements effectués, reçus ou manqués, statut de l'accord.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Détails du régime de retraite",
+        "description": "Date d'entrée en vigueur du régime de retraite, nature du régime, date de terminaison du régime, versements reçus et effectués, options, bénéficiaires.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Transactions financières",
+        "description": "Montants payés et payables par la personne concernée, lignes de crédit accordées, cautions, mode de paiement, aperçu des paiements, cautions et autres garanties.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "nom": "Rémunération",
+        "description": "Détails concernant les compensations réclamées, les montants payés ou d'autres types de compensation.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Activités professionnelles",
+        "description": "Activités professionnelles exercées par la personne concernée : nature de l'activité, nature des biens ou services utilisés ou fournis par la personne enregistrée, relations d'affaires.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Accords et règlements",
+        "description": "Détails concernant les règlements ou les accords commerciaux, les accords concernant la représentation ou les accords juridiques, les détails concernant les agents.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Permis",
+        "description": "Autorisations détenues par les personnes concernées.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Caractéristiques personnelles": [
+      {
+        "name": "Données personnelles",
+        "description": "Âge, sexe, date de naissance, lieu de naissance, état civil, nationalité.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Détails militaires",
+        "description": "Statut militaire, aperçu militaire, distinctions militaires.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Statut d'immigrant",
+        "description": "Détails concernant le visa, le permis de travail, les limitations de séjour ou de déplacement, les conditions particulières liées au permis de séjour.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Détails physiques": [
+      {
+        "name": "Description physique",
+        "description": "Taille, poids, couleur des cheveux, couleur des yeux, caractéristiques distinctives.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Habitudes privées": [
+      {
+        "name": "Habitudes",
+        "description": "Fumeur de tabac, consommation d'alcool.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Style de vie",
+        "description": "Détails concernant l'utilisation des biens ou des services, le comportement des personnes concernées ou des membres de leur famille.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Détails du voyage et des déplacements",
+        "description": "Informations concernant les anciennes résidences et les déplacements, les visas de voyage, les permis de travail.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Contacts sociaux",
+        "description": "Amis, partenaires commerciaux, relations avec des personnes autres que des membres proches de la famille.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "nom": "Biens",
+        "description": "Terrain, propriété ou autres possessions.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Mandats publics",
+        "description": "Fonctions au sein du gouvernement local, régional, national ou fédéral, participation à des commissions, groupes de travail ou organes délibérants gouvernementaux, etc.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Plaintes, incidents ou accidents",
+        "description": "Informations concernant un accident, un incident ou une plainte dans laquelle la personne concernée est impliquée, la nature des dommages ou des blessures, les personnes impliquées, les témoins.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "nom": "Distinctions",
+        "description": "Distinctions civiles, cléricales ou militaires.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Utilisation des médias",
+        "description": "Utilisation des médias et des moyens de communication.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Détails psychologiques": [
+      {
+        "name": "Descriptions psychologiques",
+        "description": "Opinions concernant la personnalité ou le caractère.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Composition de la famille": [
+      {
+        "name": "Mariage ou forme actuelle de cohabitation",
+        "description": "Nom du conjoint ou partenaire, nom de jeune fille du conjoint ou partenaire, date du mariage, date du contrat de cohabitation, nombre d'enfants, etc.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Histoire conjugale",
+        "description": "Détails concernant les mariages ou partenariats précédents, les divorces, les séparations, les noms des partenaires précédents.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Détails concernant les autres membres de la famille ou du ménage",
+        "description": "Enfants, personnes à charge, autres membres du ménage, autres parents proches par le sang, parents et descendants.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Loisirs et centres d'intérêt": [
+      {
+        "name": "Activités de loisirs et centres d'intérêt",
+        "description": "Passe-temps, sports, autres intérêts.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Adhésions": [
+      {
+        "name": "Appartenances (autres que professionnelles, politiques ou syndicales)",
+        "description": "Adhésion à des organisations caritatives ou bénévoles, des clubs, des partenariats, des syndicats, des organisations, des groupes, etc.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Catégories de données juridiques": [
+      {
+        "name": "Données légales liées aux soupçons",
+        "description": "Soupçons d'infractions, liens complotistes avec des criminels connus. Enquêtes ou actions judiciaires (civiles ou pénales) entreprises par ou contre la personne concernée.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Données juridiques concernant les condamnations et les peines",
+        "description": "Condamnations et peines.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Données juridiques concernant les actions judiciaires",
+        "description": "Tutelle, administration provisoire, internement, placement.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Données légales concernant les sanctions administratives",
+        "description": "Sanctions administratives :\n* de nature purement disciplinaire ;\n* celles qui peuvent être infligées aux personnes qui ne sont pas dans le service public mais coopèrent avec lui (médecins, pharmaciens, paramédicaux, entrepreneurs de travaux publics) ;\n* celles qui peuvent être imposées aux usagers des services publics ;\n* celles qui peuvent être imposées en cas de non-respect de mesures légales ou réglementaires, par exemple les ordures sur la voie publique.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Données légales concernant l'ADN",
+        "description": "Données ADN traitées dans le cadre de la loi du 22 mars 1999 relative aux procédures d'identification par analyse ADN dans le cadre des procédures pénales.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Habitudes de consommation": [
+      {
+        "name": "Données de location",
+        "description": "Détails concernant les biens et services fournis, prêtés ou loués à la personne concernée.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Données de prêt",
+        "description": "Détails concernant les biens et services fournis, prêtés ou loués par la personne concernée.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Données de résidence": [
+      {
+        "name": "Données de résidence",
+        "description": "Adresse de la résidence : nature de la résidence, bien en propriété ou en location, durée de la résidence à cette adresse, loyer, charges, classification de la résidence, détails concernant l'estimation, noms des personnes qui détiennent les clés .",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Données de santé": [
+      {
+        "name": "Données de santé physique",
+        "description": "Dossier médical, rapport médical, informations diagnostiques, traitement, résultats d'analyse, handicap ou infirmité, alimentation; autres demandes particulières liées à la santé lors de la gestion d'un voyage ou d'un séjour.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Données sur la santé mentale",
+        "description": "Dossier médical, rapport médical, informations diagnostiques, traitement, résultats d'analyse.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Données concernant les situations à risque et les comportements à risque",
+        "description": "Situations à risque et comportements à risque.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Données génétiques liées aux études de population, à la recherche génétique, etc.",
+        "description": "Données génétiques liées aux études de population, à la recherche génétique, etc.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Données de récupération",
+        "description": "Données relatives aux moyens et procédures utilisés lors d'un traitement médical et paramédical.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Éducation et formation": [
+      {
+        "name": "Programme académique",
+        "description": "Aperçu des écoles, établissements, collèges et universités fréquentés, nature des cours complétés, diplômes ou certificats poursuivis, résultats d'examens, autres diplômes délivrés, évaluation de la progression des études.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Aperçu financier des études",
+        "description": "Droits d'inscription et frais payés, financement, modes de paiement, historique des paiements.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Qualifications professionnelles",
+        "description": "Certificats et formations professionnelles, licences spéciales (brevet d'ingénieur, etc.).",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Expérience professionnelle",
+        "description": "Intérêts professionnels, intérêts de recherche, intérêts académiques, spécialisations, expérience d'enseignement, consultations.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Adhésion et/ou participation à des organisations professionnelles",
+        "description": "Détails concernant les groupes, comités ou commissions concernés, les fonctions exercées, les intérêts particuliers et les records de participation.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "nom": "Publications",
+        "description": "Livres, articles, rapports, documents audiovisuels publiés.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Profession et emploi": [
+      {
+        "name": "Emploi actuel",
+        "description": "Employeur, titre et description du rôle, ancienneté, date de recrutement, lieu de travail, spécialisation ou type d'entreprise, modes et conditions de travail, postes antérieurs et expérience de travail antérieure chez le même employeur.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Recrutement",
+        "description": "Date de recrutement, méthode de recrutement, source de recrutement, références, détails liés à la période d'essai.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Résiliation du travail",
+        "description": "Date de résiliation, motif, délai de préavis, conditions de résiliation.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Carrière",
+        "description": "Emplois et employeurs antérieurs, périodes sans emploi, service militaire.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Absentéisme et discipline",
+        "description": "Enregistrements d'absentéisme, motifs d'absence, mesures disciplinaires.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Médecine du travail",
+        "description": "Capacité de travail diminuée suite à un accident du travail, certificat de secourisme.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Salaires",
+        "description": "Paiements et retenues, salaire, commissions, primes, dépenses, subventions, avantages, prêts, retenues d'impôt, retenues FICA, cotisations syndicales, méthodes de paiement, date de la dernière augmentation de salaire.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Biens en possession de l'employé",
+        "description": "Voiture, outils, pièces détachées, outils de référence, autres objets en possession de l'employé.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Organisation du travail",
+        "description": "Responsabilités actuelles, projets, heures facturables, salaire horaire, heures travaillées.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Révision",
+        "description": "Bilan des performances, possibilités.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Formation pour le poste",
+        "description": "Détails concernant la formation requise et reçue pour le poste ainsi que les qualifications et l'autorité obtenues.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "nom": "Sécurité",
+        "description": "Mots de passe, codes de sécurité, niveaux auxquels les autorisations sont accordées.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Utilisation de la technologie",
+        "description": "Évaluation de l'utilisation de la technologie (Internet, e-mail, etc.).",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Numéro de sécurité sociale": [
+      {
+        "name": "Numéro de sécurité sociale",
+        "description": "Numéro de sécurité sociale",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Données raciales ou ethniques": [
+      {
+        "name": "Données raciales ou ethniques",
+        "description": "Données raciales ou ethniques",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Données sur la vie sexuelle": [
+      {
+        "name": "Données sur la vie sexuelle",
+        "description": "Orientation sexuelle, etc.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Opinions politiques": [
+      {
+        "name": "Tendance politique",
+        "description": "Convictions politiques, préférence de parti.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Appartenance politique",
+        "description": "Appartenance à un parti politique, fonctions politiques actuellement exercées.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Appartenance à un groupe d'intérêt ou à une organisation militante",
+        "description": "Appartenance ou soutien à un groupe d'intérêt ou à une organisation militante.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Appartenance à un syndicat": [
+      {
+        "name": "Appartenance à un syndicat",
+        "description": "Appartenance à un syndicat ou organisation similaire, fonctions exercées.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Croyances philosophiques ou religieuses" : [
+      {
+        "name": "Croyances philosophiques",
+        "description": "Croyances philosophiques ou religieuses",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Enregistrements vidéo": [
+      {
+        "nom": "Images",
+        "description": "Enregistrement par caméra, enregistrement photographique, enregistrement vidéo, photos numériques, etc.",
+        "article": null,
+        "url": "",
+        "special": false
+      },
+      {
+        "name": "Images de surveillance",
+        "description": "Images de caméras de sécurité.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Enregistrements sonores": [
+      {
+        "name": "Enregistrements sonores",
+        "description": "Enregistrements sur bande, enregistrements téléphoniques, etc.",
+        "article": null,
+        "url": "",
+        "special": false
+      }
+    ],
+    "Spécial - normalement interdit": [
+      {
+        "name": "Données génétiques pour l'identification de la personne",
+        "description": "Données génétiques aux fins d'identification unique d'une personne",
+        "article": 9,
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R0679",
+        "special": true
+      },
+      {
+        "name": "Données biométriques pour l'identification de la personne",
+        "description": "Données biométriques aux fins d'identification unique d'une personne",
+        "article": 9,
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R0679",
+        "special": true
+      },
+      {
+        "name": "Données de santé",
+        "description": "Données sur l'état de santé d'une personne",
+        "article": 9,
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R0679",
+        "special": true
+      },
+      {
+        "name": "Origine raciale ou ethnique",
+        "description": "Données révélant l'origine raciale ou ethnique",
+        "article": 9,
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R0679",
+        "special": true
+      },
+      {
+        "name": "Opinions politiques",
+        "description": "Données révélant des opinions politiques",
+        "article": 9,
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R0679",
+        "special": true
+      },
+      {
+        "name": "Croyances religieuses ou philosophiques",
+        "description": "Données révélant des convictions religieuses ou philosophiques",
+        "article": 9,
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R0679",
+        "special": true
+      },
+      {
+        "name": "Appartenance à un syndicat",
+        "description": "Données révélant l'appartenance syndicale",
+        "article": 9,
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R0679",
+        "special": true
+      },
+      {
+        "name": "Données relatives à la vie sexuelle ou à l'orientation sexuelle d'une personne",
+        "description": "Vie sexuelle ou orientation sexuelle",
+        "article": 9,
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R0679",
+        "special": true
+      },
+      {
+        "name": "Condamnations pénales et infractions",
+        "description": "Traitement des données personnelles relatives aux condamnations pénales et aux infractions",
+        "article": 10,
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R0679",
+        "special": true
+      },
+      {
+        "name": "Secret professionnel",
+        "description": "Données personnelles protégées par le secret professionnel",
+        "article": 90,
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R0679",
+        "special": true
+      },
+      {
+        "name": "Données à risque pour les droits et libertés des personnes physiques",
+        "description": "Données qui sont généralement considérées comme entraînant une élévation du risque possible pour les droits et libertés des personnes physiques",
+        "article": 34,
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R0679",
+        "special": true
+      },
+      {
+        "name": "Données de communication électronique",
+        "description": "Les responsables du traitement des données dans le secteur des communications électroniques doivent mettre en œuvre une politique de sécurité spécifique qui protège les données personnelles contre la destruction accidentelle ou illicite, la perte ou l'altération accidentelle, ainsi que le stockage, le traitement, l'accès ou la divulgation non autorisés ou illicites de données personnelles ; veiller à ce que les données à caractère personnel ne soient accessibles qu'au personnel autorisé à des fins légalement autorisées ; et fournir des informations aux abonnés sur tout risque particulier d'atteinte à la sécurité d'[un] réseau public de communications.",
+        "article": 95,
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32002L0058&from=FR",
+        "special": true
+      },
+      {
+        "name": "Données de localisation",
+        "description": "Vous ne pouvez traiter les données de localisation (informations du réseau ou du service concernant la localisation d'un téléphone ou d'un autre appareil) qu'avec l'autorisation du fournisseur de réseau, de service ou de service à valeur ajoutée, et uniquement si elles sont anonymes ; ou vous avez consenti à l'utiliser pour un service à valeur ajoutée.",
+        "article": 9,
+        "url": "https://ico.org.uk/for-organisations/guide-to-pecr/communications-networks-and-services/location-data/",
+        "special": true
+      },
+      {
+        "name": "Données financières",
+        "description": "Données financières concernant une personne",
+        "article": 9,
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32002L0058&from=FR",
+        "special": true
+      },
+      {
+        "name": "Activités ménagères très intrusives",
+        "description": "Informations traitées par une personne physique dans le cadre d'une activité purement personnelle ou domestique (telles que les services de cloud computing pour la gestion des documents personnels, les services de messagerie électronique, les agendas, les liseuses équipées de fonctions de prise de notes et diverses vie- applications de journalisation pouvant contenir des informations très personnelles), dont la divulgation ou le traitement à d'autres fins que les activités domestiques peut être perçu comme très intrusif.",
+        "article": 10,
+        "url": "http://ec.europa.eu/newsroom/document.cfm%3Fdoc_id%3D44137",
+        "special": true
+      }
+    ]
+  },
+  "Type de traitement": {
+    "Generic": [
+      {
+        "nom": "Normal",
+        "description": "Entrez 'Normal' si aucun des autres types listés ne s'applique.",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Évaluation ou revue de personnes",
+        "description": "Évaluation ou examen de personnes, y compris profilage et établissement de pronostics",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Décisions automatisées avec conséquences juridiques",
+        "description": "Décisions automatisées avec des conséquences juridiques ou des conséquences substantielles similaires",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Surveillance systématique",
+        "description": "Surveillance systématique (repérage, surveillance ou vérification de la personne concernée) (enregistrements sonores, photo ou vidéo)",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Activités de transformation à grande échelle",
+        "description": "Activités de transformation à grande échelle ou activités de transformation ayant des conséquences pour un grand nombre de parties prenantes",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Combinaison de données inattendues par les personnes concernées",
+        "description": "Combinaison ou fusion de collections de données auxquelles les personnes concernées ne peuvent raisonnablement s'attendre",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Empêchement des personnes concernées d'exercer un droit",
+        "description": "Un traitement de données qui empêche les personnes concernées d'exercer un droit, d'utiliser un service ou de conclure un contrat",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Utilisation des nouvelles technologies et moyens organisationnels",
+        "description": "Utilisation de nouvelles technologies ou application de moyens techniques et organisationnels",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Surveillance à grande échelle d'un espace public",
+        "description": "Surveillance systématique d'une zone accessible au public à grande échelle",
+        "article": null,
+        "url": ""
+      }
+    ]
+  },
+  "Liste indicative des catégories de destinataires": {
+    "Generic": [
+      {
+        "name": "La personne concernée elle-même",
+        "description": "",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Relations personnelles de la personne concernée",
+        "description": "",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Conseillers professionnels de la personne concernée",
+        "description": "",
+        "article": null,
+        "url": ""
+      },
+      {
+        "nom": "Employeur ou relations d'affaires de la personne concernée",
+        "description": "",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Particuliers ou organisations en relation directe avec le responsable du traitement",
+        "description": "",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Autres entreprises privées",
+        "description": "",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Services publics",
+        "description": "",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Tribunaux et application de la loi",
+        "description": "",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Bureaux de prestations du gouvernement",
+        "description": "",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Banques et assurances",
+        "description": "",
+        "article": null,
+        "url": ""
+      },
+      {
+        "name": "Données personnelles ou courtiers en marketing direct",
+        "description": "",
+        "article": null,
+        "url": ""
+      }
+    ]
+  },
+  "Nature du transfert vers un pays tiers/organisation internationale" : {
+    "Generic": [
+      {
+        "name": "Transferts sur la base d'une décision d'adéquation",
+        "description": "Article 45 du RGPD",
+        "article": 45,
+        "url": ""
+      },
+      {
+        "name": "Transferts sur la base de garanties appropriées",
+        "description": "Article 46 du RGPD",
+        "article": 46,
+        "url": ""
+      },
+      {
+        "name": "Transferts sur la base des BCR",
+        "description": "Article 47 du RGPD",
+        "article": 47,
+        "url": ""
+      },
+      {
+        "name": "Transferts sur la base d'une dérogation pour situation particulière",
+        "description": "Article 49(1) du RGPD",
+        "article": 49,
+        "url": ""
+      },
+      {
+        "name": "Transfert sur la base des exigences de l'article 49(2) du RGPD",
+        "description": "Article 49(2) du RGPD",
+        "article": 49,
+        "url": ""
+      }
+    ]
+  },
+  "Liste indicative des catégories de personnes concernées": {
+    "Generic": [
+      {
+        "nom": "Patients",
+        "description": "Vos patients",
+        "article": null,
+        "url": "",
+        "vulnerable": true
+      },
+      {
+        "nom": "Clients",
+        "description": "Vos clients",
+        "article": null,
+        "url": "",
+        "vulnerable": false
+      },
+      {
+        "nom": "Employés",
+        "description": "Vos employés",
+        "article": null,
+        "url": "",
+        "vulnerable": false
+      },
+      {
+        "name": "Élèves",
+        "description": "Vos élèves",
+        "article": null,
+        "url": "",
+        "vulnerable": false
+      },
+      {
+        "name": "Élus",
+        "description": "Vos fonctionnaires",
+        "article": null,
+        "url": "",
+        "vulnerable": false
+      },
+      {
+        "name": "Utilisateurs du système",
+        "description": "Utilisateurs de vos systèmes",
+        "article": null,
+        "url": "",
+        "vulnerable": false
+      },
+      {
+        "name": "Felons condamnés",
+        "description": "Vos criminels",
+        "article": null,
+        "url": "",
+        "vulnerable": false
+      },
+      {
+        "name": "Actionnaires",
+        "description": "Vos actionnaires",
+        "article": null,
+        "url": "",
+        "vulnerable": false
+      }
+    ]
+  }
+}
