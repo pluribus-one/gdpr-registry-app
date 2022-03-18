@@ -981,17 +981,20 @@ msgstr "Processus GDPR - Détection des violations de données "
 #: audit/templates/breach_detection.html:15
 msgid "GDPR compliance prefigures a process where data management, once established, is constantly\n"
 "                    <code>monitored</code> to identify signs of violations, i.e., data breaches."
-msgstr ""
+msgstr "La conformité RGPD préfigure un processus où la gestion des données, une fois établie, est constamment\n"
+"                     <code>surveillé</code> pour identifier les signes de violation, c'est-à-dire les violations de données. "
 
 #: audit/templates/breach_detection.html:17
 msgid "To this end, your organization must setup a well-suited monitoring environment and tools through\n"
 "                    which such incidents can be quickly detected and notified to security operators and data protection officer (if any)."
-msgstr ""
+msgstr "Pour cela, votre organisation doit mettre en place un environnement et des outils de monitoring adaptés via\n"
+"                     lesquels de tels incidents peuvent être rapidement détectés et notifiés aux opérateurs de sécurité et au responsable de la protection des données (le cas échéant). "
 
 #: audit/templates/breach_detection.html:20
 msgid "This activity includes the identification, collection, storage and correlation of events capable to\n"
 "                    highlight data breaches and allow security operators to investigate them to accurately characterize their actual <em>impact</em>."
-msgstr ""
+msgstr "Cette activité comprend l'identification, la collecte, le stockage et la corrélation d'événements capables de\n"
+"                     mettre en évidence les violations de données et permettre aux opérateurs de sécurité de les enquêter pour caractériser avec précision leur <em>impact</em> réel. "
 
 #: audit/templates/breach_detection.html:30
 msgid "Data Breach Detection - How To"
@@ -1006,7 +1009,9 @@ msgid "In the edit page of the data audit, just click on the add (+) icon for th
 "            Then, you can insert all details about the data breach detection technique. In this case, data breach detection is\n"
 "            handled by <a href=\"https://www.pluribus-one.it/it/prodotti/web-application-security\">Pluribus One WAS</a>, an advanced software by Pluribus One for the detection of attacks against web services.\n"
 "        "
-msgstr ""
+msgstr "Dans la page d'édition de l'audit des données, cliquez simplement sur l'icône d'ajout (+) pour le champ \"détection de violation de données\".\n"
+"             Ensuite, vous pouvez insérer tous les détails sur la technique de détection de violation de données. Dans ce cas, la détection de violation de données est\n"
+"             gérée par <a href=\"https://www.pluribus-one.it/it/prodotti/web-application-security\">Pluribus One WAS</a>, un logiciel avancé de Pluribus One pour la détection des attaques contre services Web. "
 
 #: audit/templates/breach_detection.html:41
 msgid "Please note that in general, for each data breach detection technique,\n"
@@ -1020,15 +1025,24 @@ msgid "Please note that in general, for each data breach detection technique,\n"
 "            (in this case, identity documents), given the adopted detection technnique.\n"
 "            </ul>\n"
 "        "
-msgstr ""
+msgstr "Veuillez noter qu'en général, pour chaque technique de détection de violation de données,\n"
+"             vous devez spécifier :\n"
+"             <ul>\n"
+"                 <li><strong>Comment la détection des violations est-elle possible</strong> : comment les violations de données inattendues peuvent être détectées.\n"
+"                     Cette phase nécessite généralement des systèmes sophistiqués tels que Pluribus One WAS, capables de détecter les comportements <em>inattendus</em> de vos applications et utilisateurs.</li>\n"
+"                 <li><strong>Risque résiduel (de violation de données manquantes)</strong> : un risque résiduel pour la détection de violation de données, qui\n"
+"             c'est-à-dire une évaluation du risque résiduel de violations de données <em>manquantes</em> compte tenu de la technique de détection qui a été mise en place.\n"
+"             Cela devrait être le résultat d'une analyse détaillée des risques qui évalue la probabilité et l'impact des violations de données non détectées pour l'audit de données considéré\n"
+"             (en l'occurrence, des pièces d'identité), compte tenu de la technique de détection adoptée.\n"
+"             </ul> "
 
 #: audit/templates/breach_detection.html:54
 msgid "In this example, we create a data breach detection <strong>Pluribus One WAS</strong> and associate it to the Data Audit <strong>Identity Documents</strong>"
-msgstr ""
+msgstr "Dans cet exemple, nous créons une détection de violation de données <strong>Pluribus One WAS</strong> et l'associons aux <strong>Documents d'identité</strong> d'audit de données "
 
 #: audit/templates/breach_detection.html:55
 msgid "Please note that many other data audits can be associated with the same data breach detection tool, e.g., if the tool protects other applications that handle different data."
-msgstr ""
+msgstr "Veuillez noter que de nombreux autres audits de données peuvent être associés au même outil de détection de violation de données, par exemple, si l'outil protège d'autres applications qui traitent des données différentes. "
 
 #: audit/templates/breach_detection.html:59
 msgid "Add Data Breach detection"
@@ -1041,18 +1055,20 @@ msgstr "Process RGPD - plan de réponse aux incidnets"
 #: audit/templates/breach_response.html:15
 msgid "GDPR compliance means that your organization should be prepared to deal with data breaches,\n"
 "                    and provide for rapid counteractions to <code>mitigate</code> their impact."
-msgstr ""
+msgstr "La conformité RGPD signifie que votre organisation doit être prête à faire face aux violations de données et prévoir des contre-mesures rapides pour <code>atténuer</code> leur impact."
 
 #: audit/templates/breach_response.html:17
 msgid "Data breaches must be notified to supervisory authorities within <code>72 hours</code>, or even less,\n"
 "                    if data breaches affect the freedom of natural individuals (GDPR Article 33). In addition, every affected person must be notified with\n"
 "                    the details about the incident."
-msgstr ""
+msgstr "Les violations de données doivent être notifiées aux autorités de contrôle dans un délai de <code>72 heures</code>, voire moins,\n"
+"                     si des violations de données portent atteinte à la liberté des personnes physiques (article 33 du RGPD). En outre, chaque personne concernée doit être informée concernant\n"
+"                     les détails de l'incident. "
 
 #: audit/templates/breach_response.html:21
 msgid "To this end, your organization must define an incident response plan, as well as  setup\n"
 "                    the right environment to mitigate the impact of data breaches."
-msgstr ""
+msgstr "À cette fin, votre organisation doit définir un plan de réponse aux incidents, ainsi que mettre en place le bon environnement pour atténuer l'impact des violations de données. "
 
 #: audit/templates/breach_response.html:31
 msgid "Incident Response Plan - How To"
@@ -1068,7 +1084,8 @@ msgid "In the edit page of the data audit, just click on the add (+) icon for th
 "            helped by <a href=\"https://www.pluribus-one.it/it/prodotti/web-application-security\">Pluribus One WAS</a>, thanks to its virtual patching mechanism that also covers zero-day (never-before-seen)\n"
 "            attacks that may lead to data breaches.\n"
 "            "
-msgstr ""
+msgstr "Dans la page d'édition de l'audit des données, il suffit de cliquer sur l'icône d'ajout (+) du champ \"plan de réponse à incident\".\n"
+"             Ensuite, vous pouvez insérer tous les détails sur le plan de réponse aux incidents. Dans ce cas, la réponse aux incidents est aidée par <a href=\"https://www.pluribus-one.it/it/prodotti/web-application-security\">Pluribus One WAS</a>, grâce à son patching virtuel mécanisme qui couvre également les attaques zero-day (jamais vues auparavant) qui peuvent conduire à des violations de données. "
 
 #: audit/templates/breach_response.html:43
 msgid "Please note that in general, for each data breach detection technique,\n"
@@ -1083,7 +1100,16 @@ msgid "Please note that in general, for each data breach detection technique,\n"
 "            (in this case, identity documents) and incident response plan.\n"
 "            </ul>\n"
 "        "
-msgstr ""
+msgstr "Veuillez noter qu'en général, pour chaque technique de détection de violation de données,\n"
+"            vous devez spécifier :\n"
+"            <ul>\n"
+"                <li><strong>Comment la réponse aux violations est-elle possible</strong> : comment les violations de données peuvent être gérées efficacement.\n"
+"                    Cette phase préfigure généralement un plan de reprise bien adapté, et des systèmes tels que Pluribus One WAS, capables de fournir une protection contre les comportements <em>inattendus</em> de vos applications et utilisateurs.</li>\n"
+"                <li><strong>Notification de violation de données</strong> : procédures de notification aux parties concernées, y compris les autorités de contrôle.</li>\n"
+"                <li><strong>Risque résiduel (de réponse inadéquate/manquante aux violations de données)</strong> : c'est-à-dire une évaluation du risque résiduel de <em>ne pas répondre correctement</em> aux violations de données compte tenu de l'incident spécifique plan de réponse.\n"
+"            Cela devrait être le résultat d'une analyse détaillée des risques qui évalue la probabilité et l'impact des violations de données pour l'audit de données considéré\n"
+"            (dans ce cas, pièces d'identité) et plan de réponse aux incidents.\n"
+"            </ul> "
 
 #: audit/templates/breach_response.html:57
 msgid "In this example, we create an incident response plan that employs <strong>Pluribus One WAS</strong> to create\n"
@@ -1096,7 +1122,11 @@ msgid "In this example, we create an incident response plan that employs <strong
 "            if the plan covers other applications that handle different data,\n"
 "            or the same web application that is covered by the plan handles other data.\n"
 "            "
-msgstr ""
+msgstr "Dans cet exemple, nous créons un plan de réponse aux incidents qui utilise <strong>Pluribus One WAS</strong> pour créer des correctifs virtuels si des événements intrusifs sont détectés.\n"
+"             De plus, une sauvegarde (cryptée) des machines virtuelles et des données est utilisée à des fins de récupération/d'investigation.\n"
+"             Enfin, un modèle prédéfini des informations incluses dans les notifications de violation de données a été préparé (voir, par exemple, l'article 33, paragraphe 3).\n"
+"             Nous associons le plan de réponse aux incidents aux <strong>documents d'identité</strong> d'audit des données.\n"
+"             Veuillez noter que de nombreux autres audits de données peuvent être associés au même plan de réponse aux incidents, par exemple, si le plan couvre d'autres applications qui traitent des données différentes, ou si la même application Web couverte par le plan gère d'autres données. "
 
 #: audit/templates/breach_response.html:70
 msgid "Add Data Breach Response"
@@ -1114,7 +1144,8 @@ msgstr "Ajouter une évaluation d'impact sur la protection des données (DPIA) p
 msgid "In the edit page of the data audit, just click on the add (+) icon for the field \"Data Protection Impact Assessment\".\n"
 "            Then, you can insert all details about the DPIA, uploading a PDF report.\n"
 "            "
-msgstr ""
+msgstr "Dans la page d'édition de l'audit des données, cliquez simplement sur l'icône d'ajout (+) pour le champ \"Évaluation de l'impact sur la protection des données  (DPIA)\".\n"
+"             Ensuite, vous pouvez insérer tous les détails sur le DPIA, en téléchargeant un rapport PDF. "
 
 #: audit/templates/breach_response.html:86
 msgid "Please note that DPIA\n"
@@ -1126,7 +1157,10 @@ msgid "Please note that DPIA\n"
 "            risk-based metrics, according to our framework).</li>\n"
 "            </ul>\n"
 "        "
-msgstr ""
+msgstr "Veuillez noter que DPIA\n"
+"             <ul>\n"
+"                 <li><strong>est obligatoire avant le traitement des données</strong>, si les données gérées comportent probablement un risque élevé pour la liberté et les droits des personnes (article 35 du RGPD).</li>\n"
+"                 <li><strong>peut être documenté en suivant notre cadre</strong> : il est intéressant de noter que le DPIA doit en fait fournir des détails sur le processus d'évaluation/d'atténuation des risques dans toutes les phases précédentes, il devrait donc être plus facile à produire si vous avez déjà déterminé la politique de gestion des données, la détection des violations de données et la réponse aux incidents (toutes ces étapes sont pilotées par des métriques basées sur les risques, selon notre cadre).</li>"
 
 #: audit/templates/breach_response.html:98
 msgid "Add Data Protection Impact Assessment (DPIA)"
@@ -1141,11 +1175,12 @@ msgid "In the list of your organizations (Click on the table \"Your organization
 "            just click on \"Create\" (PDF report field). It will be generated a PDF document with all information\n"
 "            contained in your registry.\n"
 "            "
-msgstr ""
+msgstr "Dans la liste de vos organisations (Cliquez sur le tableau \"Vos organisations\"),\n"
+"             cliquez simplement sur \"Créer\" (champ de rapport PDF). Il sera généré un document PDF avec toutes les informations contenues dans votre registre. "
 
 #: audit/templates/dashboard.html:8
 msgid "The GDPR Registry Web App provides a complete dashboard based on the django Jet framework (https://github.com/geex-arts/django-jet), with the following information:"
-msgstr "L'application Web GDPR Registry fournit un tableau de bord complet basé sur le cadre django Jet (https://github.com/geex-arts/django-jet), avec les informations suivantes"
+msgstr "L'application Web GDPR Registry fournit un tableau de bord complet basé sur le framework Django Jet (https://github.com/geex-arts/django-jet), avec les informations suivantes:"
 
 #: audit/templates/dashboard.html:10 dashboard_modules.py:7
 msgid "Registry Status"
@@ -1177,7 +1212,7 @@ msgstr "Applications"
 
 #: audit/templates/dashboard.html:13
 msgid "we have two main applications, namely"
-msgstr "il y a deux applications principales, a savoir"
+msgstr "il y a deux applications principales, à savoir"
 
 #: audit/templates/dashboard.html:15
 msgid "an <strong>access control</strong> application, that keeps track of all accesses in the admin interface"
@@ -1185,7 +1220,7 @@ msgstr "une application de <strong>contrôle d'accès</strong>, qui garde une tr
 
 #: audit/templates/dashboard.html:16
 msgid "an <strong>audit</strong> application, that keeps track of all GDPR activities in the admin interface (different, linked tables)"
-msgstr "une application <strong> d'audit </strong>, qui garde une trace de toutopérations effectuées dans l'interface d'administration"
+msgstr "une application <strong>d'audit</strong>, qui garde une trace de toutes les opérations effectuées dans l'interface d'administration (différences, tables liées)"
 
 #: audit/templates/dashboard.html:18 dashboard.py:47
 msgid "Administration"
@@ -1193,7 +1228,7 @@ msgstr "Administration"
 
 #: audit/templates/dashboard.html:18
 msgid "by means of this section we can add new users, groups and assign them different privileges for the access of the (different functionalities in the) admin interface."
-msgstr "à travers cette section, nous pouvons ajouter de nouveaux utilisateurs, groupes et assignerleurs différents privilèges pour accéder aux différentes fonctionnalitésdans l'interface d'administration."
+msgstr "à travers cette section, nous pouvons ajouter de nouveaux utilisateurs, groupes et assigner leurs différents privilèges pour accéder aux différentes fonctionnalités dans l'interface d'administration."
 
 #: audit/templates/dashboard.html:19 dashboard.py:63
 msgid "Support"
@@ -1201,11 +1236,11 @@ msgstr "Support"
 
 #: audit/templates/dashboard.html:19
 msgid "this section provides links to the documentation of the Registry App, and Pluribus One products and services that can help you to achieve GDPR compliance."
-msgstr "cette section fournit des liens vers la documentation de l'application de registre, et Les produits et services Pluribus One qui peuvent vous aider à atteindre la conformité RGPD "
+msgstr "cette section fournit des liens vers la documentation de l'application de registre et les produits et services Pluribus One qui peuvent vous aider à atteindre la conformité RGPD"
 
 #: audit/templates/dashboard.html:21
 msgid "You can customize your dashboard, moving or removing each element. For technical details, please check out the django jet documentation (https://jet.readthedocs.io/en/latest/)"
-msgstr "Vous pouvez personnaliser le tableau de bord en déplaçant ou supprimant chaque élément. Pour les détails techniques, voir la documentation de django jet (https: //jet.readthedocs.io/en/latest/)"
+msgstr "Vous pouvez personnaliser le tableau de bord en déplaçant ou supprimant chaque élément. Pour les détails techniques, voir la documentation de django jet (https://jet.readthedocs.io/en/latest/)"
 
 #: audit/templates/dashboard_modules/stat.html:12
 msgid "Nothing to show"
@@ -1263,8 +1298,7 @@ msgid "You just need to click on the suggestion displayed in the Registry Status
 "            Then, you can insert all details about your organization and save.\n"
 "        "
 msgstr "Si vous venez d'installer l'application, cliquez simplement sur la suggestion affiché dans le composant d'état du registre. Sinon, \n"
-"vous pouvez toujours accéder à \"Audit-> Vos organisations-> Ajouter une organisation \n"
-"À ce stade, vous pouvez entrer tous les détails sur le vôtrepuis sauvegarder."
+"vous pouvez toujours accéder à \"Audit-> Vos organisations-> Ajouter une organisation\". A ce stade, vous pouvez entrer tous les détails sur la vôtre puis sauvegarder."
 
 #: audit/templates/data_audit.html:42
 msgid "In this example, we create an imaginary organization <strong>Acme Inc</strong>"
@@ -1287,14 +1321,16 @@ msgid "In general, you should insert each business process of your organization\
 "            which is expected to manage personal data. In the edit page of your organization,\n"
 "            click on the add (+) icon, of the field \"business processes\". Then fill in all details about the business process.\n"
 "        "
-msgstr ""
+msgstr "En général, vous devez insérer chaque processus métier de votre organisation qui est censée gérer les données personnelles. Dans la page d'édition de votre organisation, cliquez sur l'icône d'ajout (+), du champ \"Processus métier\". Ensuite, remplissez tous les détails sur le processus métier. "
 
 #: audit/templates/data_audit.html:66
 msgid "\n"
 "            <strong>Examples of business processes</strong>: Human Resources, European Projects, Customer Care.\n"
 "            In this example, we create a business process named <strong>Human Resources</strong> for <strong>Acme Inc.</strong>\n"
 "            "
-msgstr ""
+msgstr "\n"
+"<strong>Exemples de processus métier</strong> : ressources humaines, projets européens, service client.\n"
+"Dans cet exemple, nous créons un processus métier nommé <strong>Ressources humaines</strong> pour <strong>Acme Inc.</strong> "
 
 #: audit/templates/data_audit.html:73
 msgid "Add Business Process"
@@ -1306,14 +1342,16 @@ msgstr "Procédure de gestion des ressources humaine"
 
 #: audit/templates/data_audit.html:84
 msgid "Step 3. Associate a Processing Activity to each Business Process"
-msgstr ""
+msgstr "Étape 3. Associez une activité de traitement à chaque processus métier "
 
 #: audit/templates/data_audit.html:87
 msgid "In general, for each business process, you should insert each processing activity which is expected to manage personal data.\n"
 "            Data Processing activities always prefigure a specific (lawful) goal and purpose. In the edit page of a business process,\n"
 "            click on the add (+) icon of the field \"processing activities\". Then fill in all details about the processing activity.\n"
 "        "
-msgstr ""
+msgstr "En général, pour chaque processus métier, vous devez insérer chaque activité de traitement censée gérer des données personnelles.\n"
+"             Les activités de traitement des données préfigurent toujours un objectif et un but spécifiques (licites). Dans la page d'édition d'un processus métier,\n"
+"             cliquez sur l'icône d'ajout (+) du champ \"activités de traitement\". Remplissez ensuite tous les détails concernant l'activité de traitement."
 
 #: audit/templates/data_audit.html:92
 msgid "In general, for each data processing activity you should specify:\n"
@@ -1324,14 +1362,21 @@ msgid "In general, for each data processing activity you should specify:\n"
 "                <li><strong>Legal base</strong>: e.g., necessary for the execution of a contract (GDPR art. 6(1)b)</li>\n"
 "            </ul>\n"
 "        "
-msgstr ""
+msgstr "En général, pour chaque activité de traitement de données, vous devez spécifier :\n"
+"             <ul>\n"
+"                 <li><strong>Nom</strong> : par exemple, Contractualisation</li>\n"
+"                 <li><strong>Portée du traitement</strong> : par exemple, gestion du personnel</li>\n"
+"                 <li><strong>Type de traitement</strong> : par exemple, normal (des traitements spéciaux peuvent être dédiés à des catégories particulières de données uniquement)</li>\n"
+"                 <li><strong>Base juridique</strong> : par exemple, nécessaire à l'exécution d'un contrat (RGPD art. 6(1)b)</li>\n"
+"             </ul> "
 
 #: audit/templates/data_audit.html:102
 msgid "<strong>Examples of processing activities</strong>: Contractualization (Process: Human Resources),\n"
 "        Submission of proposals (Process: Projects), Newsletter (Process: Customer Care). In this example, we inserted a processing activity\n"
 "            named <strong>Contractualization</strong> into business process <strong>Human Resources</strong>, .\n"
 "            "
-msgstr ""
+msgstr "<strong>Exemples d'activités de traitement</strong> : Contractualisation (Processus : Ressources Humaines),\n"
+"         Soumission de propositions (Processus : Projets), Newsletter (Processus : Service Client). Dans cet exemple, nous avons inséré une activité de traitement nommée <strong>Contractualisation</strong> dans le processus métier <strong>Ressources Humaines</strong>. "
 
 #: audit/templates/data_audit.html:109
 msgid "Add Processing Activity"
@@ -1343,14 +1388,16 @@ msgstr "Contractualisation"
 
 #: audit/templates/data_audit.html:120
 msgid "Step 4. Associate a Data Audit to each Processing Activity"
-msgstr ""
+msgstr "Étape 4. Associez un audit de données à chaque activité de traitement "
 
 #: audit/templates/data_audit.html:123
 msgid "You should insert the details about the data handled by each processing activity.\n"
 "            In the edit page of a processing activity, click on the add (+) icon of the field \"data audit\".\n"
 "            Then fill in all details about the data audit.\n"
 "        "
-msgstr ""
+msgstr "Vous devez insérer les détails sur les données traitées par chaque activité de traitement.\n"
+"             Dans la page d'édition d'une activité de traitement, cliquez sur l'icône d'ajout (+) du champ \"audit des données\".\n"
+"             Ensuite, remplissez tous les détails sur l'audit des données. "
 
 #: audit/templates/data_audit.html:128
 msgid "In general, for each data audit you should specify:\n"
@@ -1360,7 +1407,12 @@ msgid "In general, for each data audit you should specify:\n"
 "                <li><strong>Inherent risk for the freedom and rights of individuals</strong>: e.g., medium</li>\n"
 "            </ul>\n"
 "        "
-msgstr ""
+msgstr "En général, pour chaque audit de données, vous devez spécifier :\n"
+"             <ul>\n"
+"                 <li><strong>Nom</strong> : par exemple, documents d'identité des employés</li>\n"
+"                 <li><strong>Catégorie</strong> : par exemple, informations personnelles identifiables</li>\n"
+"                 <li><strong>Risque inhérent pour la liberté et les droits des individus</strong> : par exemple, moyen</li>\n"
+"             </ul> "
 
 #: audit/templates/data_audit.html:137
 msgid "<strong>Examples of data audits</strong>: Identity documents of Employees (Activity: Contractualization),\n"
@@ -1368,7 +1420,10 @@ msgid "<strong>Examples of data audits</strong>: Identity documents of Employees
 "            we inserted an entry for\n"
 "            the processing activity <strong>Contractualization</strong>, named <strong>Identity Documents of Employees</strong>.\n"
 "            "
-msgstr ""
+msgstr "<strong>Exemples d'audits de données</strong> : Pièces d'identité des Salariés (Activité : Contractualisation),\n"
+"         Pièces d'identité des Coordinateurs (Activité : Soumission de propositions), Mailing list (Activité : Newsletter). Dans cet exemple,\n"
+"             nous avons inséré une entrée pour\n"
+"             l'activité de traitement <strong>Contractualisation</strong>, nommée <strong>Documents d'Identité des Employés</strong>. "
 
 #: audit/templates/data_audit.html:145
 msgid "Add Data Audit"
@@ -1386,13 +1441,17 @@ msgstr "Process RGPD - Gestion des données"
 msgid "Once the data audit has been performed and\n"
 "                    documented, it is time to assess <code>how</code> such data is managed by\n"
 "                    your organization to make sure that this process fully complies with GDPR."
-msgstr ""
+msgstr "Une fois l'audit des données effectué et\n"
+"                     documentées, il est temps d'évaluer <code>comment</code> ces données sont gérées par\n"
+"                     votre organisation pour vous assurer que ce processus est entièrement conforme au RGPD."
 
 #: audit/templates/data_policy.html:18
 msgid "The result of this analysis should produce a report for each category of data\n"
 "                    identified in the data audit phase, highlighting the current management policy, together with all\n"
 "                    measures put in place to protect personal data and allow data subjects to fully excercise their rights."
-msgstr ""
+msgstr "Le résultat de cette analyse devrait produire un rapport pour chaque catégorie de données\n"
+"                     identifié dans la phase d'audit des données, mettant en évidence la politique de gestion actuelle, ainsi que toutes\n"
+"                     mesures mises en place pour protéger les données personnelles et permettre aux personnes concernées d'exercer pleinement leurs droits. "
 
 #: audit/templates/data_policy.html:29
 msgid "Data Management Policy - How To"
@@ -1408,7 +1467,10 @@ msgid "In the edit page of the data audit, click on the add (+) icon for the fie
 "            handled by a web application that stores the data in encrypted form, and allows only specific (authorized)\n"
 "            users to access the data.\n"
 "        "
-msgstr ""
+msgstr "dans la page d'édition de l'audit des données, cliquez sur l'icône d'ajout (+) du champ \"politique de gestion des données\".\n"
+"             Ensuite, vous pouvez insérer tous les détails sur la politique de données. Dans ce cas, les données sont\n"
+"             gérées par une application Web qui stocke les données sous forme cryptée et n'autorise que des\n"
+"             utilisateurs d'accéder aux données. "
 
 #: audit/templates/data_policy.html:42
 msgid "Please note that in general, for each data management policy,\n"
@@ -1422,11 +1484,20 @@ msgid "Please note that in general, for each data management policy,\n"
 "            and protection measure. </li>\n"
 "            </ul>\n"
 "        "
-msgstr ""
+msgstr "Veuillez noter qu'en général, pour chaque politique de gestion des données,\n"
+"            vous devez spécifier :\n"
+"            <ul>\n"
+"                <li><strong>Protection des données</strong> : comment prévenir les violations de données, c'est-à-dire comment les données personnelles sont correctement protégées</li>\n"
+"                <li><strong>Transferts de données</strong> : si des transferts de données sont actuellement en place (par exemple, votre organisation transfère des données à des processeurs tiers), en spécifiant les contrats associés qui doivent être conformes au RGPD, c'est-à-dire qu'ils doivent vous permettre en tant que responsable du traitement pour satisfaire pleinement les droits des personnes concernées.</li>\n"
+"                <li><strong>Droits des personnes concernées</strong> : comment les personnes concernées sont informées et peuvent satisfaire leurs droits fondamentaux (consultation, correction, annulation des données, limitation de la portée du traitement)</li>\n"
+"                <li><strong>Risque résiduel (de violation de données)</strong> : risque résiduel associé à la prévention de la violation de données ; c'est-à-dire une évaluation du risque résiduel de violation de données compte tenu de la méthode de protection des données qui a été mise en place.\n"
+"            Cela devrait être le résultat d'une analyse détaillée des risques qui évalue la probabilité et l'impact des violations de données pour l'audit de données considéré\n"
+"            et mesure de protection. </li>\n"
+"            </ul> "
 
 #: audit/templates/data_policy.html:55
 msgid "In this example, we create a data management policy <strong>Web App Auth and Access Control</strong> and associate it to the Data Audit <strong>Identity Documents</strong>"
-msgstr ""
+msgstr "Dans cet exemple, nous créons une stratégie de gestion des données <strong>Web App Auth and Access Control</strong> et l'associons aux données Audit <strong>Documents d'identité</strong>"
 
 #: audit/templates/data_policy.html:59
 msgid "Add Data Management Policy"
@@ -1552,7 +1623,7 @@ msgstr "par exemple : Ressources humaines"
 
 #: audit/templates/key_features.html:35
 msgid "e.g., Contractualization"
-msgstr "par exemple : les contrats"
+msgstr "ex: les contrats"
 
 #: audit/templates/key_features.html:38
 msgid "e.g., Identity documents of employees"
@@ -1600,7 +1671,14 @@ msgid "\n"
 "            <li><strong>Data Protection Officer</strong>: Mario Rossi</li>\n"
 "        </ul>\n"
 "        "
-msgstr ""
+msgstr "\n"
+"<ul>\n"
+"             <li><strong>Nom</strong> : Acme SRL</li>\n"
+"             <li><strong>Adresse</strong> : Via delle Strade, 9, 09123, Cagliari</li>\n"
+"             <li><strong>Pays</strong> : Italie</li>\n"
+"             <li><strong>Statut</strong> : Société privée</li>\n"
+"             <li><strong>Délégué à la protection des données</strong> : Mario Rossi</li>\n"
+"         </ul> "
 
 #: audit/templates/key_features.html:72
 msgid "\n"
@@ -1611,7 +1689,12 @@ msgid "\n"
 "                            and some aspects of recruitment and dismissal</li>\n"
 "                    </ul>\n"
 "                "
-msgstr ""
+msgstr "\n"
+"                         <li><strong>Nom</strong> : Ressources humaines</li>\n"
+"                         <li><strong>Description</strong> : gestion des ressources humaines, supervision de divers aspects de l'emploi,\n"
+"                             tels que le respect du droit du travail et des normes d'emploi, l'administration des avantages sociaux,\n"
+"                             et certains aspects du recrutement et du licenciement</li>\n"
+"                     </ul> "
 
 #: audit/templates/key_features.html:83
 msgid "\n"
@@ -1620,7 +1703,10 @@ msgid "\n"
 "                                <li><strong>Description</strong>: Activity required to contractualize employees</li>\n"
 "                            </ul>\n"
 "                        "
-msgstr ""
+msgstr "\n"
+"                                 <li><strong>Nom</strong> : Contractualisation</li>\n"
+"                                 <li><strong>Description</strong> : Activité requise pour contractualiser les employés</li>\n"
+"                             </ul> "
 
 #: audit/templates/key_features.html:92
 msgid "\n"
@@ -1632,7 +1718,13 @@ msgid "\n"
 "                                    <li><strong>Inherent risk</strong>: medium</li>\n"
 "                                </ul>\n"
 "                                "
-msgstr ""
+msgstr "\n"
+"                                     <li><strong>Description</strong> : pièces d'identité des employés</li>\n"
+"                                     <li><strong>Catégorie</strong> : informations personnelles identifiables</li>\n"
+"                                     <li><strong>Portée du traitement</strong> : gestion du personnel</li>\n"
+"                                     <li><strong>Base juridique</strong> : nécessaire à l'exécution d'un contrat (RGPD art. 6(1)b)</li>\n"
+"                                     <li><strong>Risque inhérent</strong> : moyen</li>\n"
+"                                 </ul> "
 
 #: audit/templates/key_features.html:104
 msgid "\n"
@@ -1646,7 +1738,15 @@ msgid "\n"
 "                                            <li><strong>Residual risk (of data breaches)</strong>: low</li>\n"
 "                                        </ul>\n"
 "                                        "
-msgstr ""
+msgstr "\n"
+"                                             <li><strong>Description</strong> : les données sont stockées dans une base de données privée, sous forme cryptée, et\n"
+"                                         accessible uniquement aux personnes suivantes : Robb Jones (employé administratif)</li>\n"
+"                                             <li><strong>Transferts de données</strong> : les données ne sont pas transférées à des tiers</li>\n"
+"                                             <li><strong>Droits des personnes concernées</strong> : les personnes concernées sont informées et ont explicitement accepté\n"
+"                                                 notre politique de confidentialité (lien vers le document X).\n"
+"                                                 Le document X explique également comment ils peuvent consulter, corriger, annuler et limiter l'étendue de notre gestion des données.</li>\n"
+"                                             <li><strong>Risque résiduel (de violation de données)</strong> : faible</li>\n"
+"                                         </ul> "
 
 #: audit/templates/key_features.html:120
 msgid "\n"
@@ -1669,7 +1769,24 @@ msgid "\n"
 "                                            <li><strong>Residual risk (of missing data breaches)</strong>: LOW</li>\n"
 "                                        </ul>\n"
 "                                        "
-msgstr ""
+msgstr "\n"
+"                                            <li><strong>Description</strong></li>\n"
+"                                            <ul>\n"
+"                                                <li>chaque accès à la base de données privée est surveillé,\n"
+"                                        connecté dans une base de données de journalisation en ajout uniquement</li>\n"
+"                                            <li> détection d'intrusion basée sur les anomalies capable d'alerter sur les tentatives d'accès suspectes\n"
+"                                                <ul>\n"
+"                                                    <li>à partir d'adresses IP inattendues</li>\n"
+"                                                    <li>à des heures inattendues (par exemple, la nuit, le week-end)</li>\n"
+"                                                    <li>trop de tentatives d'accès infructueuses</li>\n"
+"                                                    <li>Trafic inattendu entre l'application de base de données et Internet</li>\n"
+"                                                </ul>\n"
+"                                            </li>\n"
+"                                            <li>chaque alerte est inspectée par notre équipe de sécurité, disponible 24h/24 et 7j/7, par des moyens authentifiés,\n"
+"                                        chaîne cryptée</li>\n"
+"                                            </ul>\n"
+"                                            <li><strong>Risque résiduel (de fuites de données manquantes)</strong> : FAIBLE</li>\n"
+"                                        </ul> "
 
 #: audit/templates/key_features.html:145
 msgid "\n"
@@ -1686,21 +1803,34 @@ msgid "\n"
 "                                            <li><strong>Residual risk (of unmanaged data breaches)</strong>: low</li>\n"
 "                                        </ul>\n"
 "                                        "
-msgstr ""
+msgstr "\n"
+"                                            <li><strong>Description</strong></li>\n"
+"                                            <ul>\n"
+"                                                <li>sauvegardes automatiques en lecture seule de la base de données privée contenant les données personnelles</li>\n"
+"                                                <li>pare-feu d'application Web capable de bloquer le trafic vers/depuis l'application administrative et Internet</li>\n"
+"                                                <li>modèles de notification de violation de données et base de données des personnes concernées</li>\n"
+"                                                <li>notification immédiate des incidents de sécurité par l'équipe de sécurité au délégué à la protection des données via des\n"
+"                                                chaîne cryptée</li>\n"
+"                                                <li>l'application d'administration s'exécute sur une machine virtuelle afin qu'elle puisse être gelée pour une analyse médico-légale</li>\n"
+"                                            </ul>\n"
+"                                            <li><strong>Risque résiduel (de violations de données non gérées)</strong> : faible</li>\n"
+"                                        </ul> "
 
 #: audit/templates/key_features.html:164
 msgid "Details about the DPIA (if any), with link to PDF document."
-msgstr ""
+msgstr "Détails sur le DPIA (le cas échéant), avec lien vers le document PDF."
 
 #: audit/templates/license.html:5
 msgid "GDPR Registry Web App License"
-msgstr ""
+msgstr " GDPR Registry Web App License"
 
 #: audit/templates/license.html:7
 msgid "\n"
 "Last update: November 26, 2020.\n"
 ""
-msgstr ""
+msgstr "\n"
+"Dernière mise à jour : 26 novembre 2020.\n"
+""
 
 #: audit/templates/license.html:14
 msgid "\n"
@@ -1718,13 +1848,22 @@ msgid "\n"
 "            along with this program.  If not, see <a href=\"https://www.gnu.org/licenses/\">https://www.gnu.org/licenses/</a>.\n"
 "        </p>\n"
 "        "
-msgstr ""
+msgstr "\n"
+"<p>Ce programme est un logiciel libre : vous pouvez le redistribuer et/ou le modifier selon les termes de la licence publique générale GNU Affero telle que publiée par la Free Software Foundation, soit la version 3 de la licence, soit (à votre choix) toute version ultérieure.\n"
+"</p>\n"
+"<p>Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE GARANTIE ; sans même la garantie implicite de QUALITÉ MARCHANDE ou d'ADÉQUATION À UN USAGE PARTICULIER. Voir la licence publique générale GNU Affero pour plus de détails.\n"
+"</p>\n"
+"<p>\n"
+"Vous devriez avoir reçu une copie de la licence publique générale GNU Affero avec ce programme. Sinon, consultez <a href=\"https://www.gnu.org/licenses/\">https://www.gnu.org/licenses</a> \n"
+"</p>\n"
+"        "
 
 #: audit/templates/license.html:31
 msgid "\n"
 "        <strong>Contact</strong>. For any inquiry, please use the <a href=\"https://gdpr.pluribus-one.it/contact_us\">Contact form</a> in the Pluribus One GDPR website.\n"
 "        "
-msgstr ""
+msgstr "\n"
+"<strong>Contact</strong>. Pour toute demande, veuillez utiliser le <a href=\"https://gdpr.pluribus-one.it/contact_us\">formulaire de contact</a> sur le site Pluribus One GDPR. "
 
 #: audit/templates/license.html:41
 msgid "\n"
@@ -1755,11 +1894,11 @@ msgstr "Se déconnecter"
 
 #: dashboard.py:71
 msgid "Pluribus One Technology"
-msgstr ""
+msgstr " Pluribus One Technology"
 
 #: dashboard.py:76
 msgid "Pluribus One Services"
-msgstr ""
+msgstr " Pluribus One Services"
 
 #: dashboard_modules.py:16
 msgid "First time here? Click to add your organization in the registry"
