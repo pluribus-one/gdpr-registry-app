@@ -809,11 +809,11 @@ msgstr "Organisation: %s"
 
 #: audit/pdf_report.py:292
 msgid "DPO has not been set."
-msgstr "Non è stato impostato alcun DPO."
+msgstr "Vous n'avez pas configuré un DPO."
 
 #: audit/pdf_report.py:295
 msgid "Business Processes (%d)"
-msgstr "Business Processes (%d)"
+msgstr "Processus métier (%d)"
 
 #: audit/pdf_report.py:298
 msgid "Process: %s (activities: %d)"
@@ -821,7 +821,7 @@ msgstr "Traité: %s (activités: %d)"
 
 #: audit/pdf_report.py:301
 msgid "%s > %s (data audits: %d)"
-msgstr "%s > %s (audit dei dati: %d)"
+msgstr "%s > %s (audit des données: %d)"
 
 #: audit/pdf_report.py:304
 msgid "%s > %s > %s"
@@ -829,43 +829,43 @@ msgstr "%s > %s > %s"
 
 #: audit/pdf_report.py:308
 msgid "%s > %s > %s > Data Subject Categories"
-msgstr "%s > %s > %s > Categorie di soggetti del trattamento dati"
+msgstr "%s > %s > %s > Catégories de sujets de traitement de données"
 
 #: audit/pdf_report.py:312
 msgid "<em>There are no data subject categories for the data (!)</em>"
-msgstr "<em> Non esistono categorie di soggetti del trattamento dati (!) </em>"
+msgstr "<em> Il n'y a pas de catégories de sujets de traitement de données (!) </em>"
 
 #: audit/pdf_report.py:314
 msgid "%s > %s > %s > Data Management Policy"
-msgstr "%s > %s > %s > Politica di gestione dei dati"
+msgstr "%s > %s > %s > Politique de gestion des données"
 
 #: audit/pdf_report.py:317
 msgid "%s > %s > %s > Data Transfers (to third parties)"
-msgstr "%s > %s > %s > Trasferimenti dati (a terzi)"
+msgstr "%s > %s > %s > Transferts de données (à des tiers)"
 
 #: audit/pdf_report.py:322
 msgid "<em>Sounds Good. No data transfers.</em>"
-msgstr "<em>Ottimo. Nessun trasferimento di dati.</em>"
+msgstr "<em>Ça a l'air OK. Aucun transfert de données.</em>"
 
 #: audit/pdf_report.py:324
 msgid "<em>No Management Policy for the data (!)</em>"
-msgstr "<em>Nessuna politica di gestione per i dati (!)</em>"
+msgstr "<em>Aucune politique de gestion des données (!)</em>"
 
 #: audit/pdf_report.py:326
 msgid "%s > %s > %s > Data Breach Detection"
-msgstr "%s > %s > %s > Rilevamento violazione dati"
+msgstr "%s > %s > %s > détection de violation de données"
 
 #: audit/pdf_report.py:330
 msgid "<em>No Data Breach Detection method found (!)</em>"
-msgstr "<em>Nessun meccanismo di rilevamento di violazioni (!)</em>"
+msgstr "<em>Aucune méthode de détection de violation de données détectée (!)</em>"
 
 #: audit/pdf_report.py:332
 msgid "%s > %s > %s > Data Breach Response"
-msgstr "%s > %s > %s > Risposta alla violazione dei dati"
+msgstr "%s > %s > %s > Réponse à la violation de données"
 
 #: audit/pdf_report.py:337
 msgid "<em>No Data Breach Response plan found (!)</em>"
-msgstr "<em> Nessun piano di risposta alla violazione dei dati (!) </em>"
+msgstr "<em> Aucun plan de réponse à la violation de données trouvé (!) </em>"
 
 #: audit/pdf_report.py:339
 msgid "%s > %s > %s > Data Protection Impact Assessment"
@@ -873,7 +873,7 @@ msgstr "%s > %s > %s > Valutazione di impatto sulla protezione dei dati (DPIA)"
 
 #: audit/pdf_report.py:344
 msgid "<em>No Data Protection Impact Assessment found (!)</em>"
-msgstr "<em>Nessuna valutazione dell'impatto sulla protezione dei dati (!) </em>"
+msgstr "<em>Aucune évaluation d'impact sur la protection des données n'a été trouvée  (!) </em>"
 
 #: audit/pdf_report.py:347
 msgid "<em>None available.</em>"
@@ -889,7 +889,7 @@ msgstr "Veuillez corriger les erreurs ci-dessous"
 
 #: audit/templates/admin/login.html:37
 msgid "You are authenticated as %(username)s, but are not authorized to access this page. Would you like to login to a different account?"
-msgstr ""
+msgstr "Vous êtes authentifié en tant que %(username)s, mais vous n'êtes pas autorisé à accéder à cette page. Souhaitez-vous vous connecter à un autre compte ?"
 
 #: audit/templates/admin/login.html:63
 msgid "Forgotten your password or username?"
@@ -939,7 +939,7 @@ msgstr "3. Dectection de violation de données"
 
 #: audit/templates/base.html:42
 msgid "4. Incident Response Plan"
-msgstr "4. Plan de réponse aux incidents "
+msgstr "4. Plan de réponse aux incidents"
 
 #: audit/templates/base.html:43 audit/templates/create_report.html:5
 #: audit/templates/create_report.html:18
@@ -995,11 +995,11 @@ msgstr ""
 
 #: audit/templates/breach_detection.html:30
 msgid "Data Breach Detection - How To"
-msgstr "Rilevamento di Violazioni - Istruzioni"
+msgstr "Détection des violations de données - Comment faire"
 
 #: audit/templates/breach_detection.html:33
 msgid "Add Data Breach Detection for each Data Audit"
-msgstr "Ajouter une détection de violation de données pour chaque audit de données "
+msgstr "Ajouter une détection de violation de données pour chaque audit de données"
 
 #: audit/templates/breach_detection.html:36
 msgid "In the edit page of the data audit, just click on the add (+) icon for the field \"data breach detection\".\n"
@@ -1060,7 +1060,7 @@ msgstr "Plan de réponse aux incident - Comment faire"
 
 #: audit/templates/breach_response.html:34
 msgid "Add Incident Response Plan for each Data Audit"
-msgstr "Ajouter un plan de réponse aux incidents pour chaque audit de données "
+msgstr "Ajouter un plan de réponse aux incidents pour chaque audit de données"
 
 #: audit/templates/breach_response.html:37
 msgid "In the edit page of the data audit, just click on the add (+) icon for the field \"incident response plan\".\n"
@@ -1108,7 +1108,7 @@ msgstr "Réponse aux violation de données"
 
 #: audit/templates/breach_response.html:79
 msgid "Add Data Protection Impact Assessment (DPIA) for each Data Audit"
-msgstr "Aggiungi Valutazione di impatto sulla protezione dei dati (DPIA)"
+msgstr "Ajouter une évaluation d'impact sur la protection des données (DPIA) pour chaque audit de données"
 
 #: audit/templates/breach_response.html:82
 msgid "In the edit page of the data audit, just click on the add (+) icon for the field \"Data Protection Impact Assessment\".\n"
@@ -1228,7 +1228,7 @@ msgid "In order to protect personal data as prefigured by GDPR, you first need\n
 "                    to be fully aware of <code>what</code> personal data is being captured, processed and stored by your\n"
 "                    organization, or by third-party organizations on your behalf."
 msgstr "Protéger les données personnelles conformément au RGPD, c'est avant tout\n"
-"savoir exactement <code> quelles données personnelles </code> sont acquis, traités et stockés par votre \n"
+"savoir exactement <code> quelles données personnelles </code> sont acquises, traitées et stockées par votre \n"
 "organisation, ou par des organisations tierces pour votre compte."
 
 #: audit/templates/data_audit.html:18
@@ -1724,36 +1724,34 @@ msgstr ""
 msgid "\n"
 "        <strong>Contact</strong>. For any inquiry, please use the <a href=\"https://gdpr.pluribus-one.it/contact_us\">Contact form</a> in the Pluribus One GDPR website.\n"
 "        "
-msgstr "\n"
-"<strong>Contatto</strong>. Per qualsiasi richiesta, utilizzate il <a href=\"https://gdpr.pluribus-one.it/contact_us\">modulo di contatto</a> presente nel sito dedicato a GDPR di Pluribus One."
+msgstr ""
 
 #: audit/templates/license.html:41
 msgid "\n"
 "Copy of the official version published at <a href=\"https://www.gnu.org/licenses/agpl-3.0.html\">https://www.gnu.org/licenses/agpl-3.0.html</a>\n"
 ""
 msgstr "\n"
-"Copia della versione ufficiale pubblicata su <a href=\"https://www.gnu.org/licenses/agpl-3.0.html\"> https://www.gnu.org/licenses/agpl-3.0.html</a>\n"
 ""
 
 #: audit/views.py:30
 msgid "Invalid Organization ID"
-msgstr ""
+msgstr "ID d'organisation invalide"
 
 #: dashboard.py:22
 msgid "Quick links"
-msgstr ""
+msgstr "Liens rapides"
 
 #: dashboard.py:28
 msgid "Return to site"
-msgstr ""
+msgstr "Retour au site"
 
 #: dashboard.py:29
 msgid "Change password"
-msgstr ""
+msgstr "Changer de mot-de-passe"
 
 #: dashboard.py:31
 msgid "Log out"
-msgstr ""
+msgstr "Se déconnecter"
 
 #: dashboard.py:71
 msgid "Pluribus One Technology"
@@ -1765,13 +1763,13 @@ msgstr ""
 
 #: dashboard_modules.py:16
 msgid "First time here? Click to add your organization in the registry"
-msgstr ""
+msgstr "Première fois ici? Cliquez pour ajouter votre organisation dans le registre "
 
 #: dashboard_modules.py:24
 msgid "Click here to see all organizations in the registry and generate a PDF report for each one"
-msgstr ""
+msgstr "Cliquez ici pour voir toutes les organisations dans le registre et générer un rapport PDF pour chacune"
 
 #: dashboard_modules.py:32
 msgid "GDPR is a continuous process. Make sure that all your business processes and processing activities that manage personal data are updated in this registry."
-msgstr ""
+msgstr "Le RGPD est un processus continu. Assurez-vous que tous vos processus commerciaux et activités de traitement qui gèrent des données personnelles sont mis à jour dans ce registre."
 
