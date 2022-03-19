@@ -1,8 +1,8 @@
 {
-  "Liste indicative des types d'objectifs": {
+  "Indicative List of Purpose Types": {
     "Fonctions générales": [
       {
-        "nom": "RH",
+        "name": "RH",
         "description": "Recrutement et sélection de salariés et d'intermédiaires (courtiers, mandataires indépendants, etc.). Administration de la paie, rémunérations, commissions et salaires. Application de la législation sociale.",
         "article": null,
         "url": ""
@@ -80,7 +80,7 @@
         "url": ""
       },
       {
-        "nom": "Sécurité",
+        "name": "Sécurité",
         "description": "Traitement de données destiné à assurer la sécurité des personnes ou des biens. Remarque : En principe, les caméras de sécurité sont soumises à la loi du 21 mars 2007 relative au placement et à l'utilisation des caméras de sécurité (la \"loi caméras\") et peuvent ne pas être signalé au moyen de ce formulaire. Veuillez utiliser le formulaire thématique personnalisé. Plus d'informations à ce sujet sur www.privacycommission.be (Caméras de surveillance et notre vie privée / Bewakingscamera's en onze privacy).",
         "article": null,
         "url": ""
@@ -100,7 +100,7 @@
     ],
     "Objectifs gouvernementaux":[
       {
-        "nom": "Taxes",
+        "name": "Taxes",
         "description": "La perception des impôts et les activités qui s'y rapportent : enregistrement des contribuables ainsi que calcul, collecte et suivi des impôts.",
         "article": null,
         "url": ""
@@ -405,7 +405,7 @@
       }
     ]
   },
-  "Base de traitement": {
+  "Basis for Processing": {
     "Generic": [
       {
         "name": "Consentement de la personne concernée",
@@ -432,23 +432,23 @@
         "url": ""
       },
       {
-        "nom": "Tâche effectuée dans l'intérêt public ou dans l'exercice de l'autorité publique",
+        "name": "Tâche effectuée dans l'intérêt public ou dans l'exercice de l'autorité publique",
         "description": "Le traitement est nécessaire à l'exécution d'une mission d'intérêt public ou relevant de l'exercice de l'autorité publique dont est investi le responsable du traitement (article 6, paragraphe 1, point e) du RGPD).",
         "article": 6,
         "url": ""
       },
       {
-        "nom": "Intérêts légitimes poursuivis par le responsable du traitement ou par un tiers",
+        "name": "Intérêts légitimes poursuivis par le responsable du traitement ou par un tiers",
         "description": "Le traitement est nécessaire aux fins des intérêts légitimes poursuivis par le responsable du traitement ou par un tiers, sauf lorsque ces intérêts prévalent sur les intérêts ou les libertés et droits fondamentaux de la personne concernée qui exigent la protection des données à caractère personnel , en particulier lorsque la personne concernée est un enfant (article 6, paragraphe 1, point f) du RGPD).",
         "article": 6,
         "url": ""
       }
     ]
   },
-  "Liste indicative des catégories de données fonctionnelles": {
+  "Indicative List of Functional Data Categories": {
     "Données d'identification": [
       {
-        "nom": "PII",
+        "name": "PII",
         "description": "Nom, titre, adresse (travail et domicile), anciennes adresses, numéro de téléphone (travail et domicile), identifiants attribués par le responsable du traitement.",
         "article": null,
         "url": "",
@@ -548,7 +548,7 @@
         "special": false
       },
       {
-        "nom": "Rémunération",
+        "name": "Rémunération",
         "description": "Détails concernant les compensations réclamées, les montants payés ou d'autres types de compensation.",
         "article": null,
         "url": "",
@@ -638,7 +638,7 @@
         "special": false
       },
       {
-        "nom": "Biens",
+        "name": "Biens",
         "description": "Terrain, propriété ou autres possessions.",
         "article": null,
         "url": "",
@@ -659,7 +659,7 @@
         "special": false
       },
       {
-        "nom": "Distinctions",
+        "name": "Distinctions",
         "description": "Distinctions civiles, cléricales ou militaires.",
         "article": null,
         "url": "",
@@ -859,7 +859,7 @@
         "special": false
       },
       {
-        "nom": "Publications",
+        "name": "Publications",
         "description": "Livres, articles, rapports, documents audiovisuels publiés.",
         "article": null,
         "url": "",
@@ -945,7 +945,7 @@
         "special": false
       },
       {
-        "nom": "Sécurité",
+        "name": "Sécurité",
         "description": "Mots de passe, codes de sécurité, niveaux auxquels les autorisations sont accordées.",
         "article": null,
         "url": "",
@@ -1029,7 +1029,7 @@
     ],
     "Enregistrements vidéo": [
       {
-        "nom": "Images",
+        "name": "Images",
         "description": "Enregistrement par caméra, enregistrement photographique, enregistrement vidéo, photos numériques, etc.",
         "article": null,
         "url": "",
@@ -1160,10 +1160,10 @@
       }
     ]
   },
-  "Type de traitement": {
+  "Type of Processing": {
     "Generic": [
       {
-        "nom": "Normal",
+        "name": "Normal",
         "description": "Entrez 'Normal' si aucun des autres types listés ne s'applique.",
         "article": null,
         "url": ""
@@ -1218,7 +1218,7 @@
       }
     ]
   },
-  "Liste indicative des catégories de destinataires": {
+  "Indicative List of Recipient Categories": {
     "Generic": [
       {
         "name": "La personne concernée elle-même",
@@ -1239,7 +1239,7 @@
         "url": ""
       },
       {
-        "nom": "Employeur ou relations d'affaires de la personne concernée",
+        "name": "Employeur ou relations d'affaires de la personne concernée",
         "description": "",
         "article": null,
         "url": ""
@@ -1288,7 +1288,7 @@
       }
     ]
   },
-  "Nature du transfert vers un pays tiers/organisation internationale" : {
+  "Nature of Transfer to Third Country/International Organization" : {
     "Generic": [
       {
         "name": "Transferts sur la base d'une décision d'adéquation",
@@ -1322,24 +1322,24 @@
       }
     ]
   },
-  "Liste indicative des catégories de personnes concernées": {
+  "Indicative List of Data Subject Categories": {
     "Generic": [
       {
-        "nom": "Patients",
+        "name": "Patients",
         "description": "Vos patients",
         "article": null,
         "url": "",
         "vulnerable": true
       },
       {
-        "nom": "Clients",
+        "name": "Clients",
         "description": "Vos clients",
         "article": null,
         "url": "",
         "vulnerable": false
       },
       {
-        "nom": "Employés",
+        "name": "Employés",
         "description": "Vos employés",
         "article": null,
         "url": "",

@@ -31,11 +31,11 @@ msgstr "Appli de gestion RGPD"
 
 #: audit/admin.py:72 audit/models.py:94
 msgid "Name"
-msgstr "Prénom"
+msgstr "Nom"
 
 #: audit/admin.py:77
 msgid "Surname"
-msgstr "Nom"
+msgstr "Nom de famille"
 
 #: audit/admin.py:82
 msgid "Username"
