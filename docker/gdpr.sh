@@ -3,7 +3,7 @@
 cd /app ; . python-venv/bin/activate
 
 do_populate(){
-	echo "list.en.json" | python manage.py populate
+	echo "list.fr.json" | python manage.py populate
 	touch ./.stamps/populated
 }
 
@@ -12,6 +12,9 @@ do_install(){
 	echo "## installing gdpr application"
 
 	mkdir -p .stamps/
+
+	# update localisations
+	# django-admin compilemessages > /dev/null
 
 	python manage.py makemigrations axes audit jet dashboard
 	python manage.py migrate

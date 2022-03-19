@@ -1,0 +1,2122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-18 15:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: audit/admin.py:22 audit/templates/admin/login.html:49
+msgid "GDPR Registry App"
+msgstr ""
+
+#: audit/admin.py:72 audit/models.py:94
+msgid "Name"
+msgstr ""
+
+#: audit/admin.py:77
+msgid "Surname"
+msgstr ""
+
+#: audit/admin.py:82
+msgid "Username"
+msgstr ""
+
+#: audit/admin.py:109 audit/models.py:594 audit/models.py:682
+#: audit/templates/key_features.html:31 audit/templates/key_features.html:58
+msgid "Organization"
+msgstr ""
+
+#: audit/admin.py:113 audit/models.py:578
+msgid "Business Owner"
+msgstr ""
+
+#: audit/admin.py:117 audit/models.py:460 audit/models.py:564
+#: audit/models.py:586
+msgid "Processing Activities"
+msgstr ""
+
+#: audit/admin.py:176
+msgid "Managed"
+msgstr ""
+
+#: audit/admin.py:181
+msgid "Breach Detection"
+msgstr ""
+
+#: audit/admin.py:186
+msgid "Breach Response"
+msgstr ""
+
+#: audit/admin.py:191
+msgid "Activities"
+msgstr ""
+
+#: audit/admin.py:196
+msgid "DPIA"
+msgstr ""
+
+#: audit/admin.py:208 audit/models.py:550 audit/models.py:620
+#: audit/templates/key_features.html:33 audit/templates/key_features.html:70
+msgid "Business Process"
+msgstr ""
+
+#: audit/admin.py:213 audit/models.py:496
+msgid "Data Audits"
+msgstr ""
+
+#: audit/admin.py:224
+msgid "Organizations"
+msgstr ""
+
+#: audit/admin.py:233 audit/admin.py:263 audit/models.py:621
+#: audit/models.py:631 audit/models.py:650
+msgid "Business Processes"
+msgstr ""
+
+#: audit/admin.py:259 audit/pdf_report.py:281
+msgid "Data Protection Officer"
+msgstr ""
+
+#: audit/admin.py:266
+msgid "Create"
+msgstr ""
+
+#: audit/admin.py:267
+msgid "PDF Report"
+msgstr ""
+
+#: audit/apps.py:7
+msgid "Audit"
+msgstr ""
+
+#: audit/apps.py:12
+msgid "Access Control"
+msgstr ""
+
+#: audit/models.py:27
+msgid "Suggestions"
+msgstr ""
+
+#: audit/models.py:28
+msgid "Issues"
+msgstr ""
+
+#: audit/models.py:29
+msgid "Warnings"
+msgstr ""
+
+#: audit/models.py:82
+msgid "Last Update"
+msgstr ""
+
+#: audit/models.py:95 audit/models.py:99
+msgid "Description"
+msgstr ""
+
+#: audit/models.py:104
+msgid "Missing description on"
+msgstr ""
+
+#: audit/models.py:115
+msgid "Email"
+msgstr ""
+
+#: audit/models.py:116 audit/models.py:278
+msgid "Address"
+msgstr ""
+
+#: audit/models.py:117
+msgid "Country"
+msgstr ""
+
+#: audit/models.py:118 audit/models.py:279
+msgid "Telephone"
+msgstr ""
+
+#: audit/models.py:119
+msgid "Statute"
+msgstr ""
+
+#: audit/models.py:120
+msgid "Third Country"
+msgstr ""
+
+#: audit/models.py:120
+msgid ""
+"Mark this field if the organization resides in a country outside of the "
+"European Union (EU) and the European Economic Area (EEA)."
+msgstr ""
+
+#: audit/models.py:121
+msgid "International"
+msgstr ""
+
+#: audit/models.py:121
+msgid ""
+"Mark this field if the organization and its subordinate bodies are governed "
+"by public international law"
+msgstr ""
+
+#: audit/models.py:130
+msgid "Document File"
+msgstr ""
+
+#: audit/models.py:131
+msgid "MD5Sum"
+msgstr ""
+
+#: audit/models.py:137
+msgid "Only PDF files are accepted"
+msgstr ""
+
+#: audit/models.py:148
+msgid "Classification"
+msgstr ""
+
+#: audit/models.py:149
+msgid "Insert a general classification for this entry (if any)"
+msgstr ""
+
+#: audit/models.py:151
+msgid "GDPR Article"
+msgstr ""
+
+#: audit/models.py:152
+msgid "Reference to GDPR Article (if any)"
+msgstr ""
+
+#: audit/models.py:154
+msgid "Reference URL"
+msgstr ""
+
+#: audit/models.py:155
+msgid "Reference URL (if any)"
+msgstr ""
+
+#: audit/models.py:171 audit/models.py:511
+msgid "Legal Base for Processing"
+msgstr ""
+
+#: audit/models.py:172
+msgid "Legal Bases for Processing"
+msgstr ""
+
+#: audit/models.py:177
+msgid "Purpose of Processing"
+msgstr ""
+
+#: audit/models.py:178
+msgid "Purposes of Processing"
+msgstr ""
+
+#: audit/models.py:183
+msgid "Type of Processing"
+msgstr ""
+
+#: audit/models.py:184
+msgid "Types of Processing"
+msgstr ""
+
+#: audit/models.py:188
+msgid "Special Category"
+msgstr ""
+
+#: audit/models.py:189
+msgid ""
+"Mark this field if the Data Category is special. The processing of this data "
+"category shall normally be prohibited."
+msgstr ""
+
+#: audit/models.py:193
+msgid "Functional Data Category"
+msgstr ""
+
+#: audit/models.py:194
+msgid "Functional Data Categories"
+msgstr ""
+
+#: audit/models.py:199 audit/models.py:205
+msgid "Processing Activity Classification Document"
+msgstr ""
+
+#: audit/models.py:200
+msgid "Processing Activity Classification Documents"
+msgstr ""
+
+#: audit/models.py:208
+msgid "Processing Activity Classification Level"
+msgstr ""
+
+#: audit/models.py:209
+msgid "Processing Activity Classification Levels"
+msgstr ""
+
+#: audit/models.py:214
+msgid "Recipient Category"
+msgstr ""
+
+#: audit/models.py:215
+msgid "Recipient Categories"
+msgstr ""
+
+#: audit/models.py:220 audit/models.py:242
+msgid "Nature of Transfer to third-country/international organization"
+msgstr ""
+
+#: audit/models.py:221
+msgid "Natures of Transfer to third-country/international organization"
+msgstr ""
+
+#: audit/models.py:225
+msgid "Vulnerable Category"
+msgstr ""
+
+#: audit/models.py:226
+msgid ""
+"Indicates whether the data subjects are considered a vulnerable category. "
+"Mark this flag if the data subjects involved are in a situation in which "
+"there is a lack of parity in the relationship between the data subject and "
+"the controller, such as children, employees, patients, etc.Unmark this flag "
+"if none of the categories as mentioned above are involved."
+msgstr ""
+
+#: audit/models.py:232 audit/models.py:437
+msgid "Data Subject Category"
+msgstr ""
+
+#: audit/models.py:233
+msgid "Data Subject Categories"
+msgstr ""
+
+#: audit/models.py:238
+msgid "Category"
+msgstr ""
+
+#: audit/models.py:239
+msgid ""
+"In the context of consent-base processing, to comply with Articles 13 and 14 "
+"of the GDPR, controllers will need to provide a full list of recipients or "
+"categories of recipients including processors."
+msgstr ""
+
+#: audit/models.py:243
+msgid ""
+"Please specify why the data is transferred to this third-country/"
+"international organization"
+msgstr ""
+
+#: audit/models.py:244
+msgid "Appropriate Data Safeguards"
+msgstr ""
+
+#: audit/models.py:245
+msgid ""
+"In case of data transfer to a third country/international organization & "
+"transfer based on GDPR Article 49(2), list the documents that clarify the "
+"appropriate safeguards and where these documents are stored."
+msgstr ""
+
+#: audit/models.py:254
+msgid ""
+"No appropriate safeguards have been specified for third-country/"
+"international data transfers"
+msgstr ""
+
+#: audit/models.py:260
+msgid ""
+"This organization is not marked as third country or international. If you "
+"want to set the nature of transfer to third country/international "
+"organization, please first flag one of these fields."
+msgstr ""
+
+#: audit/models.py:263
+msgid "Third-party Organization"
+msgstr ""
+
+#: audit/models.py:264
+msgid "Third-party Organizations"
+msgstr ""
+
+#: audit/models.py:267
+msgid "Registered User"
+msgstr ""
+
+#: audit/models.py:280
+msgid "Part of Staff"
+msgstr ""
+
+#: audit/models.py:281
+msgid "Is DPO part of the controller organization staff?"
+msgstr ""
+
+#: audit/models.py:286
+msgid ""
+"DPO is part of the staff of the controller organization. You should be able "
+"to demonstrate that the DPO is an independent person."
+msgstr ""
+
+#: audit/models.py:290 audit/models.py:626
+msgid "Data Protection Officer (DPO)"
+msgstr ""
+
+#: audit/models.py:291
+msgid "Data Protection Officers (DPOs)"
+msgstr ""
+
+#: audit/models.py:296
+msgid "Data protection Impact Assessment (DPIA)"
+msgstr ""
+
+#: audit/models.py:297
+msgid "Data protection Impact Assessments (DPIAs)"
+msgstr ""
+
+#: audit/models.py:302
+msgid "Data Subject Rights Document"
+msgstr ""
+
+#: audit/models.py:303
+msgid "Data Subject Rights Documents"
+msgstr ""
+
+#: audit/models.py:308
+msgid "Processor"
+msgstr ""
+
+#: audit/models.py:309
+msgid "Third-party organization with which the Contract has been signed."
+msgstr ""
+
+#: audit/models.py:317
+msgid "Processor Contract"
+msgstr ""
+
+#: audit/models.py:318
+msgid "Processor Contracts"
+msgstr ""
+
+#: audit/models.py:322
+msgid "Unknown"
+msgstr ""
+
+#: audit/models.py:323
+msgid "Low"
+msgstr ""
+
+#: audit/models.py:324
+msgid "Mid"
+msgstr ""
+
+#: audit/models.py:325
+msgid "High"
+msgstr ""
+
+#: audit/models.py:333
+msgid "Unknown risk to personal data for"
+msgstr ""
+
+#: audit/models.py:335
+msgid "No data audit for"
+msgstr ""
+
+#: audit/models.py:337
+msgid "No description of risk mitigation measures for"
+msgstr ""
+
+#: audit/models.py:342
+msgid "Data Processor Contracts"
+msgstr ""
+
+#: audit/models.py:344
+msgid ""
+"If the data is ACTUALLY transferred to OTHER organizations (e.g., Data "
+"Processors), please upload the contract that regulates this data transfer, "
+"and relevant information about each third-party organization."
+msgstr ""
+
+#: audit/models.py:347
+msgid "Retention period for the processed data, in Days"
+msgstr ""
+
+#: audit/models.py:348 audit/models.py:393 audit/models.py:412
+msgid "Risk Mitigation Measures"
+msgstr ""
+
+#: audit/models.py:349
+msgid ""
+"Information about the risk mitigation measures related to the data "
+"processing, against Data Breaches."
+msgstr ""
+
+#: audit/models.py:350 audit/models.py:395 audit/models.py:416
+msgid "Residual Risk"
+msgstr ""
+
+#: audit/models.py:351
+msgid ""
+"Indicate the residual risk to the fundamental rights and freedoms of data "
+"subjects, given the mitigation measures that have been put in place."
+msgstr ""
+
+#: audit/models.py:354
+msgid "Data Subject Rights"
+msgstr ""
+
+#: audit/models.py:355
+msgid ""
+"Reference the documents that determine the procedures intended to guard the "
+"rights of data subjects. The document should also indicate which special "
+"measures have been taken to enforce/support the exercising of the rights of "
+"data subjects."
+msgstr ""
+
+#: audit/models.py:358
+msgid "Data Subject Notification"
+msgstr ""
+
+#: audit/models.py:359
+msgid ""
+"Indicate how data subjects are notified that their data have been registered."
+msgstr ""
+
+#: audit/models.py:360 audit/models.py:397 audit/models.py:418
+#: audit/models.py:440 audit/models.py:518
+msgid "Comments"
+msgstr ""
+
+#: audit/models.py:361 audit/models.py:398 audit/models.py:419
+msgid "Please put any comments to the data management policy."
+msgstr ""
+
+#: audit/models.py:366
+msgid "Mid/high residual data management risk for"
+msgstr ""
+
+#: audit/models.py:369
+msgid "No retention value specified for"
+msgstr ""
+
+#: audit/models.py:375
+msgid ""
+"Missing description of the procedures adopted to safeguard the rights of "
+"data subjects on"
+msgstr ""
+
+#: audit/models.py:379
+msgid "Missing description of the notification procedures to data subjects for"
+msgstr ""
+
+#: audit/models.py:388 audit/models.py:446 audit/templates/data_policy.html:14
+#: audit/templates/data_policy.html:62 audit/templates/key_features.html:40
+#: audit/templates/key_features.html:102
+msgid "Data Management Policy"
+msgstr ""
+
+#: audit/models.py:389
+msgid "Data Management Policies"
+msgstr ""
+
+#: audit/models.py:394
+msgid ""
+"Information about the risk mitigation measures related to the detection of "
+"data breaches"
+msgstr ""
+
+#: audit/models.py:396
+msgid ""
+"Indicate the residual risk of missing a data breach due to lacking detection "
+"measures/technology"
+msgstr ""
+
+#: audit/models.py:403
+msgid "Mid/high residual risk of missing data breaches for"
+msgstr ""
+
+#: audit/models.py:407 audit/models.py:408 audit/models.py:448
+#: audit/templates/breach_detection.html:14
+#: audit/templates/breach_detection.html:62
+#: audit/templates/key_features.html:41 audit/templates/key_features.html:118
+msgid "Data Breach Detection"
+msgstr ""
+
+#: audit/models.py:413
+msgid ""
+"Information about the risk mitigation measures for the response to data "
+"breaches. To this end, a suitable incident response plan should be put in "
+"place, that include themandatory notification of data breaches to "
+"supervisory authority and all involved parties."
+msgstr ""
+
+#: audit/models.py:417
+msgid ""
+"Indicate the residual risk of not responding properly to a data breach due "
+"to lacking detection measures/technology."
+msgstr ""
+
+#: audit/models.py:425
+msgid "Mid/high residual risk for data breach response on"
+msgstr ""
+
+#: audit/models.py:429 audit/models.py:430 audit/models.py:451
+#: audit/templates/breach_response.html:14 audit/templates/key_features.html:42
+#: audit/templates/key_features.html:143
+msgid "Incident Response Plan"
+msgstr ""
+
+#: audit/models.py:435
+msgid "Data Category"
+msgstr ""
+
+#: audit/models.py:438
+msgid "Original Data Source"
+msgstr ""
+
+#: audit/models.py:439
+msgid "Indicate the source of the data if not the data subjects themselves."
+msgstr ""
+
+#: audit/models.py:441
+msgid "Please put any comments to the data audit."
+msgstr ""
+
+#: audit/models.py:443
+msgid "Inherent Risk"
+msgstr ""
+
+#: audit/models.py:444
+msgid ""
+"Indicate the inherent risk to the fundamental rights and freedoms of data "
+"subjects associated to the data audit."
+msgstr ""
+
+#: audit/models.py:454
+msgid "Data protection Impact Assessment"
+msgstr ""
+
+#: audit/models.py:455
+msgid ""
+"If the processing activity probably entails a high risk for the fundamental "
+"rights and freedoms of data subjects, a DPIA must be completed (GDPR Article "
+"35)."
+msgstr ""
+
+#: audit/models.py:465
+msgid "No processing activity associated to"
+msgstr ""
+
+#: audit/models.py:467
+msgid "No data management policy specified for"
+msgstr ""
+
+#: audit/models.py:475
+msgid "No subject categories specified for"
+msgstr ""
+
+#: audit/models.py:479
+msgid ""
+"Mid/High inherent risk, but no data breach detection technology specified for"
+msgstr ""
+
+#: audit/models.py:481
+msgid "Mid/High inherent risk, but no data breach response plan specified for"
+msgstr ""
+
+#: audit/models.py:483
+msgid ""
+"Mid/High inherent risk, but no Data Protection Impact Assessment specified "
+"for"
+msgstr ""
+
+#: audit/models.py:485
+msgid "Unknown inherent risk level for"
+msgstr ""
+
+#: audit/models.py:495 audit/models.py:499 audit/templates/data_audit.html:14
+#: audit/templates/key_features.html:38 audit/templates/key_features.html:90
+msgid "Data Audit"
+msgstr ""
+
+#: audit/models.py:500
+msgid ""
+"Specify the data handled by this activity (output of a data audit process)."
+msgstr ""
+
+#: audit/models.py:502
+msgid "Purpose"
+msgstr ""
+
+#: audit/models.py:504
+msgid "Processing Type"
+msgstr ""
+
+#: audit/models.py:506
+msgid "Start Date"
+msgstr ""
+
+#: audit/models.py:508
+msgid "End Date"
+msgstr ""
+
+#: audit/models.py:509
+msgid ""
+"Processing end date, if applicable. By filling in this date, you are "
+"declaring that processing ceases as of that date."
+msgstr ""
+
+#: audit/models.py:512
+msgid "What is the Legal Base for Processing? It is mandatory!"
+msgstr ""
+
+#: audit/models.py:513
+msgid "Technology"
+msgstr ""
+
+#: audit/models.py:513
+msgid ""
+"How the activity is performed. Description of the technologies, "
+"applications, and software employed in the processing activity."
+msgstr ""
+
+#: audit/models.py:515
+msgid "Alternate Activity"
+msgstr ""
+
+#: audit/models.py:516
+msgid ""
+"Where appropriate, reference the processing activity that replaces the "
+"terminated activity. This creates a history in the registry. This may be of "
+"use when the legal basis of a processing activity shifts, for instance as "
+"the result of a statutory change."
+msgstr ""
+
+#: audit/models.py:519
+msgid "Please put any comments to the processing activity."
+msgstr ""
+
+#: audit/models.py:522
+msgid "Classification Level"
+msgstr ""
+
+#: audit/models.py:523
+msgid ""
+"Indicate the classification level of the processing activity according to "
+"the organization's classification system (choose the highest in case "
+"multiple are involved)."
+msgstr ""
+
+#: audit/models.py:533
+msgid "No business process associated to"
+msgstr ""
+
+#: audit/models.py:535
+msgid "Missing start date for"
+msgstr ""
+
+#: audit/models.py:537
+msgid "Missing description of technology for"
+msgstr ""
+
+#: audit/models.py:542
+msgid "Please specify at least one data audit for"
+msgstr ""
+
+#: audit/models.py:556
+msgid ""
+"Outsourcing prefigures the assignment of the processing activity to another "
+"organization"
+msgstr ""
+
+#: audit/models.py:563 audit/templates/key_features.html:35
+#: audit/templates/key_features.html:81
+msgid "Processing Activity"
+msgstr ""
+
+#: audit/models.py:574
+msgid "No business process associated with"
+msgstr ""
+
+#: audit/models.py:579
+msgid "Business Owners"
+msgstr ""
+
+#: audit/models.py:583
+msgid "Process Owner"
+msgstr ""
+
+#: audit/models.py:584
+msgid ""
+"Please indicate who is responsible for and manages this business process."
+msgstr ""
+
+#: audit/models.py:587
+msgid ""
+"You should insert all processing activities that may handle personal data "
+"are part of the business process (e.g., Collection of Curriculum Vitae)"
+msgstr ""
+
+#: audit/models.py:604
+msgid "Activity {} is already assigned to another Business Process: {}"
+msgstr ""
+
+#: audit/models.py:609
+msgid "No organization associated to"
+msgstr ""
+
+#: audit/models.py:611
+msgid "No owner for"
+msgstr ""
+
+#: audit/models.py:616
+msgid "Please specify at least one processing activity for"
+msgstr ""
+
+#: audit/models.py:627
+msgid ""
+"Please insert the Data Protection Officer (if any). A data protection "
+"officer (DPO) may be mandatory for public authorities, or if certain types "
+"of processing activities are carried out by the organization. The DPO must "
+"be independent, an expert in data protection, adequately resourced, and "
+"report to the highest management level."
+msgstr ""
+
+#: audit/models.py:632
+msgid ""
+"You should insert each business process in the Organization that may handle "
+"personal data (e.g., Human Resources)"
+msgstr ""
+
+#: audit/models.py:633
+msgid "Public Authority"
+msgstr ""
+
+#: audit/models.py:635
+msgid ""
+"Mark this field if the organization is a public authority (except for courts "
+"acting in their judicial capacity)"
+msgstr ""
+
+#: audit/models.py:636
+msgid "Large-scale Monitoring"
+msgstr ""
+
+#: audit/models.py:638
+msgid ""
+"Mark this field if the organization's core activities require large scale, "
+"regular and systematic monitoring of individuals (for example, online "
+"behaviour tracking)"
+msgstr ""
+
+#: audit/models.py:639
+msgid "Special Data"
+msgstr ""
+
+#: audit/models.py:641
+msgid ""
+"Mark this field if the organization's core activities consist of processing "
+"on a large scale of special category data, or data relating to criminal "
+"convictions and offences"
+msgstr ""
+
+#: audit/models.py:660
+msgid "Business Process {} is already assigned to another Organization: {}"
+msgstr ""
+
+#: audit/models.py:667
+msgid "Public authorities "
+msgstr ""
+
+#: audit/models.py:669
+msgid ""
+"When systematic, large-scale monitoring of individuals is performed as core "
+"activity, Organizations "
+msgstr ""
+
+#: audit/models.py:671
+msgid ""
+"When large-scale processing of special data about individuals is performed "
+"as core activity, Organizations "
+msgstr ""
+
+#: audit/models.py:672
+msgid "{} must appoint a Data Protection Officer"
+msgstr ""
+
+#: audit/models.py:677
+msgid "Please insert at least one business process into"
+msgstr ""
+
+#: audit/models.py:683
+msgid "Your Organizations"
+msgstr ""
+
+#: audit/pdf_report.py:75
+msgid "Yes"
+msgstr ""
+
+#: audit/pdf_report.py:75
+msgid "No"
+msgstr ""
+
+#: audit/pdf_report.py:114
+#, python-format
+msgid "GDPR Registry of Data Processing Activities for %s"
+msgstr ""
+
+#: audit/pdf_report.py:115
+#, python-format
+msgid "Page %d"
+msgstr ""
+
+#: audit/pdf_report.py:116
+#, python-brace-format
+msgid "Report generated on {date}"
+msgstr ""
+
+#: audit/pdf_report.py:117 audit/templates/admin/login.html:73
+msgid "Powered by"
+msgstr ""
+
+#: audit/pdf_report.py:186
+msgid "GDPR Registry of Processing Activities"
+msgstr ""
+
+#: audit/pdf_report.py:276
+#, python-format
+msgid "Organization: %s"
+msgstr ""
+
+#: audit/pdf_report.py:292
+msgid "DPO has not been set."
+msgstr ""
+
+#: audit/pdf_report.py:295
+#, python-format
+msgid "Business Processes (%d)"
+msgstr ""
+
+#: audit/pdf_report.py:298
+#, python-format
+msgid "Process: %s (activities: %d)"
+msgstr ""
+
+#: audit/pdf_report.py:301
+#, python-format
+msgid "%s > %s (data audits: %d)"
+msgstr ""
+
+#: audit/pdf_report.py:304
+#, python-format
+msgid "%s > %s > %s"
+msgstr ""
+
+#: audit/pdf_report.py:308
+#, python-format
+msgid "%s > %s > %s > Data Subject Categories"
+msgstr ""
+
+#: audit/pdf_report.py:312
+msgid "<em>There are no data subject categories for the data (!)</em>"
+msgstr ""
+
+#: audit/pdf_report.py:314
+#, python-format
+msgid "%s > %s > %s > Data Management Policy"
+msgstr ""
+
+#: audit/pdf_report.py:317
+#, python-format
+msgid "%s > %s > %s > Data Transfers (to third parties)"
+msgstr ""
+
+#: audit/pdf_report.py:322
+msgid "<em>Sounds Good. No data transfers.</em>"
+msgstr ""
+
+#: audit/pdf_report.py:324
+msgid "<em>No Management Policy for the data (!)</em>"
+msgstr ""
+
+#: audit/pdf_report.py:326
+#, python-format
+msgid "%s > %s > %s > Data Breach Detection"
+msgstr ""
+
+#: audit/pdf_report.py:330
+msgid "<em>No Data Breach Detection method found (!)</em>"
+msgstr ""
+
+#: audit/pdf_report.py:332
+#, python-format
+msgid "%s > %s > %s > Data Breach Response"
+msgstr ""
+
+#: audit/pdf_report.py:337
+msgid "<em>No Data Breach Response plan found (!)</em>"
+msgstr ""
+
+#: audit/pdf_report.py:339
+#, python-format
+msgid "%s > %s > %s > Data Protection Impact Assessment"
+msgstr ""
+
+#: audit/pdf_report.py:344
+msgid "<em>No Data Protection Impact Assessment found (!)</em>"
+msgstr ""
+
+#: audit/pdf_report.py:347
+msgid "<em>None available.</em>"
+msgstr ""
+
+#: audit/templates/admin/login.html:21
+msgid "Please correct the error below."
+msgstr ""
+
+#: audit/templates/admin/login.html:21
+msgid "Please correct the errors below."
+msgstr ""
+
+#: audit/templates/admin/login.html:37
+#, python-format
+msgid ""
+"You are authenticated as %(username)s, but are not authorized to access this "
+"page. Would you like to login to a different account?"
+msgstr ""
+
+#: audit/templates/admin/login.html:63
+msgid "Forgotten your password or username?"
+msgstr ""
+
+#: audit/templates/admin/login.html:67
+msgid "Log in"
+msgstr ""
+
+#: audit/templates/admin/login.html:77 dashboard.py:66
+msgid "HOW TO WORK"
+msgstr ""
+
+#: audit/templates/base.html:7 audit/templates/base.html:13
+#: audit/templates/base.html:19 audit/templates/home.html:14
+#: audit/templates/key_features.html:5
+msgid "GDPR Registry Web App"
+msgstr ""
+
+#: audit/templates/base.html:28
+msgid "Overview"
+msgstr ""
+
+#: audit/templates/base.html:30 audit/templates/key_features.html:19
+msgid "Key Features"
+msgstr ""
+
+#: audit/templates/base.html:31 audit/templates/dashboard.html:5
+msgid "Dashboard"
+msgstr ""
+
+#: audit/templates/base.html:37 audit/templates/home.html:30
+msgid "How To"
+msgstr ""
+
+#: audit/templates/base.html:39
+msgid "1. Data Audit"
+msgstr ""
+
+#: audit/templates/base.html:40
+msgid "2. Data Management Policy"
+msgstr ""
+
+#: audit/templates/base.html:41
+msgid "3. Data Breach Detection"
+msgstr ""
+
+#: audit/templates/base.html:42
+msgid "4. Incident Response Plan"
+msgstr ""
+
+#: audit/templates/base.html:43 audit/templates/create_report.html:5
+#: audit/templates/create_report.html:18
+msgid "Create Report"
+msgstr ""
+
+#: audit/templates/base.html:49 audit/templates/base.html:90
+msgid "License"
+msgstr ""
+
+#: audit/templates/base.html:72
+msgid "GDPR Stages"
+msgstr ""
+
+#: audit/templates/base.html:74
+msgid "Prev"
+msgstr ""
+
+#: audit/templates/base.html:79
+msgid "Next"
+msgstr ""
+
+#: audit/templates/base.html:90
+msgid "Copyright &copy; "
+msgstr ""
+
+#: audit/templates/base.html:90
+msgid "Pluribus One "
+msgstr ""
+
+#: audit/templates/base.html:90
+msgid "Version"
+msgstr ""
+
+#: audit/templates/breach_detection.html:10
+msgid "GDPR Process - Data Breach Detection"
+msgstr ""
+
+#: audit/templates/breach_detection.html:15
+msgid ""
+"GDPR compliance prefigures a process where data management, once "
+"established, is constantly\n"
+"                    <code>monitored</code> to identify signs of violations, "
+"i.e., data breaches."
+msgstr ""
+
+#: audit/templates/breach_detection.html:17
+msgid ""
+"To this end, your organization must setup a well-suited monitoring "
+"environment and tools through\n"
+"                    which such incidents can be quickly detected and "
+"notified to security operators and data protection officer (if any)."
+msgstr ""
+
+#: audit/templates/breach_detection.html:20
+msgid ""
+"This activity includes the identification, collection, storage and "
+"correlation of events capable to\n"
+"                    highlight data breaches and allow security operators to "
+"investigate them to accurately characterize their actual <em>impact</em>."
+msgstr ""
+
+#: audit/templates/breach_detection.html:30
+msgid "Data Breach Detection - How To"
+msgstr ""
+
+#: audit/templates/breach_detection.html:33
+msgid "Add Data Breach Detection for each Data Audit"
+msgstr ""
+
+#: audit/templates/breach_detection.html:36
+msgid ""
+"In the edit page of the data audit, just click on the add (+) icon for the "
+"field \"data breach detection\".\n"
+"            Then, you can insert all details about the data breach detection "
+"technique. In this case, data breach detection is\n"
+"            handled by <a href=\"https://www.pluribus-one.it/it/prodotti/web-"
+"application-security\">Pluribus One WAS</a>, an advanced software by "
+"Pluribus One for the detection of attacks against web services.\n"
+"        "
+msgstr ""
+
+#: audit/templates/breach_detection.html:41
+msgid ""
+"Please note that in general, for each data breach detection technique,\n"
+"            you should specify:\n"
+"            <ul>\n"
+"                <li><strong>How breach detection is possible</strong>: how "
+"unexpected data breaches can be detected.\n"
+"                    This phase usually requires sophisticated systems such "
+"as Pluribus One WAS, capable to detect <em>unexpected</em> behavior of your "
+"applications and users.</li>\n"
+"                <li><strong>Residual risk (of missing data breaches)</"
+"strong>: a residual risk for the data breach detection, that\n"
+"            is, an evaluation of the residual risk of <em>missing</em> data "
+"breaches given the detection technique that has been put in place.\n"
+"            This should be the output of a detailed risk analysis that "
+"evaluates likelihood and impact of undetected data breaches for the "
+"considered data audit\n"
+"            (in this case, identity documents), given the adopted detection "
+"technnique.\n"
+"            </ul>\n"
+"        "
+msgstr ""
+
+#: audit/templates/breach_detection.html:54
+msgid ""
+"In this example, we create a data breach detection <strong>Pluribus One WAS</"
+"strong> and associate it to the Data Audit <strong>Identity Documents</"
+"strong>"
+msgstr ""
+
+#: audit/templates/breach_detection.html:55
+msgid ""
+"Please note that many other data audits can be associated with the same data "
+"breach detection tool, e.g., if the tool protects other applications that "
+"handle different data."
+msgstr ""
+
+#: audit/templates/breach_detection.html:59
+msgid "Add Data Breach detection"
+msgstr ""
+
+#: audit/templates/breach_response.html:10
+msgid "GDPR Process - Incident Response Plan"
+msgstr ""
+
+#: audit/templates/breach_response.html:15
+msgid ""
+"GDPR compliance means that your organization should be prepared to deal with "
+"data breaches,\n"
+"                    and provide for rapid counteractions to <code>mitigate</"
+"code> their impact."
+msgstr ""
+
+#: audit/templates/breach_response.html:17
+msgid ""
+"Data breaches must be notified to supervisory authorities within <code>72 "
+"hours</code>, or even less,\n"
+"                    if data breaches affect the freedom of natural "
+"individuals (GDPR Article 33). In addition, every affected person must be "
+"notified with\n"
+"                    the details about the incident."
+msgstr ""
+
+#: audit/templates/breach_response.html:21
+msgid ""
+"To this end, your organization must define an incident response plan, as "
+"well as  setup\n"
+"                    the right environment to mitigate the impact of data "
+"breaches."
+msgstr ""
+
+#: audit/templates/breach_response.html:31
+msgid "Incident Response Plan - How To"
+msgstr ""
+
+#: audit/templates/breach_response.html:34
+msgid "Add Incident Response Plan for each Data Audit"
+msgstr ""
+
+#: audit/templates/breach_response.html:37
+msgid ""
+"In the edit page of the data audit, just click on the add (+) icon for the "
+"field \"incident response plan\".\n"
+"            Then, you can insert all details about the incident response "
+"plan. In this case, incident response is\n"
+"            helped by <a href=\"https://www.pluribus-one.it/it/prodotti/web-"
+"application-security\">Pluribus One WAS</a>, thanks to its virtual patching "
+"mechanism that also covers zero-day (never-before-seen)\n"
+"            attacks that may lead to data breaches.\n"
+"            "
+msgstr ""
+
+#: audit/templates/breach_response.html:43
+msgid ""
+"Please note that in general, for each data breach detection technique,\n"
+"            you should specify:\n"
+"            <ul>\n"
+"                <li><strong>How breach response is possible</strong>: how "
+"data breaches can be effectively handled.\n"
+"                    This phase usually prefigures a well-suited recovery "
+"plan, and systems such as Pluribus One WAS, capable to provide protection "
+"against <em>unexpected</em> behavior of your applications and users.</li>\n"
+"                <li><strong>Data Breach Notification</strong>: notification "
+"procedures to the involved parties, including supervisory authorities.</li>\n"
+"                <li><strong>Residual risk (of inadequate/missing response to "
+"data breaches)</strong>: that\n"
+"            is, an evaluation of the residual risk of <em>not responding "
+"properly</em> to data breaches given the specific incident response plan.\n"
+"            This should be the output of a detailed risk analysis that "
+"evaluates likelihood and impact of data breaches for the considered data "
+"audit\n"
+"            (in this case, identity documents) and incident response plan.\n"
+"            </ul>\n"
+"        "
+msgstr ""
+
+#: audit/templates/breach_response.html:57
+msgid ""
+"In this example, we create an incident response plan that employs "
+"<strong>Pluribus One WAS</strong> to create\n"
+"            virtual patches if intrusive events are detected.\n"
+"            Additionaly, an (encrypted) backup of Virtual Machines and Data "
+"is used for recovery/investigation purposes.\n"
+"\n"
+"            Finally, a predefined template of what information include in "
+"data breach notifications has been prepared (see, e.g., Article 33(3)).\n"
+"            We associate the incident response plan to the Data Audit "
+"<strong>Identity Documents</strong>.\n"
+"            Please note that many other data audits can be associated with "
+"the same incident response plan, e.g.,\n"
+"            if the plan covers other applications that handle different "
+"data,\n"
+"            or the same web application that is covered by the plan handles "
+"other data.\n"
+"            "
+msgstr ""
+
+#: audit/templates/breach_response.html:70
+msgid "Add Data Breach Response"
+msgstr ""
+
+#: audit/templates/breach_response.html:73
+msgid "Data Breach Response"
+msgstr ""
+
+#: audit/templates/breach_response.html:79
+msgid "Add Data Protection Impact Assessment (DPIA) for each Data Audit"
+msgstr ""
+
+#: audit/templates/breach_response.html:82
+msgid ""
+"In the edit page of the data audit, just click on the add (+) icon for the "
+"field \"Data Protection Impact Assessment\".\n"
+"            Then, you can insert all details about the DPIA, uploading a PDF "
+"report.\n"
+"            "
+msgstr ""
+
+#: audit/templates/breach_response.html:86
+msgid ""
+"Please note that DPIA\n"
+"            <ul>\n"
+"                <li><strong>is mandatory prior to the data processing</"
+"strong>, if the managed data probably entails a high risk for\n"
+"            the freedom and rights of individuals (GDPR article 35).</li>\n"
+"                <li><strong>can be documented following our framework</"
+"strong>: it is interesting to note that the DPIA in fact needs to provide "
+"details about the risk evaluation/mitigation process in\n"
+"            all previous phases, so it should be easier to produce it if you "
+"already determined Data Management Policy, Data Breach Detection and "
+"Incident Response (all such steps are driven by\n"
+"            risk-based metrics, according to our framework).</li>\n"
+"            </ul>\n"
+"        "
+msgstr ""
+
+#: audit/templates/breach_response.html:98
+msgid "Add Data Protection Impact Assessment (DPIA)"
+msgstr ""
+
+#: audit/templates/create_report.html:8
+msgid "Create PDF Report for your organization"
+msgstr ""
+
+#: audit/templates/create_report.html:11
+msgid ""
+"In the list of your organizations (Click on the table \"Your organizations"
+"\"),\n"
+"            just click on \"Create\" (PDF report field). It will be "
+"generated a PDF document with all information\n"
+"            contained in your registry.\n"
+"            "
+msgstr ""
+
+#: audit/templates/dashboard.html:8
+msgid ""
+"The GDPR Registry Web App provides a complete dashboard based on the django "
+"Jet framework (https://github.com/geex-arts/django-jet), with the following "
+"information:"
+msgstr ""
+
+#: audit/templates/dashboard.html:10 dashboard_modules.py:7
+msgid "Registry Status"
+msgstr ""
+
+#: audit/templates/dashboard.html:10
+msgid ""
+"it describes, both graphically (pie diagram) and textually suggestions, "
+"errors, issues related to your GDPR registry. Just follow the suggestions "
+"displayed in this widget to fill in the registry."
+msgstr ""
+
+#: audit/templates/dashboard.html:11
+msgid "Quick Links"
+msgstr ""
+
+#: audit/templates/dashboard.html:11
+msgid "quick links to application home, change password and logout"
+msgstr ""
+
+#: audit/templates/dashboard.html:12 dashboard.py:55
+msgid "Recent Actions"
+msgstr ""
+
+#: audit/templates/dashboard.html:12
+msgid "recent actions performed by users in the administrative interface"
+msgstr ""
+
+#: audit/templates/dashboard.html:13 dashboard.py:39
+msgid "Applications"
+msgstr ""
+
+#: audit/templates/dashboard.html:13
+msgid "we have two main applications, namely"
+msgstr ""
+
+#: audit/templates/dashboard.html:15
+msgid ""
+"an <strong>access control</strong> application, that keeps track of all "
+"accesses in the admin interface"
+msgstr ""
+
+#: audit/templates/dashboard.html:16
+msgid ""
+"an <strong>audit</strong> application, that keeps track of all GDPR "
+"activities in the admin interface (different, linked tables)"
+msgstr ""
+
+#: audit/templates/dashboard.html:18 dashboard.py:47
+msgid "Administration"
+msgstr ""
+
+#: audit/templates/dashboard.html:18
+msgid ""
+"by means of this section we can add new users, groups and assign them "
+"different privileges for the access of the (different functionalities in "
+"the) admin interface."
+msgstr ""
+
+#: audit/templates/dashboard.html:19 dashboard.py:63
+msgid "Support"
+msgstr ""
+
+#: audit/templates/dashboard.html:19
+msgid ""
+"this section provides links to the documentation of the Registry App, and "
+"Pluribus One products and services that can help you to achieve GDPR "
+"compliance."
+msgstr ""
+
+#: audit/templates/dashboard.html:21
+msgid ""
+"You can customize your dashboard, moving or removing each element. For "
+"technical details, please check out the django jet documentation (https://"
+"jet.readthedocs.io/en/latest/)"
+msgstr ""
+
+#: audit/templates/dashboard_modules/stat.html:12
+msgid "Nothing to show"
+msgstr ""
+
+#: audit/templates/dashboard_modules/stat.html:44
+msgid "GDPR Registry Status"
+msgstr ""
+
+#: audit/templates/dashboard_modules/stat.html:70
+msgid "None found"
+msgstr ""
+
+#: audit/templates/data_audit.html:10
+msgid "GDPR Process - Data Audit"
+msgstr ""
+
+#: audit/templates/data_audit.html:15
+msgid ""
+"In order to protect personal data as prefigured by GDPR, you first need\n"
+"                    to be fully aware of <code>what</code> personal data is "
+"being captured, processed and stored by your\n"
+"                    organization, or by third-party organizations on your "
+"behalf."
+msgstr ""
+
+#: audit/templates/data_audit.html:18
+msgid ""
+"To this end, you need to accurately identify and classify such data,\n"
+"                    by modelling the processes currently in place in your "
+"organization."
+msgstr ""
+
+#: audit/templates/data_audit.html:28
+msgid "Data Audit - How To"
+msgstr ""
+
+#: audit/templates/data_audit.html:32
+msgid "Step 1. Create an Organization"
+msgstr ""
+
+#: audit/templates/data_audit.html:35
+msgid "Log into the"
+msgstr ""
+
+#: audit/templates/data_audit.html:35
+msgid "amministrative interface"
+msgstr ""
+
+#: audit/templates/data_audit.html:35
+msgid "using your username and password"
+msgstr ""
+
+#: audit/templates/data_audit.html:36
+msgid ""
+"You just need to click on the suggestion displayed in the Registry Status "
+"Widget. Otherwise,\n"
+"            you may go to \"Audit->Your organizations->Add Organization\".\n"
+"            Then, you can insert all details about your organization and "
+"save.\n"
+"        "
+msgstr ""
+
+#: audit/templates/data_audit.html:42
+msgid ""
+"In this example, we create an imaginary organization <strong>Acme Inc</"
+"strong>"
+msgstr ""
+
+#: audit/templates/data_audit.html:46
+msgid "Add organization"
+msgstr ""
+
+#: audit/templates/data_audit.html:49
+msgid "Acme Inc"
+msgstr ""
+
+#: audit/templates/data_audit.html:57
+msgid "Step 2. Associate a Business Process to your Organization"
+msgstr ""
+
+#: audit/templates/data_audit.html:60
+msgid ""
+"In general, you should insert each business process of your organization\n"
+"            which is expected to manage personal data. In the edit page of "
+"your organization,\n"
+"            click on the add (+) icon, of the field \"business processes\". "
+"Then fill in all details about the business process.\n"
+"        "
+msgstr ""
+
+#: audit/templates/data_audit.html:66
+msgid ""
+"\n"
+"            <strong>Examples of business processes</strong>: Human "
+"Resources, European Projects, Customer Care.\n"
+"            In this example, we create a business process named "
+"<strong>Human Resources</strong> for <strong>Acme Inc.</strong>\n"
+"            "
+msgstr ""
+
+#: audit/templates/data_audit.html:73
+msgid "Add Business Process"
+msgstr ""
+
+#: audit/templates/data_audit.html:76
+msgid "Human Resources Process"
+msgstr ""
+
+#: audit/templates/data_audit.html:84
+msgid "Step 3. Associate a Processing Activity to each Business Process"
+msgstr ""
+
+#: audit/templates/data_audit.html:87
+msgid ""
+"In general, for each business process, you should insert each processing "
+"activity which is expected to manage personal data.\n"
+"            Data Processing activities always prefigure a specific (lawful) "
+"goal and purpose. In the edit page of a business process,\n"
+"            click on the add (+) icon of the field \"processing activities"
+"\". Then fill in all details about the processing activity.\n"
+"        "
+msgstr ""
+
+#: audit/templates/data_audit.html:92
+msgid ""
+"In general, for each data processing activity you should specify:\n"
+"            <ul>\n"
+"                <li><strong>Name</strong>: e.g, Contractualization</li>\n"
+"                <li><strong>Scope of treatment</strong>: e.g., personnel "
+"management</li>\n"
+"                <li><strong>Processing type</strong>: e.g., normal (special "
+"treatments may be dedicated to particular categories of data only)</li>\n"
+"                <li><strong>Legal base</strong>: e.g., necessary for the "
+"execution of a contract (GDPR art. 6(1)b)</li>\n"
+"            </ul>\n"
+"        "
+msgstr ""
+
+#: audit/templates/data_audit.html:102
+msgid ""
+"<strong>Examples of processing activities</strong>: Contractualization "
+"(Process: Human Resources),\n"
+"        Submission of proposals (Process: Projects), Newsletter (Process: "
+"Customer Care). In this example, we inserted a processing activity\n"
+"            named <strong>Contractualization</strong> into business process "
+"<strong>Human Resources</strong>, .\n"
+"            "
+msgstr ""
+
+#: audit/templates/data_audit.html:109
+msgid "Add Processing Activity"
+msgstr ""
+
+#: audit/templates/data_audit.html:112
+msgid "Contractualization"
+msgstr ""
+
+#: audit/templates/data_audit.html:120
+msgid "Step 4. Associate a Data Audit to each Processing Activity"
+msgstr ""
+
+#: audit/templates/data_audit.html:123
+msgid ""
+"You should insert the details about the data handled by each processing "
+"activity.\n"
+"            In the edit page of a processing activity, click on the add (+) "
+"icon of the field \"data audit\".\n"
+"            Then fill in all details about the data audit.\n"
+"        "
+msgstr ""
+
+#: audit/templates/data_audit.html:128
+msgid ""
+"In general, for each data audit you should specify:\n"
+"            <ul>\n"
+"                <li><strong>Name</strong>: e.g, identity documents of "
+"employees</li>\n"
+"                <li><strong>Category</strong>: e.g., personal identifiable "
+"information</li>\n"
+"                <li><strong>Inherent risk for the freedom and rights of "
+"individuals</strong>: e.g., medium</li>\n"
+"            </ul>\n"
+"        "
+msgstr ""
+
+#: audit/templates/data_audit.html:137
+msgid ""
+"<strong>Examples of data audits</strong>: Identity documents of Employees "
+"(Activity: Contractualization),\n"
+"        Identity documents of Coordinators (Activity: Submission of "
+"proposals), Mailing list (Activity: Newsletter). In this example,\n"
+"            we inserted an entry for\n"
+"            the processing activity <strong>Contractualization</strong>, "
+"named <strong>Identity Documents of Employees</strong>.\n"
+"            "
+msgstr ""
+
+#: audit/templates/data_audit.html:145
+msgid "Add Data Audit"
+msgstr ""
+
+#: audit/templates/data_audit.html:148
+msgid "Identity documents"
+msgstr ""
+
+#: audit/templates/data_policy.html:10
+msgid "GDPR Process - Data Management Policy"
+msgstr ""
+
+#: audit/templates/data_policy.html:15
+msgid ""
+"Once the data audit has been performed and\n"
+"                    documented, it is time to assess <code>how</code> such "
+"data is managed by\n"
+"                    your organization to make sure that this process fully "
+"complies with GDPR."
+msgstr ""
+
+#: audit/templates/data_policy.html:18
+msgid ""
+"The result of this analysis should produce a report for each category of "
+"data\n"
+"                    identified in the data audit phase, highlighting the "
+"current management policy, together with all\n"
+"                    measures put in place to protect personal data and allow "
+"data subjects to fully excercise their rights."
+msgstr ""
+
+#: audit/templates/data_policy.html:29
+msgid "Data Management Policy - How To"
+msgstr ""
+
+#: audit/templates/data_policy.html:33
+msgid "Add a Data Management Policy to each Data Audit"
+msgstr ""
+
+#: audit/templates/data_policy.html:36
+msgid ""
+"In the edit page of the data audit, click on the add (+) icon for the field "
+"\"data management policy\".\n"
+"            Then, you can insert all details about the data policy. In this "
+"case, the data is\n"
+"            handled by a web application that stores the data in encrypted "
+"form, and allows only specific (authorized)\n"
+"            users to access the data.\n"
+"        "
+msgstr ""
+
+#: audit/templates/data_policy.html:42
+msgid ""
+"Please note that in general, for each data management policy,\n"
+"            you should specify:\n"
+"            <ul>\n"
+"                <li><strong>Data Protection</strong>: how data breaches are "
+"prevented, i.e., how personal data is properly protected</li>\n"
+"                <li><strong>Data Transfers</strong>: if data transfers are "
+"currently in place (e.g., your organization transfers data to third party "
+"processors), specifying the related contracts that should be GDPR-compliant, "
+"i.e., they should allow you as a data controller to fully satisfy the rights "
+"of the data subjects.</li>\n"
+"                <li><strong>Data Subject Rights</strong>: how data subjects "
+"are informed and can satisfy their fundamental rights (view, correction, "
+"cancellation of data, limit the scope of processing)</li>\n"
+"                <li><strong>Residual Risk (of data breaches)</strong>: "
+"residual risk associated to data breach prevention; that is, an evaluation "
+"of the residual risk of data breaches given the data protection method that "
+"has been put in place.\n"
+"            This should be the output of a detailed risk analysis that "
+"evaluates likelihood and impact of data breaches for the considered data "
+"audit\n"
+"            and protection measure. </li>\n"
+"            </ul>\n"
+"        "
+msgstr ""
+
+#: audit/templates/data_policy.html:55
+msgid ""
+"In this example, we create a data management policy <strong>Web App Auth and "
+"Access Control</strong> and associate it to the Data Audit <strong>Identity "
+"Documents</strong>"
+msgstr ""
+
+#: audit/templates/data_policy.html:59
+msgid "Add Data Management Policy"
+msgstr ""
+
+#: audit/templates/home.html:10
+msgid "GDPR Registry App by Pluribus One"
+msgstr ""
+
+#: audit/templates/home.html:15
+msgid "Welcome to the GDPR Registry Web App, developed by Pluribus One"
+msgstr ""
+
+#: audit/templates/home.html:16
+msgid "under open-source license"
+msgstr ""
+
+#: audit/templates/home.html:17
+msgid ""
+"The GDPR Registry Web App can be used to annotate and keep track of all your "
+"data processing activities, according to a sound framework"
+msgstr ""
+
+#: audit/templates/home.html:18
+msgid ""
+"and produce high-quality, updated reports in PDF format. This is a key step "
+"towards an enhanced security posture, and to satisfy GDPR requirements."
+msgstr ""
+
+#: audit/templates/home.html:22
+msgid "Login"
+msgstr ""
+
+#: audit/templates/home.html:26
+msgid "Repository"
+msgstr ""
+
+#: audit/templates/home.html:34
+msgid "GDPR Website"
+msgstr ""
+
+#: audit/templates/home.html:41
+msgid "(*) Please read carefully the license terms"
+msgstr ""
+
+#: audit/templates/home.html:42
+msgid ""
+"You can copy, install and use this software only in accordance with the "
+"license.\n"
+"            This program is distributed in the hope that it will be useful, "
+"but WITHOUT ANY WARRANTY;\n"
+"            without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.\n"
+"            "
+msgstr ""
+
+#: audit/templates/key_features.html:6
+msgid ""
+"To manage the whole GDPR process, you need a central point\n"
+"where information about GDPR procedures are stored and can be updated\n"
+"on a regular basis by dedicated personnel, including your Data Protection "
+"Officer.\n"
+"This central place is of fundamental importance to keep track of your "
+"current compliance status,\n"
+"identify issues and mitigate them. And this is exactly the role of the so-"
+"called\n"
+"<strong>Registry of Data Processing Activities</strong>, described in the "
+"GDPR Article 30.\n"
+"It can also demonstrate that GDPR is a continuous process that has become an "
+"integral part of your business.\n"
+"This is a key step towards an enhanced security posture.\n"
+msgstr ""
+
+#: audit/templates/key_features.html:16
+msgid ""
+"The Pluribus One GDPR Registry Web app allows you to keep track of all data "
+"processing\n"
+"    activities according to a hierarchical structure and the various GDPR "
+"stages highlighted in this document."
+msgstr ""
+
+#: audit/templates/key_features.html:21
+msgid "Open Source"
+msgstr ""
+
+#: audit/templates/key_features.html:21
+msgid "You may freely use and modify it according to our licence."
+msgstr ""
+
+#: audit/templates/key_features.html:22
+msgid "Sound framework and suggestion mechanisms"
+msgstr ""
+
+#: audit/templates/key_features.html:22
+msgid ""
+"We implemented the Registry App exploiting to our expertise in the field of "
+"cybersecurity, and a thorough study of GDPR (which nowadays, it is "
+"essentially a cybersecurity problem) to build a comprehensive framework. As "
+"you fill in the registry, the app can suggest you how to proceed. We have "
+"inserted some useful suggestions that come from our GDPR framework and "
+"expertise."
+msgstr ""
+
+#: audit/templates/key_features.html:23
+msgid "Report Generation"
+msgstr ""
+
+#: audit/templates/key_features.html:23
+msgid ""
+"You can generate, anytime, an updated, high-quality PDF report with all your "
+"data registry. This is a very useful feature especially if you organization "
+"is under investigation by GDPR supervisory authorities."
+msgstr ""
+
+#: audit/templates/key_features.html:24
+msgid "Multi-language"
+msgstr ""
+
+#: audit/templates/key_features.html:24
+msgid ""
+"Full translation support thanks to the Django framework. Currently, the "
+"interface is available in English and Italian language."
+msgstr ""
+
+#: audit/templates/key_features.html:25
+msgid "GDPR technology and services"
+msgstr ""
+
+#: audit/templates/key_features.html:25
+msgid ""
+"If you need, Pluribus One offers advanced technology and services around "
+"GDPR (see https://gdpr.pluribus-one.it), to help you to achieve GDPR "
+"compliance."
+msgstr ""
+
+#: audit/templates/key_features.html:28
+msgid "Hierarchical Structure"
+msgstr ""
+
+#: audit/templates/key_features.html:29
+msgid "The main hierarchical structure of the registry is showed as follows."
+msgstr ""
+
+#: audit/templates/key_features.html:31
+msgid "e.g., Acme SRL"
+msgstr ""
+
+#: audit/templates/key_features.html:33
+msgid "e.g., Human Resources"
+msgstr ""
+
+#: audit/templates/key_features.html:35
+msgid "e.g., Contractualization"
+msgstr ""
+
+#: audit/templates/key_features.html:38
+msgid "e.g., Identity documents of employees"
+msgstr ""
+
+#: audit/templates/key_features.html:40
+msgid "How data is managed to prevent data breaches?"
+msgstr ""
+
+#: audit/templates/key_features.html:41
+msgid "How can we detect data breaches?"
+msgstr ""
+
+#: audit/templates/key_features.html:42
+msgid "How can we respond to data breaches?"
+msgstr ""
+
+#: audit/templates/key_features.html:43 audit/templates/key_features.html:162
+msgid "Data Protection Impact Assessment"
+msgstr ""
+
+#: audit/templates/key_features.html:43
+msgid ""
+"It includes a detailed document about the previous three mitigation measures "
+"for the prevention, detection and response against data breaches."
+msgstr ""
+
+#: audit/templates/key_features.html:51
+msgid ""
+"You may add as many entries as you require in the registry, e.g., unlimited "
+"number of organizations, business processes, activities, data audits, and so "
+"on."
+msgstr ""
+
+#: audit/templates/key_features.html:54
+msgid "Hierarchical Structure - Example"
+msgstr ""
+
+#: audit/templates/key_features.html:55
+msgid ""
+"An example of hierarchical structure of the GDPR app registry is showed "
+"below."
+msgstr ""
+
+#: audit/templates/key_features.html:60
+msgid ""
+"\n"
+"        <ul>\n"
+"            <li><strong>Name</strong>: Acme SRL</li>\n"
+"            <li><strong>Address</strong>: Via delle Strade, 9, 09123, "
+"Cagliari</li>\n"
+"            <li><strong>State</strong>: Italy</li>\n"
+"            <li><strong>Statute</strong>: Private Company</li>\n"
+"            <li><strong>Data Protection Officer</strong>: Mario Rossi</li>\n"
+"        </ul>\n"
+"        "
+msgstr ""
+
+#: audit/templates/key_features.html:72
+msgid ""
+"\n"
+"                    <ul>\n"
+"                        <li><strong>Name</strong>: Human resources</li>\n"
+"                        <li><strong>Description</strong>: Human resource "
+"management, overseeing various aspects of employment,\n"
+"                            such as compliance with labour law and "
+"employment standards, administration of employee benefits,\n"
+"                            and some aspects of recruitment and dismissal</"
+"li>\n"
+"                    </ul>\n"
+"                "
+msgstr ""
+
+#: audit/templates/key_features.html:83
+msgid ""
+"\n"
+"                            <ul>\n"
+"                                <li><strong>Name</strong>: "
+"Contractualization</li>\n"
+"                                <li><strong>Description</strong>: Activity "
+"required to contractualize employees</li>\n"
+"                            </ul>\n"
+"                        "
+msgstr ""
+
+#: audit/templates/key_features.html:92
+msgid ""
+"\n"
+"                                <ul>\n"
+"                                    <li><strong>Description</strong>: "
+"identity documents of employees</li>\n"
+"                                    <li><strong>Category</strong>: personal "
+"identifiable information</li>\n"
+"                                    <li><strong>Scope of treatment</strong>: "
+"personnel management</li>\n"
+"                                    <li><strong>Legal base</strong>: "
+"necessary for the execution of a contract (GDPR art. 6(1)b)</li>\n"
+"                                    <li><strong>Inherent risk</strong>: "
+"medium</li>\n"
+"                                </ul>\n"
+"                                "
+msgstr ""
+
+#: audit/templates/key_features.html:104
+msgid ""
+"\n"
+"                                        <ul>\n"
+"                                            <li><strong>Description</"
+"strong>: data is stored in a private database, in encrypted form, and\n"
+"                                        can be accessed only by the "
+"following persons: Robb Jones (administrative employee)</li>\n"
+"                                            <li><strong>Data transfers</"
+"strong>: the data is not transferred to third parties</li>\n"
+"                                            <li><strong>Data Subject Rights</"
+"strong>: data subjects are informed and explicitly agreed\n"
+"                                                our privacy policy (link to "
+"document X).\n"
+"                                                The document X also explains "
+"how they can view, correct, cancel, and limit the scopes of our data "
+"management.</li>\n"
+"                                            <li><strong>Residual risk (of "
+"data breaches)</strong>: low</li>\n"
+"                                        </ul>\n"
+"                                        "
+msgstr ""
+
+#: audit/templates/key_features.html:120
+msgid ""
+"\n"
+"                                        <ul>\n"
+"                                            <li><strong>Description</"
+"strong></li>\n"
+"                                            <ul>\n"
+"                                                <li>each access to the "
+"private database is monitored,\n"
+"                                        logged in a append-only logging "
+"database</li>\n"
+"                                            <li> anomaly-based intrusion "
+"detection capable to alert on suspicious access attempts\n"
+"                                                <ul>\n"
+"                                                    <li>from unexpected Ip "
+"addresses</li>\n"
+"                                                    <li>at unexpetected "
+"times (e.g., night, weekends)</li>\n"
+"                                                    <li>too many failed "
+"access attempts</li>\n"
+"                                                    <li>unexpected traffic "
+"from database app to internet</li>\n"
+"                                                </ul>\n"
+"                                            </li>\n"
+"                                            <li>each alert is inspected by "
+"our security team, available 24/7, via authenticated,\n"
+"                                        encrypted channel</li>\n"
+"                                            </ul>\n"
+"                                            <li><strong>Residual risk (of "
+"missing data breaches)</strong>: LOW</li>\n"
+"                                        </ul>\n"
+"                                        "
+msgstr ""
+
+#: audit/templates/key_features.html:145
+msgid ""
+"\n"
+"                                        <ul>\n"
+"                                            <li><strong>Description</"
+"strong></li>\n"
+"                                            <ul>\n"
+"                                                <li>automatic read-only "
+"backups of the private database containing personal data</li>\n"
+"                                                <li>web app firewall capable "
+"to block traffic to/from administrative app and internet</li>\n"
+"                                                <li>data breach notification "
+"templates and database of data subjects</li>\n"
+"                                                <li>immediate notification "
+"of security incidents by the security team to Data Protection Officer via "
+"authenticated,\n"
+"                                                encrypted channel</li>\n"
+"                                                <li>the administrative app "
+"runs in a virtual machine so it can be freezed for forensic analysis</li>\n"
+"                                            </ul>\n"
+"                                            <li><strong>Residual risk (of "
+"unmanaged data breaches)</strong>: low</li>\n"
+"                                        </ul>\n"
+"                                        "
+msgstr ""
+
+#: audit/templates/key_features.html:164
+msgid "Details about the DPIA (if any), with link to PDF document."
+msgstr ""
+
+#: audit/templates/license.html:5
+msgid "GDPR Registry Web App License"
+msgstr ""
+
+#: audit/templates/license.html:7
+msgid ""
+"\n"
+"Last update: November 26, 2020.\n"
+msgstr ""
+
+#: audit/templates/license.html:14
+msgid ""
+"\n"
+"        <p>\n"
+"            This program is free software: you can redistribute it and/or "
+"modify\n"
+"            it under the terms of the GNU Affero General Public License as\n"
+"            published by the Free Software Foundation, either version 3 of "
+"the\n"
+"            License, or (at your option) any later version.\n"
+"            </p>\n"
+"        <p>This program is distributed in the hope that it will be useful,\n"
+"            but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"            MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"            GNU Affero General Public License for more details.</p>\n"
+"        <p>You should have received a copy of the GNU Affero General Public "
+"License\n"
+"            along with this program.  If not, see <a href=\"https://www.gnu."
+"org/licenses/\">https://www.gnu.org/licenses/</a>.\n"
+"        </p>\n"
+"        "
+msgstr ""
+
+#: audit/templates/license.html:31
+msgid ""
+"\n"
+"        <strong>Contact</strong>. For any inquiry, please use the <a href="
+"\"https://gdpr.pluribus-one.it/contact_us\">Contact form</a> in the Pluribus "
+"One GDPR website.\n"
+"        "
+msgstr ""
+
+#: audit/templates/license.html:41
+msgid ""
+"\n"
+"Copy of the official version published at <a href=\"https://www.gnu.org/"
+"licenses/agpl-3.0.html\">https://www.gnu.org/licenses/agpl-3.0.html</a>\n"
+msgstr ""
+
+#: audit/views.py:30
+msgid "Invalid Organization ID"
+msgstr ""
+
+#: dashboard.py:22
+msgid "Quick links"
+msgstr ""
+
+#: dashboard.py:28
+msgid "Return to site"
+msgstr ""
+
+#: dashboard.py:29
+msgid "Change password"
+msgstr ""
+
+#: dashboard.py:31
+msgid "Log out"
+msgstr ""
+
+#: dashboard.py:71
+msgid "Pluribus One Technology"
+msgstr ""
+
+#: dashboard.py:76
+msgid "Pluribus One Services"
+msgstr ""
+
+#: dashboard_modules.py:16
+msgid "First time here? Click to add your organization in the registry"
+msgstr ""
+
+#: dashboard_modules.py:24
+msgid ""
+"Click here to see all organizations in the registry and generate a PDF "
+"report for each one"
+msgstr ""
+
+#: dashboard_modules.py:32
+msgid ""
+"GDPR is a continuous process. Make sure that all your business processes and "
+"processing activities that manage personal data are updated in this registry."
+msgstr ""
