@@ -7,7 +7,7 @@ django-axes==5.25.0
 django-ipware==4.0.0
 lxml==4.6.3
 Pillow==8.3.2
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 pytz==2021.1
 reportlab==3.6.1
 six==1.16.0
